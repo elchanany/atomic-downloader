@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "繁體中文",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "新下載",
+        "history": "歷史",
+        "settings": "設定",
+        "donate": "捐",
+        "check_updates": "檢查更新",
+        "about": "關於"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "將視訊網址貼到此處...",
+        "paste_title": "從剪貼簿貼上",
+        "quality_label": "品質:",
+        "quality_best": "極品",
+        "quality_audio": "僅音訊 (MP3)",
+        "download_btn": "開始下載",
+        "downloading": "正在下載...",
+        "downloading_pct": "正在下載...{pct}%",
+        "download_complete_btn": "下載完成！",
+        "finished": "下載完成！",
+        "add_queue_title": "添加到隊列",
+        "queue_title": "下載隊列",
+        "login_required": "該網站需要登入",
+        "login_btn": "登入",
+        "login_connecting": "正在連接...",
+        "stats": {
+            "speed": "速度",
+            "eta": "剩餘時間",
+            "size": "文件大小"
+        },
+        "logs_title": "終端日誌",
+        "copy_logs_title": "複製日誌",
+        "no_internet": "沒有網路連線"
+    },
+    "history": {
+        "title": "最近下載",
+        "open_file": "播放檔案",
+        "open_folder": "打開資料夾",
+        "copy_link": "複製連結",
+        "redownload": "重新下載",
+        "download_complete": "下載完成"
+    },
+    "settings": {
+        "title": "設定",
+        "default_quality": "預設品質",
+        "save_path": "儲存資料夾",
+        "browse": "瀏覽",
+        "cookies": "Cookie 狀態",
+        "cookies_not_loaded": "未載入",
+        "theme": "主題顏色",
+        "language": "語言",
+        "language_search_placeholder": "搜尋語言...",
+        "advanced_btn": "進階設定",
+        "open_advanced": "開啟進階設定",
+        "save": "儲存設定",
+        "close": "關閉"
+    },
+    "advanced": {
+        "title": "進階設定",
+        "groups": {
+            "download": "下載",
+            "format": "格式/音頻",
+            "content": "內容/元數據",
+            "network": "網路",
+            "filesystem": "檔案系統",
+            "cookies": "餅乾"
+        },
+        "download": {
+            "concurrent": "並發片段",
+            "concurrent_hint": "透過分割檔案加快下載速度 (1-16)",
+            "ratelimit": "速率限制（MB/秒）",
+            "ratelimit_hint": "0 = 無限制",
+            "retries": "重試",
+            "retries_hint": "錯誤重試次數",
+            "chunksize": "HTTP 區塊大小 (MB)",
+            "chunksize_hint": "0 = 預設"
+        },
+        "format": {
+            "audio_format": "音訊格式",
+            "audio_quality": "音訊品質（kbps）",
+            "container": "輸出容器"
+        },
+        "content": {
+            "subtitles": "下載字幕",
+            "sub_langs": "字幕語言",
+            "sub_langs_hint": "例如，en、he、es",
+            "embed_thumb": "嵌入縮圖",
+            "embed_metadata": "Embed Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "行動",
+            "sb_mark": "標記（作為章節）",
+            "sb_remove": "刪除（從檔案中）"
+        },
+        "network": {
+            "proxy": "代理網址",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "客戶冒充",
+            "impersonate_hint": "模擬瀏覽器（繞過阻止）",
+            "sleep": "睡眠間隔",
+            "sleep_hint": "下載之間的延遲（防止阻塞）",
+            "no_check_cert": "沒有檢查證書",
+            "no_check_cert_hint": "繞過 SSL 問題"
+        },
+        "filesystem": {
+            "archive": "下載檔案",
+            "archive_hint": "跳過已下載的視頻",
+            "restrict_fn": "限製檔名（僅限 ASCII）",
+            "restrict_fn_hint": "僅 ASCII，無空格",
+            "no_overwrites": "防止覆蓋",
+            "no_overwrites_hint": "不要覆蓋現有文件",
+            "no_playlist": "僅下載單一影片（無播放清單）",
+            "no_playlist_hint": "下載單個視頻，而不是播放列表",
+            "outtmpl": "自訂檔案名稱模板",
+            "outtmpl_hint": "自訂輸出模板"
+        },
+        "cookies": {
+            "browser": "從瀏覽器匯入",
+            "browser_hint": "從瀏覽器資料庫中提取cookie",
+            "browser_select_none": "無（使用文件）"
+        },
+        "save": "儲存進階設定",
+        "reset": "重設為預設值"
+    },
+    "about": {
+        "title": "關於",
+        "description": "Atomic Downloader 是一個使用 Python 和 yt-dlp 建構的功能強大的開源影片下載器。",
+        "version": "版本",
+        "developer": "開發商： Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "檢查...",
+        "available": "yt-dlp 更新可用({version})",
+        "available_badge": "更新可用！",
+        "uptodate": "一切都是最新的！",
+        "updating": "正在更新 yt-dlp...",
+        "success": "yt-dlp 更新成功！",
+        "error": "更新失敗",
+        "error_check": "檢查更新時出錯",
+        "error_update_detail": "更新錯誤：{msg}"
+    },
+    "toasts": {
+        "saved": "設定保存成功！",
+        "reset": "設定重設為預設值",
+        "download_started": "下載開始！",
+        "download_complete": "下載成功！",
+        "error": "錯誤：{msg}",
+        "url_copied": "網址已複製到剪貼簿",
+        "clipboard_error": "無法存取剪貼簿",
+        "copy_logs": "日誌已複製到剪貼簿！",
+        "copy_error": "複製錯誤",
+        "login_success": "登入成功！Cookies 已儲存。",
+        "play_error": "開啟文件時出錯",
+        "play_error_generic": "播放時出錯",
+        "advanced_saved": "高級設定已儲存！",
+        "advanced_reset": "設定重設為預設值"
+    }
+}

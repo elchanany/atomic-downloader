@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "हिन्दी",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "नया डाउनलोड",
+        "history": "इतिहास",
+        "settings": "सेटिंग्स",
+        "donate": "दान करें",
+        "check_updates": "अपडेट जांचें",
+        "about": "के बारे में"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "वीडियो यूआरएल यहां पेस्ट करें...",
+        "paste_title": "क्लिपबोर्ड से चिपकाएँ",
+        "quality_label": "गुणवत्ता:",
+        "quality_best": "अच्छी गुणवत्ता",
+        "quality_audio": "केवल ऑडियो (MP3)",
+        "download_btn": "अधःभारण शुरू करें",
+        "downloading": "डाउनलोड हो रहा है...",
+        "downloading_pct": "डाउनलोड हो रहा है... {पीसीटी}%",
+        "download_complete_btn": "डाउनलोड पूर्ण!",
+        "finished": "डाउनलोड पूर्ण!",
+        "add_queue_title": "क़तार में जोड़ें",
+        "queue_title": "कतार डाउनलोड करें",
+        "login_required": "इस साइट पर लॉगिन की आवश्यकता है",
+        "login_btn": "लॉग इन करें",
+        "login_connecting": "कनेक्ट हो रहा है...",
+        "stats": {
+            "speed": "रफ़्तार",
+            "eta": "शेष समय",
+            "size": "फ़ाइल का साइज़"
+        },
+        "logs_title": "टर्मिनल लॉग",
+        "copy_logs_title": "लॉग कॉपी करें",
+        "no_internet": "इंटरनेट कनेक्शन नहीं है"
+    },
+    "history": {
+        "title": "हाल के डाउनलोड",
+        "open_file": "फ़ाइल चलाएँ",
+        "open_folder": "फोल्डर खोलें",
+        "copy_link": "लिंक की प्रतिलिपि करें",
+        "redownload": "पुनः डाउनलोड करें",
+        "download_complete": "डाउनलोड पूर्ण"
+    },
+    "settings": {
+        "title": "सेटिंग्स",
+        "default_quality": "डिफ़ॉल्ट गुणवत्ता",
+        "save_path": "फ़ोल्डर सहेजें",
+        "browse": "ब्राउज़",
+        "cookies": "कुकी स्थिति",
+        "cookies_not_loaded": "लोड नहीं",
+        "theme": "थीम रंग",
+        "language": "भाषा",
+        "language_search_placeholder": "भाषा खोजें...",
+        "advanced_btn": "एडवांस सेटिंग",
+        "open_advanced": "उन्नत सेटिंग्स खोलें",
+        "save": "सेटिंग्स सेव करें",
+        "close": "बंद करना"
+    },
+    "advanced": {
+        "title": "एडवांस सेटिंग",
+        "groups": {
+            "download": "डाउनलोड करना",
+            "format": "प्रारूप/ऑडियो",
+            "content": "सामग्री/मेटाडेटा",
+            "network": "नेटवर्क",
+            "filesystem": "फाइल सिस्टम",
+            "cookies": "कुकीज़"
+        },
+        "download": {
+            "concurrent": "समवर्ती टुकड़े",
+            "concurrent_hint": "फ़ाइलों को विभाजित करके डाउनलोड की गति बढ़ाएं (1-16)",
+            "ratelimit": "दर सीमा (एमबी/एस)",
+            "ratelimit_hint": "0 = असीमित",
+            "retries": "पुनर्प्रयास",
+            "retries_hint": "त्रुटि पर पुनः प्रयास की संख्या",
+            "chunksize": "HTTP खंड आकार (एमबी)",
+            "chunksize_hint": "0 = डिफ़ॉल्ट"
+        },
+        "format": {
+            "audio_format": "ऑडियो प्रारूप",
+            "audio_quality": "ऑडियो गुणवत्ता (केबीपीएस)",
+            "container": "आउटपुट कंटेनर"
+        },
+        "content": {
+            "subtitles": "उपशीर्षक डाउनलोड करें",
+            "sub_langs": "उपशीर्षक भाषाएँ",
+            "sub_langs_hint": "जैसे, एन, वह, एस",
+            "embed_thumb": "थंबनेल एम्बेड करें",
+            "embed_metadata": "मेटाडेटा एम्बेड करें",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "कार्रवाई",
+            "sb_mark": "चिह्नित करें (अध्यायों के रूप में)",
+            "sb_remove": "हटाएँ (फ़ाइल से)"
+        },
+        "network": {
+            "proxy": "प्रॉक्सी यूआरएल",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "ग्राहक प्रतिरूपण",
+            "impersonate_hint": "ब्राउज़र का प्रतिरूपण करें (ब्लॉक को बायपास करें)",
+            "sleep": "नींद का अंतराल",
+            "sleep_hint": "डाउनलोड के बीच विलंब (अवरुद्ध होने से रोकता है)",
+            "no_check_cert": "कोई जाँच प्रमाण पत्र नहीं",
+            "no_check_cert_hint": "एसएसएल मुद्दों को बायपास करें"
+        },
+        "filesystem": {
+            "archive": "पुरालेख डाउनलोड करें",
+            "archive_hint": "पहले से डाउनलोड किए गए वीडियो छोड़ें",
+            "restrict_fn": "फ़ाइल नाम प्रतिबंधित करें (केवल ASCII)",
+            "restrict_fn_hint": "केवल ASCII, कोई रिक्त स्थान नहीं",
+            "no_overwrites": "ओवरराइट को रोकें",
+            "no_overwrites_hint": "मौजूदा फ़ाइलों को अधिलेखित न करें",
+            "no_playlist": "केवल एकल वीडियो डाउनलोड करें (कोई प्लेलिस्ट नहीं)",
+            "no_playlist_hint": "एकल वीडियो डाउनलोड करें, प्लेलिस्ट नहीं",
+            "outtmpl": "कस्टम फ़ाइल नाम टेम्पलेट",
+            "outtmpl_hint": "कस्टम आउटपुट टेम्पलेट"
+        },
+        "cookies": {
+            "browser": "ब्राउज़र से आयात करें",
+            "browser_hint": "ब्राउज़र डेटाबेस से कुकीज़ निकालें",
+            "browser_select_none": "कोई नहीं (फ़ाइल का उपयोग करें)"
+        },
+        "save": "उन्नत सेटिंग्स सहेजें",
+        "reset": "डिफ़ॉल्ट पर पुनः सेट करें"
+    },
+    "about": {
+        "title": "के बारे में",
+        "description": "एटॉमिक डाउनलोडर एक शक्तिशाली, ओपन-सोर्स वीडियो डाउनलोडर है जो पायथन और yt-dlp के साथ बनाया गया है।",
+        "version": "संस्करण",
+        "developer": "डेवलपर: एल्चनन येहुदा",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "जाँच हो रही है...",
+        "available": "yt-dlp अद्यतन उपलब्ध है ({version})",
+        "available_badge": "उपलब्ध अद्यतन!",
+        "uptodate": "सब कुछ अद्यतित है!",
+        "updating": "YT-dlp अपडेट हो रहा है...",
+        "success": "yt-dlp सफलतापूर्वक अपडेट किया गया!",
+        "error": "भार बढ़ाना विफल हुवा",
+        "error_check": "अद्यतनों की जाँच करने में त्रुटि",
+        "error_update_detail": "अद्यतन त्रुटि: {msg}"
+    },
+    "toasts": {
+        "saved": "सेटिंग्स सफलतापूर्वक सहेजी गईं!",
+        "reset": "सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं",
+        "download_started": "डाउनलोड प्रारंभ हुआ!",
+        "download_complete": "डाउनलोड सफलतापूर्वक समाप्त हुआ!",
+        "error": "त्रुटि: {msg}",
+        "url_copied": "यूआरएल क्लिपबोर्ड पर कॉपी किया गया",
+        "clipboard_error": "क्लिपबोर्ड तक नहीं पहुंच सकता",
+        "copy_logs": "लॉग क्लिपबोर्ड पर कॉपी किए गए!",
+        "copy_error": "प्रतिलिपि बनाने में त्रुटि",
+        "login_success": "लॉग इन सफल! कुकीज़ सहेजी गईं.",
+        "play_error": "फ़ाइल खोलने में त्रुटि",
+        "play_error_generic": "खेलने में त्रुटि",
+        "advanced_saved": "उन्नत सेटिंग्स सहेजी गईं!",
+        "advanced_reset": "सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं"
+    }
+}

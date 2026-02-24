@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "ไทย",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "ดาวน์โหลดใหม่",
+        "history": "ประวัติศาสตร์",
+        "settings": "การตั้งค่า",
+        "donate": "บริจาค",
+        "check_updates": "ตรวจสอบการอัปเดต",
+        "about": "เกี่ยวกับ"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "วาง URL ของวิดีโอที่นี่...",
+        "paste_title": "วางจากคลิปบอร์ด",
+        "quality_label": "คุณภาพ:",
+        "quality_best": "คุณภาพดีที่สุด",
+        "quality_audio": "เสียงเท่านั้น (MP3)",
+        "download_btn": "เริ่มดาวน์โหลด",
+        "downloading": "กำลังดาวน์โหลด...",
+        "downloading_pct": "กำลังดาวน์โหลด... {pct}%",
+        "download_complete_btn": "ดาวน์โหลดเสร็จสมบูรณ์!",
+        "finished": "ดาวน์โหลดเสร็จสมบูรณ์!",
+        "add_queue_title": "เพิ่มเข้าคิว",
+        "queue_title": "ดาวน์โหลดคิว",
+        "login_required": "ไซต์นี้ต้องเข้าสู่ระบบ",
+        "login_btn": "เข้าสู่ระบบ",
+        "login_connecting": "กำลังเชื่อมต่อ...",
+        "stats": {
+            "speed": "ความเร็ว",
+            "eta": "เวลาที่เหลือ",
+            "size": "ขนาดไฟล์"
+        },
+        "logs_title": "บันทึกเทอร์มินัล",
+        "copy_logs_title": "คัดลอกบันทึก",
+        "no_internet": "ไม่มีการเชื่อมต่ออินเทอร์เน็ต"
+    },
+    "history": {
+        "title": "ดาวน์โหลดล่าสุด",
+        "open_file": "เล่นไฟล์",
+        "open_folder": "เปิดโฟลเดอร์",
+        "copy_link": "คัดลอกลิงค์",
+        "redownload": "ดาวน์โหลดซ้ำ",
+        "download_complete": "ดาวน์โหลดเสร็จสมบูรณ์"
+    },
+    "settings": {
+        "title": "การตั้งค่า",
+        "default_quality": "คุณภาพเริ่มต้น",
+        "save_path": "บันทึกโฟลเดอร์",
+        "browse": "เรียกดู",
+        "cookies": "สถานะคุกกี้",
+        "cookies_not_loaded": "ไม่ได้โหลด",
+        "theme": "สีของธีม",
+        "language": "ภาษา",
+        "language_search_placeholder": "ค้นหาภาษา...",
+        "advanced_btn": "การตั้งค่าขั้นสูง",
+        "open_advanced": "เปิดการตั้งค่าขั้นสูง",
+        "save": "บันทึกการตั้งค่า",
+        "close": "ปิด"
+    },
+    "advanced": {
+        "title": "การตั้งค่าขั้นสูง",
+        "groups": {
+            "download": "ดาวน์โหลด",
+            "format": "รูปแบบ/เสียง",
+            "content": "เนื้อหา / ข้อมูลเมตา",
+            "network": "เครือข่าย",
+            "filesystem": "ระบบไฟล์",
+            "cookies": "คุกกี้"
+        },
+        "download": {
+            "concurrent": "ชิ้นส่วนที่เกิดขึ้นพร้อมกัน",
+            "concurrent_hint": "เร่งความเร็วการดาวน์โหลดด้วยการแบ่งไฟล์ (1-16)",
+            "ratelimit": "ขีดจำกัดอัตรา (MB/s)",
+            "ratelimit_hint": "0 = ไม่จำกัด",
+            "retries": "ลองอีกครั้ง",
+            "retries_hint": "จำนวนครั้งของการลองใหม่เมื่อมีข้อผิดพลาด",
+            "chunksize": "ขนาดก้อน HTTP (MB)",
+            "chunksize_hint": "0 = ค่าเริ่มต้น"
+        },
+        "format": {
+            "audio_format": "รูปแบบเสียง",
+            "audio_quality": "คุณภาพเสียง (kbps)",
+            "container": "คอนเทนเนอร์เอาท์พุต"
+        },
+        "content": {
+            "subtitles": "ดาวน์โหลดคำบรรยาย",
+            "sub_langs": "ภาษาคำบรรยาย",
+            "sub_langs_hint": "เช่น en,he,es",
+            "embed_thumb": "ฝังภาพขนาดย่อ",
+            "embed_metadata": "ฝังข้อมูลเมตา",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "การกระทำ",
+            "sb_mark": "มาร์ค (เป็นบท)",
+            "sb_remove": "ลบ (จากไฟล์)"
+        },
+        "network": {
+            "proxy": "URL พร็อกซี",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "การเลียนแบบลูกค้า",
+            "impersonate_hint": "เลียนแบบเบราว์เซอร์ (ข้ามการบล็อก)",
+            "sleep": "ช่วงเวลาการนอนหลับ",
+            "sleep_hint": "ความล่าช้าระหว่างการดาวน์โหลด (ป้องกันการบล็อก)",
+            "no_check_cert": "ไม่มีใบรับรองการตรวจสอบ",
+            "no_check_cert_hint": "ข้ามปัญหา SSL"
+        },
+        "filesystem": {
+            "archive": "ดาวน์โหลดเอกสารสำคัญ",
+            "archive_hint": "ข้ามวิดีโอที่ดาวน์โหลดแล้ว",
+            "restrict_fn": "จำกัดชื่อไฟล์ (ASCII เท่านั้น)",
+            "restrict_fn_hint": "ASCII เท่านั้น ไม่มีช่องว่าง",
+            "no_overwrites": "ป้องกันการเขียนทับ",
+            "no_overwrites_hint": "อย่าเขียนทับไฟล์ที่มีอยู่",
+            "no_playlist": "ดาวน์โหลดวิดีโอเดี่ยวเท่านั้น (ไม่มีเพลย์ลิสต์)",
+            "no_playlist_hint": "ดาวน์โหลดวิดีโอเดียว ไม่ใช่เพลย์ลิสต์",
+            "outtmpl": "เทมเพลตชื่อไฟล์แบบกำหนดเอง",
+            "outtmpl_hint": "เทมเพลตเอาต์พุตแบบกำหนดเอง"
+        },
+        "cookies": {
+            "browser": "นำเข้าจากเบราว์เซอร์",
+            "browser_hint": "แยกคุกกี้ออกจากฐานข้อมูลเบราว์เซอร์",
+            "browser_select_none": "ไม่มี (ใช้ไฟล์)"
+        },
+        "save": "บันทึกการตั้งค่าขั้นสูง",
+        "reset": "รีเซ็ตเป็นค่าเริ่มต้น"
+    },
+    "about": {
+        "title": "เกี่ยวกับ",
+        "description": "Atomic Downloader เป็นเครื่องมือดาวน์โหลดวิดีโอโอเพ่นซอร์สที่ทรงพลังซึ่งสร้างด้วย Python และ yt-dlp",
+        "version": "เวอร์ชัน",
+        "developer": "ผู้พัฒนา: เอลชานัน เยฮูดา",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "กำลังตรวจสอบ...",
+        "available": "มีการอัปเดต yt-dlp ({version})",
+        "available_badge": "อัปเดตแล้ว!",
+        "uptodate": "ทุกอย่างเป็นปัจจุบัน!",
+        "updating": "กำลังอัปเดต yt-dlp...",
+        "success": "อัปเดต yt-dlp สำเร็จแล้ว!",
+        "error": "การอัปเดตล้มเหลว",
+        "error_check": "เกิดข้อผิดพลาดในการตรวจสอบการอัปเดต",
+        "error_update_detail": "ข้อผิดพลาดในการอัปเดต: {msg}"
+    },
+    "toasts": {
+        "saved": "บันทึกการตั้งค่าเรียบร้อยแล้ว!",
+        "reset": "การตั้งค่ารีเซ็ตเป็นค่าเริ่มต้น",
+        "download_started": "เริ่มดาวน์โหลดแล้ว!",
+        "download_complete": "ดาวน์โหลดสำเร็จแล้ว!",
+        "error": "ข้อผิดพลาด: {msg}",
+        "url_copied": "คัดลอก URL ไปยังคลิปบอร์ดแล้ว",
+        "clipboard_error": "ไม่สามารถเข้าถึงคลิปบอร์ดได้",
+        "copy_logs": "คัดลอกบันทึกไปยังคลิปบอร์ดแล้ว!",
+        "copy_error": "เกิดข้อผิดพลาดในการคัดลอก",
+        "login_success": "เข้าสู่ระบบสำเร็จ! บันทึกคุกกี้แล้ว",
+        "play_error": "เกิดข้อผิดพลาดในการเปิดไฟล์",
+        "play_error_generic": "เกิดข้อผิดพลาดในการเล่น",
+        "advanced_saved": "บันทึกการตั้งค่าขั้นสูงแล้ว!",
+        "advanced_reset": "การตั้งค่ารีเซ็ตเป็นค่าเริ่มต้น"
+    }
+}

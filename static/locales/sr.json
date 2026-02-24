@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Српски",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Ново преузимање",
+        "history": "Историја",
+        "settings": "Подешавања",
+        "donate": "Донирајте",
+        "check_updates": "Проверите ажурирања",
+        "about": "Абоут"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Овде налепите УРЛ видео снимка...",
+        "paste_title": "Налепите из међуспремника",
+        "quality_label": "квалитет:",
+        "quality_best": "Најбољи квалитет",
+        "quality_audio": "Само аудио (МП3)",
+        "download_btn": "Започни преузимање",
+        "downloading": "Преузимање...",
+        "downloading_pct": "Преузимање... {пцт}%",
+        "download_complete_btn": "Преузимање је завршено!",
+        "finished": "Преузимање је завршено!",
+        "add_queue_title": "Додај у ред",
+        "queue_title": "Ред за преузимање",
+        "login_required": "Овај сајт захтева пријаву",
+        "login_btn": "Логин",
+        "login_connecting": "Повезивање...",
+        "stats": {
+            "speed": "Брзина",
+            "eta": "Преостало време",
+            "size": "Величина датотеке"
+        },
+        "logs_title": "Терминални дневники",
+        "copy_logs_title": "Цопи Логс",
+        "no_internet": "Нема интернет везе"
+    },
+    "history": {
+        "title": "Недавна преузимања",
+        "open_file": "Пусти датотеку",
+        "open_folder": "Отворите фасциклу",
+        "copy_link": "Копирај везу",
+        "redownload": "Преузми поново",
+        "download_complete": "Преузимање је завршено"
+    },
+    "settings": {
+        "title": "Подешавања",
+        "default_quality": "Подразумевани квалитет",
+        "save_path": "Саве Фолдер",
+        "browse": "Прегледај",
+        "cookies": "Цоокие Статус",
+        "cookies_not_loaded": "Нот Лоадед",
+        "theme": "Тхеме Цолор",
+        "language": "Језик",
+        "language_search_placeholder": "Претражи језик...",
+        "advanced_btn": "Напредна подешавања",
+        "open_advanced": "Отворите Напредна подешавања",
+        "save": "Сачувај подешавања",
+        "close": "Затвори"
+    },
+    "advanced": {
+        "title": "Напредна подешавања",
+        "groups": {
+            "download": "Преузми",
+            "format": "Формат / Аудио",
+            "content": "Садржај / Метаподаци",
+            "network": "Мрежа",
+            "filesystem": "Систем датотека",
+            "cookies": "Колачићи"
+        },
+        "download": {
+            "concurrent": "Цонцуррент Фрагментс",
+            "concurrent_hint": "Убрзајте преузимања тако што ћете поделити датотеке (1-16)",
+            "ratelimit": "Ограничење брзине (МБ/с)",
+            "ratelimit_hint": "0 = Неограничено",
+            "retries": "Поновни покушаји",
+            "retries_hint": "Број покушаја грешке",
+            "chunksize": "Величина ХТТП дела (МБ)",
+            "chunksize_hint": "0 = Подразумевано"
+        },
+        "format": {
+            "audio_format": "Аудио формат",
+            "audio_quality": "Квалитет звука (кбпс)",
+            "container": "Излазни контејнер"
+        },
+        "content": {
+            "subtitles": "Довнлоад Субтитлес",
+            "sub_langs": "Субтитле Лангуагес",
+            "sub_langs_hint": "нпр. ен,хе,ес",
+            "embed_thumb": "Ембед Тхумбнаил",
+            "embed_metadata": "Уградите метаподатке",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Акција",
+            "sb_mark": "Означите (као поглавља)",
+            "sb_remove": "Уклони (из датотеке)"
+        },
+        "network": {
+            "proxy": "УРЛ проксија",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Имперсонација клијента",
+            "impersonate_hint": "лажни претраживач (заобилази блокове)",
+            "sleep": "Интервал спавања",
+            "sleep_hint": "Кашњење између преузимања (спречава блокирање)",
+            "no_check_cert": "Без провера сертификата",
+            "no_check_cert_hint": "Заобиђите ССЛ проблеме"
+        },
+        "filesystem": {
+            "archive": "Преузмите архиву",
+            "archive_hint": "Прескочи већ преузете видео снимке",
+            "restrict_fn": "Ограничите имена датотека (само АСЦИИ)",
+            "restrict_fn_hint": "Само АСЦИИ, без размака",
+            "no_overwrites": "Спречавање преписивања",
+            "no_overwrites_hint": "Немојте преписивати постојеће датотеке",
+            "no_playlist": "Преузмите само један видео (без плејлисте)",
+            "no_playlist_hint": "Преузмите појединачни видео, а не листу за репродукцију",
+            "outtmpl": "Custom Filename Template",
+            "outtmpl_hint": "Прилагођени излазни шаблон"
+        },
+        "cookies": {
+            "browser": "Увези из претраживача",
+            "browser_hint": "Извуците колачиће из базе података претраживача",
+            "browser_select_none": "Ништа (користи датотеку)"
+        },
+        "save": "Сачувајте напредна подешавања",
+        "reset": "Ресетујте на подразумеване вредности"
+    },
+    "about": {
+        "title": "Абоут",
+        "description": "Атомиц Довнлоадер је моћан програм за преузимање видео записа отвореног кода направљен са Питхон-ом и ит-длп-ом.",
+        "version": "Версион",
+        "developer": "Програмер: Елцханан Иехуда",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Проверавам...",
+        "available": "доступно ажурирање ит-длп ({version})",
+        "available_badge": "Ажурирање је доступно!",
+        "uptodate": "Све је ажурно!",
+        "updating": "Ажурирање ит-длп-а...",
+        "success": "ит-длп је успешно ажуриран!",
+        "error": "Ажурирање није успело",
+        "error_check": "Грешка при провери ажурирања",
+        "error_update_detail": "Грешка при ажурирању: {msg}"
+    },
+    "toasts": {
+        "saved": "Подешавања су успешно сачувана!",
+        "reset": "Подешавања се враћају на подразумеване вредности",
+        "download_started": "Преузимање је почело!",
+        "download_complete": "Преузимање је успешно завршено!",
+        "error": "Грешка: {msg}",
+        "url_copied": "УРЛ је копиран у међуспремник",
+        "clipboard_error": "Није могуће приступити међумеморији",
+        "copy_logs": "Дневници су копирани у међуспремник!",
+        "copy_error": "Грешка при копирању",
+        "login_success": "Пријава је успела! Колачићи су сачувани.",
+        "play_error": "Грешка при отварању датотеке",
+        "play_error_generic": "Грешка при игрању",
+        "advanced_saved": "Напредна подешавања су сачувана!",
+        "advanced_reset": "Подешавања се враћају на подразумеване вредности"
+    }
+}

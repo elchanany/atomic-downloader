@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Suomi",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Uusi lataus",
+        "history": "Historia",
+        "settings": "Asetukset",
+        "donate": "Lahjoittaa",
+        "check_updates": "Tarkista päivitykset",
+        "about": "Noin"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Liitä videon URL-osoite tähän...",
+        "paste_title": "Liitä leikepöydältä",
+        "quality_label": "Laatu:",
+        "quality_best": "Paras laatu",
+        "quality_audio": "Vain ääni (MP3)",
+        "download_btn": "Aloita lataus",
+        "downloading": "Ladataan...",
+        "downloading_pct": "Ladataan... {pct}%",
+        "download_complete_btn": "Lataus valmis!",
+        "finished": "Lataus valmis!",
+        "add_queue_title": "Lisää jonoon",
+        "queue_title": "Lataa jono",
+        "login_required": "Tämä sivusto vaatii kirjautumisen",
+        "login_btn": "Kirjaudu sisään",
+        "login_connecting": "Yhdistetään...",
+        "stats": {
+            "speed": "Nopeus",
+            "eta": "Jäljellä oleva aika",
+            "size": "Tiedoston koko"
+        },
+        "logs_title": "Terminaalin lokit",
+        "copy_logs_title": "Kopioi lokit",
+        "no_internet": "Ei internet-yhteyttä"
+    },
+    "history": {
+        "title": "Viimeisimmät lataukset",
+        "open_file": "Toista tiedosto",
+        "open_folder": "Avaa kansio",
+        "copy_link": "Kopioi linkki",
+        "redownload": "Lataa uudelleen",
+        "download_complete": "Lataus valmis"
+    },
+    "settings": {
+        "title": "Asetukset",
+        "default_quality": "Oletuslaatu",
+        "save_path": "Tallenna kansio",
+        "browse": "Selaa",
+        "cookies": "Evästeen tila",
+        "cookies_not_loaded": "Ei ladattu",
+        "theme": "Teeman väri",
+        "language": "Kieli",
+        "language_search_placeholder": "Hae kieli...",
+        "advanced_btn": "Lisäasetukset",
+        "open_advanced": "Avaa Lisäasetukset",
+        "save": "Tallenna asetukset",
+        "close": "Lähellä"
+    },
+    "advanced": {
+        "title": "Lisäasetukset",
+        "groups": {
+            "download": "Lataa",
+            "format": "Muoto / Audio",
+            "content": "Sisältö / Metatiedot",
+            "network": "Verkko",
+            "filesystem": "Tiedostojärjestelmä",
+            "cookies": "Evästeet"
+        },
+        "download": {
+            "concurrent": "Samanaikaiset fragmentit",
+            "concurrent_hint": "Nopeuta latauksia jakamalla tiedostoja (1-16)",
+            "ratelimit": "Nopeusrajoitus (MB/s)",
+            "ratelimit_hint": "0 = rajoittamaton",
+            "retries": "Uudelleenyritykset",
+            "retries_hint": "Virheen uudelleenyritysten määrä",
+            "chunksize": "HTTP-osan koko (MB)",
+            "chunksize_hint": "0 = Oletus"
+        },
+        "format": {
+            "audio_format": "Äänimuoto",
+            "audio_quality": "Äänenlaatu (kb/s)",
+            "container": "Tulostussäiliö"
+        },
+        "content": {
+            "subtitles": "Lataa tekstitykset",
+            "sub_langs": "Subtitle Languages",
+            "sub_langs_hint": "esim. en,he,es",
+            "embed_thumb": "Upota pikkukuva",
+            "embed_metadata": "Upota metatiedot",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Toiminta",
+            "sb_mark": "Merkitse (lukuina)",
+            "sb_remove": "Poista (tiedostosta)"
+        },
+        "network": {
+            "proxy": "Välityspalvelimen URL-osoite",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Asiakkaan toisena henkilönä esiintyminen",
+            "impersonate_hint": "Esiintyä selaimena (ohittaa estot)",
+            "sleep": "Nukkumisväli",
+            "sleep_hint": "Viive latausten välillä (estää eston)",
+            "no_check_cert": "Ei tarkistusvarmenteita",
+            "no_check_cert_hint": "Ohita SSL-ongelmat"
+        },
+        "filesystem": {
+            "archive": "Lataa arkisto",
+            "archive_hint": "Ohita jo ladatut videot",
+            "restrict_fn": "Rajoita tiedostonimiä (vain ASCII)",
+            "restrict_fn_hint": "Vain ASCII, ei välilyöntejä",
+            "no_overwrites": "Estä päällekirjoitukset",
+            "no_overwrites_hint": "Älä korvaa olemassa olevia tiedostoja",
+            "no_playlist": "Lataa vain yksi video (ei soittolistaa)",
+            "no_playlist_hint": "Lataa yksittäinen video, ei soittolista",
+            "outtmpl": "Mukautettu tiedostonimimalli",
+            "outtmpl_hint": "Mukautettu tulostemalli"
+        },
+        "cookies": {
+            "browser": "Tuo selaimesta",
+            "browser_hint": "Poimi evästeet selaimen tietokannasta",
+            "browser_select_none": "Ei mitään (käytä tiedostoa)"
+        },
+        "save": "Tallenna lisäasetukset",
+        "reset": "Palauta oletusarvoihin"
+    },
+    "about": {
+        "title": "Noin",
+        "description": "Atomic Downloader on tehokas avoimen lähdekoodin videolatausohjelma, joka on rakennettu Pythonilla ja yt-dlp:llä.",
+        "version": "Versio",
+        "developer": "Kehittäjä: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Tarkistetaan...",
+        "available": "yt-dlp-päivitys saatavilla ({version})",
+        "available_badge": "Päivitys saatavilla!",
+        "uptodate": "Kaikki on ajan tasalla!",
+        "updating": "Päivitetään yt-dlp...",
+        "success": "yt-dlp päivitetty onnistuneesti!",
+        "error": "Päivitys epäonnistui",
+        "error_check": "Virhe päivitysten tarkistamisessa",
+        "error_update_detail": "Päivitysvirhe: {msg}"
+    },
+    "toasts": {
+        "saved": "Asetukset tallennettu onnistuneesti!",
+        "reset": "Asetukset palautetaan oletusasetuksiin",
+        "download_started": "Lataus aloitettu!",
+        "download_complete": "Lataus onnistui!",
+        "error": "Virhe: {msg}",
+        "url_copied": "URL kopioitu leikepöydälle",
+        "clipboard_error": "Leikepöydälle ei pääse",
+        "copy_logs": "Lokit kopioitu leikepöydälle!",
+        "copy_error": "Virhe kopioinnissa",
+        "login_success": "Kirjautuminen onnistui! Evästeet tallennettu.",
+        "play_error": "Virhe avattaessa tiedostoa",
+        "play_error_generic": "Virhe pelissä",
+        "advanced_saved": "Lisäasetukset tallennettu!",
+        "advanced_reset": "Asetukset palautetaan oletusasetuksiin"
+    }
+}

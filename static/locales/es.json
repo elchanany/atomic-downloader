@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Español",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Nueva descarga",
+        "history": "Historia",
+        "settings": "Ajustes",
+        "donate": "Donar",
+        "check_updates": "Consultar actualizaciones",
+        "about": "Acerca de"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Pega la URL del vídeo aquí...",
+        "paste_title": "Pegar desde el portapapeles",
+        "quality_label": "Calidad:",
+        "quality_best": "Mejor calidad",
+        "quality_audio": "Sólo audio (MP3)",
+        "download_btn": "Iniciar descarga",
+        "downloading": "Descargando...",
+        "downloading_pct": "Descargando... {pct}%",
+        "download_complete_btn": "¡Descarga completa!",
+        "finished": "¡Descarga completa!",
+        "add_queue_title": "Agregar a la cola",
+        "queue_title": "Cola de descarga",
+        "login_required": "Este sitio requiere iniciar sesión",
+        "login_btn": "Acceso",
+        "login_connecting": "Conectando...",
+        "stats": {
+            "speed": "Velocidad",
+            "eta": "Tiempo restante",
+            "size": "Tamaño de archivo"
+        },
+        "logs_title": "Registros de terminales",
+        "copy_logs_title": "Copiar registros",
+        "no_internet": "Sin conexión a Internet"
+    },
+    "history": {
+        "title": "Descargas recientes",
+        "open_file": "Reproducir archivo",
+        "open_folder": "Abrir carpeta",
+        "copy_link": "Copiar enlace",
+        "redownload": "Volver a descargar",
+        "download_complete": "Descarga completa"
+    },
+    "settings": {
+        "title": "Ajustes",
+        "default_quality": "Calidad predeterminada",
+        "save_path": "Guardar carpeta",
+        "browse": "Navegar",
+        "cookies": "Estado de las cookies",
+        "cookies_not_loaded": "No cargado",
+        "theme": "Color del tema",
+        "language": "Idioma",
+        "language_search_placeholder": "Idioma de búsqueda...",
+        "advanced_btn": "Configuración avanzada",
+        "open_advanced": "Abrir configuración avanzada",
+        "save": "Guardar configuración",
+        "close": "Cerca"
+    },
+    "advanced": {
+        "title": "Configuración avanzada",
+        "groups": {
+            "download": "Descargar",
+            "format": "Formato/Audio",
+            "content": "Contenido / Metadatos",
+            "network": "Red",
+            "filesystem": "Sistema de archivos",
+            "cookies": "Galletas"
+        },
+        "download": {
+            "concurrent": "Fragmentos concurrentes",
+            "concurrent_hint": "Acelere las descargas dividiendo archivos (1-16)",
+            "ratelimit": "Límite de velocidad (MB/s)",
+            "ratelimit_hint": "0 = Ilimitado",
+            "retries": "Reintentos",
+            "retries_hint": "Número de reintentos en caso de error",
+            "chunksize": "Tamaño del fragmento HTTP (MB)",
+            "chunksize_hint": "0 = predeterminado"
+        },
+        "format": {
+            "audio_format": "Formato de audio",
+            "audio_quality": "Calidad de audio (kbps)",
+            "container": "Contenedor de salida"
+        },
+        "content": {
+            "subtitles": "Descargar Subtítulos",
+            "sub_langs": "Idiomas de subtítulos",
+            "sub_langs_hint": "ej., en,he,es",
+            "embed_thumb": "Insertar miniatura",
+            "embed_metadata": "Insertar metadatos",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Acción",
+            "sb_mark": "Marcos (como capítulos)",
+            "sb_remove": "Eliminar (del archivo)"
+        },
+        "network": {
+            "proxy": "URL de proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Suplantación de cliente",
+            "impersonate_hint": "Suplantar el navegador (evita los bloqueos)",
+            "sleep": "Intervalo de sueño",
+            "sleep_hint": "Retraso entre descargas (evita el bloqueo)",
+            "no_check_cert": "Certificados sin cheque",
+            "no_check_cert_hint": "Evitar problemas de SSL"
+        },
+        "filesystem": {
+            "archive": "Descargar Archivo",
+            "archive_hint": "Saltar videos ya descargados",
+            "restrict_fn": "Restringir nombres de archivos (solo ASCII)",
+            "restrict_fn_hint": "Sólo ASCII, sin espacios",
+            "no_overwrites": "Evitar sobrescrituras",
+            "no_overwrites_hint": "No sobrescribas archivos existentes",
+            "no_playlist": "Descargar solo un video (sin lista de reproducción)",
+            "no_playlist_hint": "Descargar un solo video, no una lista de reproducción",
+            "outtmpl": "Plantilla de nombre de archivo personalizada",
+            "outtmpl_hint": "Plantilla de salida personalizada"
+        },
+        "cookies": {
+            "browser": "Importar desde el navegador",
+            "browser_hint": "Extraer cookies de la base de datos del navegador",
+            "browser_select_none": "Ninguno (usar archivo)"
+        },
+        "save": "Guardar configuración avanzada",
+        "reset": "Restablecer los valores predeterminados"
+    },
+    "about": {
+        "title": "Acerca de",
+        "description": "Atomic Downloader es un potente descargador de vídeos de código abierto creado con Python e yt-dlp.",
+        "version": "Versión",
+        "developer": "Desarrollador: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "De cheques...",
+        "available": "Actualización de yt-dlp disponible ({version})",
+        "available_badge": "¡Actualización disponible!",
+        "uptodate": "¡Todo está actualizado!",
+        "updating": "Actualizando yt-dlp...",
+        "success": "¡Yt-dlp se actualizó exitosamente!",
+        "error": "Actualización fallida",
+        "error_check": "Error al buscar actualizaciones",
+        "error_update_detail": "Error de actualización: {msg}"
+    },
+    "toasts": {
+        "saved": "¡La configuración se guardó correctamente!",
+        "reset": "Configuración restablecida a los valores predeterminados",
+        "download_started": "¡Descarga iniciada!",
+        "download_complete": "¡La descarga finalizó exitosamente!",
+        "error": "Error: {msg}",
+        "url_copied": "URL copiada al portapapeles",
+        "clipboard_error": "No puedo acceder al portapapeles",
+        "copy_logs": "¡Registros copiados al portapapeles!",
+        "copy_error": "Error al copiar",
+        "login_success": "¡Inicia sesión exitosamente! Cookies guardadas.",
+        "play_error": "Error al abrir el archivo",
+        "play_error_generic": "Error al reproducir",
+        "advanced_saved": "¡Configuraciones avanzadas guardadas!",
+        "advanced_reset": "Configuración restablecida a los valores predeterminados"
+    }
+}

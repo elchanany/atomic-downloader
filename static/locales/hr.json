@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Hrvatski",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Novo preuzimanje",
+        "history": "Povijest",
+        "settings": "postavke",
+        "donate": "Donirajte",
+        "check_updates": "Provjerite ažuriranja",
+        "about": "Oko"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Ovdje zalijepite URL videozapisa...",
+        "paste_title": "Zalijepi iz međuspremnika",
+        "quality_label": "kvaliteta:",
+        "quality_best": "Najbolja kvaliteta",
+        "quality_audio": "Samo audio (MP3)",
+        "download_btn": "Započni preuzimanje",
+        "downloading": "Preuzimanje...",
+        "downloading_pct": "Preuzimanje... {pct}%",
+        "download_complete_btn": "Preuzimanje završeno!",
+        "finished": "Preuzimanje završeno!",
+        "add_queue_title": "Dodaj u red čekanja",
+        "queue_title": "Red preuzimanja",
+        "login_required": "Ova stranica zahtijeva prijavu",
+        "login_btn": "Prijava",
+        "login_connecting": "Povezivanje...",
+        "stats": {
+            "speed": "Ubrzati",
+            "eta": "Preostalo vrijeme",
+            "size": "Veličina datoteke"
+        },
+        "logs_title": "Dnevnici terminala",
+        "copy_logs_title": "Kopiraj zapisnike",
+        "no_internet": "Nema internetske veze"
+    },
+    "history": {
+        "title": "Nedavna preuzimanja",
+        "open_file": "Igraj datoteku",
+        "open_folder": "Otvori mapu",
+        "copy_link": "Kopiraj vezu",
+        "redownload": "Ponovno preuzimanje",
+        "download_complete": "Preuzimanje dovršeno"
+    },
+    "settings": {
+        "title": "postavke",
+        "default_quality": "Zadana kvaliteta",
+        "save_path": "Spremi mapu",
+        "browse": "Pregledaj",
+        "cookies": "Status kolačića",
+        "cookies_not_loaded": "Nije učitano",
+        "theme": "Boja teme",
+        "language": "Jezik",
+        "language_search_placeholder": "Jezik pretraživanja...",
+        "advanced_btn": "Napredne postavke",
+        "open_advanced": "Otvorite Napredne postavke",
+        "save": "Spremi postavke",
+        "close": "Zatvoriti"
+    },
+    "advanced": {
+        "title": "Napredne postavke",
+        "groups": {
+            "download": "preuzimanje",
+            "format": "Format / Audio",
+            "content": "Sadržaj/metapodaci",
+            "network": "Mreža",
+            "filesystem": "Datotečni sustav",
+            "cookies": "Kolačići"
+        },
+        "download": {
+            "concurrent": "Istodobni fragmenti",
+            "concurrent_hint": "Ubrzajte preuzimanja dijeljenjem datoteka (1-16)",
+            "ratelimit": "Ograničenje brzine (MB/s)",
+            "ratelimit_hint": "0 = Neograničeno",
+            "retries": "Ponovni pokušaji",
+            "retries_hint": "Broj ponovnih pokušaja u slučaju pogreške",
+            "chunksize": "Veličina HTTP dijela (MB)",
+            "chunksize_hint": "0 = Zadano"
+        },
+        "format": {
+            "audio_format": "Audio Format",
+            "audio_quality": "Kvaliteta zvuka (kbps)",
+            "container": "Izlazni spremnik"
+        },
+        "content": {
+            "subtitles": "Preuzmite titlove",
+            "sub_langs": "jezici titlova",
+            "sub_langs_hint": "npr. en,he,es",
+            "embed_thumb": "Ugradi sličicu",
+            "embed_metadata": "Ugradi metapodatke",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Akcijski",
+            "sb_mark": "Označi (kao poglavlja)",
+            "sb_remove": "Ukloni (iz datoteke)"
+        },
+        "network": {
+            "proxy": "Proxy URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Lažno predstavljanje klijenta",
+            "impersonate_hint": "Lažno predstavljanje preglednika (zaobilazi blokade)",
+            "sleep": "Interval spavanja",
+            "sleep_hint": "Kašnjenje između preuzimanja (sprječava blokiranje)",
+            "no_check_cert": "Bez čekovnih potvrda",
+            "no_check_cert_hint": "Zaobiđite probleme sa SSL-om"
+        },
+        "filesystem": {
+            "archive": "Preuzmite arhivu",
+            "archive_hint": "Preskoči već preuzete videozapise",
+            "restrict_fn": "Ograniči nazive datoteka (samo ASCII)",
+            "restrict_fn_hint": "Samo ASCII, bez razmaka",
+            "no_overwrites": "Spriječiti prepisivanje",
+            "no_overwrites_hint": "Nemojte prebrisati postojeće datoteke",
+            "no_playlist": "Preuzmi samo jedan videozapis (bez popisa za reprodukciju)",
+            "no_playlist_hint": "Preuzmite pojedinačni videozapis, a ne popis za reprodukciju",
+            "outtmpl": "Prilagođeni predložak naziva datoteke",
+            "outtmpl_hint": "Prilagođeni izlazni predložak"
+        },
+        "cookies": {
+            "browser": "Uvoz iz preglednika",
+            "browser_hint": "Ekstrahirajte kolačiće iz baze podataka preglednika",
+            "browser_select_none": "Ništa (koristi datoteku)"
+        },
+        "save": "Spremi napredne postavke",
+        "reset": "Vrati na zadane postavke"
+    },
+    "about": {
+        "title": "Oko",
+        "description": "Atomic Downloader moćan je program za preuzimanje videozapisa otvorenog koda napravljen s Pythonom i yt-dlp-om.",
+        "version": "Verzija",
+        "developer": "Programer: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Provjera...",
+        "available": "dostupno ažuriranje yt-dlp ({version})",
+        "available_badge": "Ažuriranje dostupno!",
+        "uptodate": "Sve je ažurirano!",
+        "updating": "Ažuriranje yt-dlp-a...",
+        "success": "yt-dlp je uspješno ažuriran!",
+        "error": "Ažuriranje nije uspjelo",
+        "error_check": "Pogreška pri provjeri ažuriranja",
+        "error_update_detail": "Pogreška ažuriranja: {msg}"
+    },
+    "toasts": {
+        "saved": "Postavke su uspješno spremljene!",
+        "reset": "Postavke se vraćaju na zadane",
+        "download_started": "Preuzimanje je počelo!",
+        "download_complete": "Preuzimanje je uspješno završeno!",
+        "error": "Greška: {msg}",
+        "url_copied": "URL kopiran u međuspremnik",
+        "clipboard_error": "Nije moguće pristupiti međuspremniku",
+        "copy_logs": "Dnevnici kopirani u međuspremnik!",
+        "copy_error": "Greška pri kopiranju",
+        "login_success": "Prijava uspješna! Kolačići spremljeni.",
+        "play_error": "Pogreška pri otvaranju datoteke",
+        "play_error_generic": "Pogreška pri reprodukciji",
+        "advanced_saved": "Napredne postavke spremljene!",
+        "advanced_reset": "Postavke se vraćaju na zadane"
+    }
+}

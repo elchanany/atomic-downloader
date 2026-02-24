@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "فارسی",
+        "dir": "rtl"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "دانلود جدید",
+        "history": "تاریخچه",
+        "settings": "تنظیمات",
+        "donate": "اهدا کنید",
+        "check_updates": "به روز رسانی ها را بررسی کنید",
+        "about": "درباره"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "آدرس ویدیو را اینجا بچسبانید...",
+        "paste_title": "چسباندن از کلیپ بورد",
+        "quality_label": "کیفیت:",
+        "quality_best": "بهترین کیفیت",
+        "quality_audio": "فقط صدا (MP3)",
+        "download_btn": "دانلود را شروع کنید",
+        "downloading": "در حال دانلود...",
+        "downloading_pct": "در حال دانلود... {pct}%",
+        "download_complete_btn": "دانلود کامل شد!",
+        "finished": "دانلود کامل شد!",
+        "add_queue_title": "افزودن به صف",
+        "queue_title": "دانلود صف",
+        "login_required": "این سایت نیاز به ورود به سیستم دارد",
+        "login_btn": "وارد شوید",
+        "login_connecting": "در حال اتصال...",
+        "stats": {
+            "speed": "سرعت",
+            "eta": "زمان باقی‌مانده",
+            "size": "اندازه فایل"
+        },
+        "logs_title": "سیاهههای ترمینال",
+        "copy_logs_title": "کپی گزارش ها",
+        "no_internet": "اتصال اینترنت وجود ندارد"
+    },
+    "history": {
+        "title": "دانلودهای اخیر",
+        "open_file": "پخش فایل",
+        "open_folder": "پوشه را باز کنید",
+        "copy_link": "لینک را کپی کنید",
+        "redownload": "دانلود مجدد",
+        "download_complete": "دانلود کامل شد"
+    },
+    "settings": {
+        "title": "تنظیمات",
+        "default_quality": "کیفیت پیش فرض",
+        "save_path": "ذخیره پوشه",
+        "browse": "مرور کنید",
+        "cookies": "وضعیت کوکی",
+        "cookies_not_loaded": "بارگذاری نشده است",
+        "theme": "رنگ تم",
+        "language": "زبان",
+        "language_search_placeholder": "جستجوی زبان...",
+        "advanced_btn": "تنظیمات پیشرفته",
+        "open_advanced": "تنظیمات پیشرفته را باز کنید",
+        "save": "تنظیمات را ذخیره کنید",
+        "close": "بستن"
+    },
+    "advanced": {
+        "title": "تنظیمات پیشرفته",
+        "groups": {
+            "download": "دانلود کنید",
+            "format": "فرمت / صدا",
+            "content": "محتوا / فراداده",
+            "network": "شبکه",
+            "filesystem": "سیستم فایل",
+            "cookies": "کوکی ها"
+        },
+        "download": {
+            "concurrent": "قطعات همزمان",
+            "concurrent_hint": "افزایش سرعت دانلود با تقسیم فایل ها (1-16)",
+            "ratelimit": "محدودیت نرخ (MB/s)",
+            "ratelimit_hint": "0 = نامحدود",
+            "retries": "دوباره تلاش می کند",
+            "retries_hint": "تعداد تلاش های مجدد در مورد خطا",
+            "chunksize": "اندازه تکه HTTP (MB)",
+            "chunksize_hint": "0 = پیش فرض"
+        },
+        "format": {
+            "audio_format": "فرمت صوتی",
+            "audio_quality": "کیفیت صدا (kbps)",
+            "container": "ظرف خروجی"
+        },
+        "content": {
+            "subtitles": "دانلود زیرنویس",
+            "sub_langs": "زبان های زیرنویس",
+            "sub_langs_hint": "به عنوان مثال، en,he,es",
+            "embed_thumb": "تعبیه تصویر کوچک",
+            "embed_metadata": "تعبیه متادیتا",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "اقدام",
+            "sb_mark": "علامت گذاری کنید (به عنوان فصل)",
+            "sb_remove": "حذف (از فایل)"
+        },
+        "network": {
+            "proxy": "URL پروکسی",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "جعل هویت مشتری",
+            "impersonate_hint": "جعل هویت مرورگر (بلاک ها را دور می زند)",
+            "sleep": "فاصله خواب",
+            "sleep_hint": "تاخیر بین دانلودها (جلوگیری از مسدود شدن)",
+            "no_check_cert": "بدون گواهی چک",
+            "no_check_cert_hint": "دور زدن مشکلات SSL"
+        },
+        "filesystem": {
+            "archive": "دانلود آرشیو",
+            "archive_hint": "از ویدیوهای دانلود شده قبلی رد شوید",
+            "restrict_fn": "محدود کردن نام فایل ها (فقط ASCII)",
+            "restrict_fn_hint": "فقط ASCII، بدون فاصله",
+            "no_overwrites": "جلوگیری از بازنویسی",
+            "no_overwrites_hint": "فایل های موجود را بازنویسی نکنید",
+            "no_playlist": "دانلود فقط یک ویدیو (بدون لیست پخش)",
+            "no_playlist_hint": "دانلود تک ویدیو، نه لیست پخش",
+            "outtmpl": "قالب سفارشی نام فایل",
+            "outtmpl_hint": "قالب خروجی سفارشی"
+        },
+        "cookies": {
+            "browser": "واردات از مرورگر",
+            "browser_hint": "استخراج کوکی ها از پایگاه داده مرورگر",
+            "browser_select_none": "هیچ (استفاده از فایل)"
+        },
+        "save": "تنظیمات پیشرفته را ذخیره کنید",
+        "reset": "به حالت پیش فرض بازنشانی کنید"
+    },
+    "about": {
+        "title": "درباره",
+        "description": "Atomic Downloader یک دانلودر ویدیوی قدرتمند و منبع باز است که با پایتون و yt-dlp ساخته شده است.",
+        "version": "نسخه",
+        "developer": "توسعه دهنده: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "در حال بررسی...",
+        "available": "به‌روزرسانی yt-dlp در دسترس است ({version})",
+        "available_badge": "به روز رسانی موجود است!",
+        "uptodate": "همه چیز به روز است!",
+        "updating": "در حال به روز رسانی yt-dlp...",
+        "success": "yt-dlp با موفقیت به روز شد!",
+        "error": "به روز رسانی انجام نشد",
+        "error_check": "خطا در بررسی به‌روزرسانی‌ها",
+        "error_update_detail": "خطای به‌روزرسانی: {msg}"
+    },
+    "toasts": {
+        "saved": "تنظیمات با موفقیت ذخیره شد!",
+        "reset": "تنظیمات به حالت پیش فرض بازنشانی می شود",
+        "download_started": "دانلود شروع شد!",
+        "download_complete": "دانلود با موفقیت به پایان رسید!",
+        "error": "خطا: {msg}",
+        "url_copied": "URL در کلیپ بورد کپی شد",
+        "clipboard_error": "دسترسی به کلیپ بورد امکان پذیر نیست",
+        "copy_logs": "گزارش‌ها در کلیپ بورد کپی شدند!",
+        "copy_error": "خطا در کپی کردن",
+        "login_success": "ورود با موفقیت کوکی‌ها ذخیره شدند.",
+        "play_error": "خطا در باز کردن فایل",
+        "play_error_generic": "خطا در پخش",
+        "advanced_saved": "تنظیمات پیشرفته ذخیره شد!",
+        "advanced_reset": "تنظیمات به حالت پیش فرض بازنشانی می شود"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Magyar",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Új letöltés",
+        "history": "Történelem",
+        "settings": "Beállítások elemre",
+        "donate": "Adományoz",
+        "check_updates": "Ellenőrizze a Frissítéseket",
+        "about": "Körülbelül"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Illessze be ide a videó URL-jét...",
+        "paste_title": "Beillesztés a vágólapról",
+        "quality_label": "Minőség:",
+        "quality_best": "Legjobb minőség",
+        "quality_audio": "Csak hang (MP3)",
+        "download_btn": "Indítsa el a Letöltést",
+        "downloading": "Letöltés...",
+        "downloading_pct": "Letöltés... {pct}%",
+        "download_complete_btn": "Letöltés kész!",
+        "finished": "Letöltés kész!",
+        "add_queue_title": "Hozzáadás a sorhoz",
+        "queue_title": "Letöltési sor",
+        "login_required": "Ez az oldal bejelentkezést igényel",
+        "login_btn": "Bejelentkezés",
+        "login_connecting": "Csatlakozás...",
+        "stats": {
+            "speed": "Sebesség",
+            "eta": "Hátralévő idő",
+            "size": "Fájl mérete"
+        },
+        "logs_title": "Terminálnaplók",
+        "copy_logs_title": "Naplók másolása",
+        "no_internet": "Nincs internetkapcsolat"
+    },
+    "history": {
+        "title": "Legutóbbi letöltések",
+        "open_file": "Fájl lejátszása",
+        "open_folder": "Nyissa meg a mappát",
+        "copy_link": "Link másolása",
+        "redownload": "Letöltés újra",
+        "download_complete": "Letöltés kész"
+    },
+    "settings": {
+        "title": "Beállítások elemre",
+        "default_quality": "Alapértelmezett minőség",
+        "save_path": "Mappa mentése",
+        "browse": "Tallózás",
+        "cookies": "Cookie állapota",
+        "cookies_not_loaded": "Nincs betöltve",
+        "theme": "Téma színe",
+        "language": "Nyelv",
+        "language_search_placeholder": "Nyelv keresése...",
+        "advanced_btn": "Speciális beállítások",
+        "open_advanced": "Nyissa meg a Speciális beállításokat",
+        "save": "Beállítások mentése",
+        "close": "Közeli"
+    },
+    "advanced": {
+        "title": "Speciális beállítások",
+        "groups": {
+            "download": "Letöltés",
+            "format": "Formátum / Hang",
+            "content": "Tartalom / Metaadatok",
+            "network": "Hálózat",
+            "filesystem": "Fájlrendszer",
+            "cookies": "Cookie-k"
+        },
+        "download": {
+            "concurrent": "Egyidejű töredékek",
+            "concurrent_hint": "Fájlok felosztásával gyorsítsa fel a letöltést (1-16)",
+            "ratelimit": "Sebességkorlát (MB/s)",
+            "ratelimit_hint": "0 = Korlátlan",
+            "retries": "Újrapróbálkozások",
+            "retries_hint": "Hiba miatti újrapróbálkozások száma",
+            "chunksize": "HTTP darabméret (MB)",
+            "chunksize_hint": "0 = Alapértelmezés"
+        },
+        "format": {
+            "audio_format": "Audio formátum",
+            "audio_quality": "Hangminőség (kb/s)",
+            "container": "Kimeneti tároló"
+        },
+        "content": {
+            "subtitles": "Feliratok letöltése",
+            "sub_langs": "Feliratnyelvek",
+            "sub_langs_hint": "pl.: en,he,es",
+            "embed_thumb": "Bélyegkép beágyazása",
+            "embed_metadata": "Metaadatok beágyazása",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Akció",
+            "sb_mark": "Megjelölés (fejezetként)",
+            "sb_remove": "Eltávolítás (fájlból)"
+        },
+        "network": {
+            "proxy": "Proxy URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Ügyfél megszemélyesítése",
+            "impersonate_hint": "Böngésző megszemélyesítése (kikerüli a blokkokat)",
+            "sleep": "Alvási intervallum",
+            "sleep_hint": "Késés a letöltések között (megakadályozza a blokkolást)",
+            "no_check_cert": "Nincs ellenőrzési tanúsítvány",
+            "no_check_cert_hint": "Az SSL-problémák megkerülése"
+        },
+        "filesystem": {
+            "archive": "Archívum letöltése",
+            "archive_hint": "A már letöltött videók kihagyása",
+            "restrict_fn": "Fájlnevek korlátozása (csak ASCII)",
+            "restrict_fn_hint": "Csak ASCII, szóközök nélkül",
+            "no_overwrites": "Felülírások megakadályozása",
+            "no_overwrites_hint": "Ne írja felül a meglévő fájlokat",
+            "no_playlist": "Csak egyetlen videó letöltése (lejátszási lista nélkül)",
+            "no_playlist_hint": "Egyetlen videó letöltése, nem lejátszási lista",
+            "outtmpl": "Egyéni fájlnév sablon",
+            "outtmpl_hint": "Egyéni kimeneti sablon"
+        },
+        "cookies": {
+            "browser": "Importálás a böngészőből",
+            "browser_hint": "Cookie-k kibontása a böngésző adatbázisából",
+            "browser_select_none": "Nincs (fájl használata)"
+        },
+        "save": "Mentse a Speciális beállításokat",
+        "reset": "Állítsa vissza az alapértelmezett értékeket"
+    },
+    "about": {
+        "title": "Körülbelül",
+        "description": "Az Atomic Downloader egy erőteljes, nyílt forráskódú videóletöltő Python és yt-dlp segítségével.",
+        "version": "Változat",
+        "developer": "Fejlesztő: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Ellenőrzés...",
+        "available": "yt-dlp frissítés elérhető ({version})",
+        "available_badge": "Frissítés elérhető!",
+        "uptodate": "Minden naprakész!",
+        "updating": "yt-dlp frissítése...",
+        "success": "yt-dlp sikeresen frissítve!",
+        "error": "Frissítés sikertelen",
+        "error_check": "Hiba a frissítések keresésekor",
+        "error_update_detail": "Frissítési hiba: {msg}"
+    },
+    "toasts": {
+        "saved": "A beállítások sikeresen elmentve!",
+        "reset": "A beállítások visszaállnak az alapértelmezett értékekre",
+        "download_started": "Letöltés elindult!",
+        "download_complete": "A letöltés sikeresen befejeződött!",
+        "error": "Hiba: {msg}",
+        "url_copied": "Az URL a vágólapra másolva",
+        "clipboard_error": "Nem lehet hozzáférni a vágólaphoz",
+        "copy_logs": "A naplók a vágólapra másolva!",
+        "copy_error": "Hiba a másoláskor",
+        "login_success": "Sikeres bejelentkezés! Cookie-k mentve.",
+        "play_error": "Hiba a fájl megnyitásakor",
+        "play_error_generic": "Hiba a lejátszásban",
+        "advanced_saved": "A speciális beállítások mentve!",
+        "advanced_reset": "A beállítások visszaállnak az alapértelmezett értékekre"
+    }
+}

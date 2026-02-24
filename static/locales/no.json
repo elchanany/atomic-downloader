@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Norsk",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Ny nedlasting",
+        "history": "Historie",
+        "settings": "Innstillinger",
+        "donate": "Donere",
+        "check_updates": "Sjekk oppdateringer",
+        "about": "Om"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Lim inn video-URL her...",
+        "paste_title": "Lim inn fra utklippstavlen",
+        "quality_label": "Kvalitet:",
+        "quality_best": "Beste kvalitet",
+        "quality_audio": "Kun lyd (MP3)",
+        "download_btn": "Start nedlasting",
+        "downloading": "Laster ned...",
+        "downloading_pct": "Laster ned ... {pct} %",
+        "download_complete_btn": "Nedlasting fullført!",
+        "finished": "Nedlasting fullført!",
+        "add_queue_title": "Legg til i kø",
+        "queue_title": "Last ned kø",
+        "login_required": "Denne siden krever innlogging",
+        "login_btn": "Logg inn",
+        "login_connecting": "Kobler til...",
+        "stats": {
+            "speed": "Fart",
+            "eta": "Gjenstående tid",
+            "size": "Filstørrelse"
+        },
+        "logs_title": "Terminallogger",
+        "copy_logs_title": "Kopier logger",
+        "no_internet": "Ingen internettilkobling"
+    },
+    "history": {
+        "title": "Nylige nedlastinger",
+        "open_file": "Spill av fil",
+        "open_folder": "Åpne mappe",
+        "copy_link": "Kopier lenke",
+        "redownload": "Last ned på nytt",
+        "download_complete": "Nedlasting fullført"
+    },
+    "settings": {
+        "title": "Innstillinger",
+        "default_quality": "Standardkvalitet",
+        "save_path": "Lagre mappe",
+        "browse": "Bla gjennom",
+        "cookies": "Informasjonskapselstatus",
+        "cookies_not_loaded": "Ikke lastet",
+        "theme": "Tema farge",
+        "language": "Språk",
+        "language_search_placeholder": "Søk etter språk...",
+        "advanced_btn": "Avanserte innstillinger",
+        "open_advanced": "Åpne Avanserte innstillinger",
+        "save": "Lagre innstillinger",
+        "close": "Lukke"
+    },
+    "advanced": {
+        "title": "Avanserte innstillinger",
+        "groups": {
+            "download": "Last ned",
+            "format": "Format / lyd",
+            "content": "Innhold / Metadata",
+            "network": "Nettverk",
+            "filesystem": "Filsystem",
+            "cookies": "Informasjonskapsler"
+        },
+        "download": {
+            "concurrent": "Samtidige fragmenter",
+            "concurrent_hint": "Få fart på nedlastinger ved å dele filer (1–16)",
+            "ratelimit": "Hastighetsgrense (MB/s)",
+            "ratelimit_hint": "0 = Ubegrenset",
+            "retries": "Forsøk på nytt",
+            "retries_hint": "Antall nye forsøk på feil",
+            "chunksize": "HTTP-delstørrelse (MB)",
+            "chunksize_hint": "0 = Standard"
+        },
+        "format": {
+            "audio_format": "Lydformat",
+            "audio_quality": "Lydkvalitet (kbps)",
+            "container": "Utgangsbeholder"
+        },
+        "content": {
+            "subtitles": "Last ned undertekster",
+            "sub_langs": "Undertekstspråk",
+            "sub_langs_hint": "f.eks. en,he,es",
+            "embed_thumb": "Bygg inn miniatyrbilde",
+            "embed_metadata": "Bygg inn metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Handling",
+            "sb_mark": "Merk (som kapitler)",
+            "sb_remove": "Fjern (fra fil)"
+        },
+        "network": {
+            "proxy": "Proxy URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Etterligning av klient",
+            "impersonate_hint": "Utgi seg for nettleser (omgår blokkeringer)",
+            "sleep": "Søvnintervall",
+            "sleep_hint": "Forsinkelse mellom nedlastinger (hindrer blokkering)",
+            "no_check_cert": "Ingen sjekksertifikater",
+            "no_check_cert_hint": "Omgå SSL-problemer"
+        },
+        "filesystem": {
+            "archive": "Last ned arkiv",
+            "archive_hint": "Hopp over allerede nedlastede videoer",
+            "restrict_fn": "Begrens filnavn (kun ASCII)",
+            "restrict_fn_hint": "Kun ASCII, ingen mellomrom",
+            "no_overwrites": "Forhindre overskrivinger",
+            "no_overwrites_hint": "Ikke overskriv eksisterende filer",
+            "no_playlist": "Last ned kun enkeltvideo (ingen spilleliste)",
+            "no_playlist_hint": "Last ned enkeltvideo, ikke spilleliste",
+            "outtmpl": "Egendefinert filnavnmal",
+            "outtmpl_hint": "Egendefinert utdatamal"
+        },
+        "cookies": {
+            "browser": "Importer fra nettleser",
+            "browser_hint": "Trekk ut informasjonskapsler fra nettleserdatabasen",
+            "browser_select_none": "Ingen (bruk fil)"
+        },
+        "save": "Lagre avanserte innstillinger",
+        "reset": "Tilbakestill til standarder"
+    },
+    "about": {
+        "title": "Om",
+        "description": "Atomic Downloader er en kraftig, åpen kildekode-videonedlaster bygget med Python og yt-dlp.",
+        "version": "Versjon",
+        "developer": "Utvikler: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Sjekker...",
+        "available": "yt-dlp-oppdatering tilgjengelig ({version})",
+        "available_badge": "Oppdatering tilgjengelig!",
+        "uptodate": "Alt er oppdatert!",
+        "updating": "Oppdaterer yt-dlp...",
+        "success": "yt-dlp ble oppdatert!",
+        "error": "Oppdatering mislyktes",
+        "error_check": "Feil under søk etter oppdateringer",
+        "error_update_detail": "Oppdateringsfeil: {msg}"
+    },
+    "toasts": {
+        "saved": "Innstillingene er lagret!",
+        "reset": "Innstillinger tilbakestilt til standard",
+        "download_started": "Nedlasting startet!",
+        "download_complete": "Nedlastingen er fullført!",
+        "error": "Feil: {msg}",
+        "url_copied": "URL kopiert til utklippstavlen",
+        "clipboard_error": "Får ikke tilgang til utklippstavlen",
+        "copy_logs": "Logger kopiert til utklippstavlen!",
+        "copy_error": "Feil ved kopiering",
+        "login_success": "Innlogging vellykket! Informasjonskapsler lagret.",
+        "play_error": "Feil ved åpning av fil",
+        "play_error_generic": "Feil ved avspilling",
+        "advanced_saved": "Avanserte innstillinger lagret!",
+        "advanced_reset": "Innstillinger tilbakestilt til standard"
+    }
+}

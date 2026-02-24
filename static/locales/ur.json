@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "اردو",
+        "dir": "rtl"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "نیا ڈاؤن لوڈ",
+        "history": "تاریخ",
+        "settings": "ترتیبات",
+        "donate": "عطیہ کریں۔",
+        "check_updates": "اپڈیٹس چیک کریں۔",
+        "about": "کے بارے میں"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "ویڈیو کا URL یہاں چسپاں کریں...",
+        "paste_title": "کلپ بورڈ سے چسپاں کریں۔",
+        "quality_label": "معیار:",
+        "quality_best": "بہترین معیار",
+        "quality_audio": "صرف آڈیو (MP3)",
+        "download_btn": "ڈاؤن لوڈ شروع کریں۔",
+        "downloading": "ڈاؤن لوڈ ہو رہا ہے...",
+        "downloading_pct": "ڈاؤن لوڈ ہو رہا ہے... {pct}%",
+        "download_complete_btn": "ڈاؤن لوڈ مکمل!",
+        "finished": "ڈاؤن لوڈ مکمل!",
+        "add_queue_title": "قطار میں شامل کریں۔",
+        "queue_title": "قطار ڈاؤن لوڈ کریں۔",
+        "login_required": "اس سائٹ کو لاگ ان کی ضرورت ہے۔",
+        "login_btn": "لاگ ان",
+        "login_connecting": "منسلک ہو رہا ہے...",
+        "stats": {
+            "speed": "رفتار",
+            "eta": "باقی وقت",
+            "size": "فائل کا سائز"
+        },
+        "logs_title": "ٹرمینل لاگز",
+        "copy_logs_title": "لاگز کاپی کریں۔",
+        "no_internet": "انٹرنیٹ کنکشن نہیں ہے"
+    },
+    "history": {
+        "title": "حالیہ ڈاؤن لوڈز",
+        "open_file": "فائل کھیلیں",
+        "open_folder": "فولڈر کھولیں۔",
+        "copy_link": "لنک کاپی کریں۔",
+        "redownload": "دوبارہ ڈاؤن لوڈ کریں۔",
+        "download_complete": "ڈاؤن لوڈ مکمل"
+    },
+    "settings": {
+        "title": "ترتیبات",
+        "default_quality": "پہلے سے طے شدہ معیار",
+        "save_path": "فولڈر محفوظ کریں۔",
+        "browse": "براؤز کریں۔",
+        "cookies": "کوکی کی حیثیت",
+        "cookies_not_loaded": "لوڈ نہیں ہوا۔",
+        "theme": "تھیم کا رنگ",
+        "language": "زبان",
+        "language_search_placeholder": "زبان تلاش کریں...",
+        "advanced_btn": "اعلی درجے کی ترتیبات",
+        "open_advanced": "اعلی درجے کی ترتیبات کھولیں۔",
+        "save": "ترتیبات کو محفوظ کریں۔",
+        "close": "بند"
+    },
+    "advanced": {
+        "title": "اعلی درجے کی ترتیبات",
+        "groups": {
+            "download": "ڈاؤن لوڈ کریں۔",
+            "format": "فارمیٹ / آڈیو",
+            "content": "مواد / میٹا ڈیٹا",
+            "network": "نیٹ ورک",
+            "filesystem": "فائل سسٹم",
+            "cookies": "کوکیز"
+        },
+        "download": {
+            "concurrent": "سمورتی ٹکڑے",
+            "concurrent_hint": "فائلوں کو تقسیم کرکے ڈاؤن لوڈز کو تیز کریں (1-16)",
+            "ratelimit": "شرح کی حد (MB/s)",
+            "ratelimit_hint": "0 = لامحدود",
+            "retries": "دوبارہ کوشش کرتا ہے۔",
+            "retries_hint": "غلطی پر دوبارہ کوششوں کی تعداد",
+            "chunksize": "HTTP حصہ سائز (MB)",
+            "chunksize_hint": "0 = ڈیفالٹ"
+        },
+        "format": {
+            "audio_format": "آڈیو فارمیٹ",
+            "audio_quality": "آڈیو کوالٹی (kbps)",
+            "container": "آؤٹ پٹ کنٹینر"
+        },
+        "content": {
+            "subtitles": "سب ٹائٹلز ڈاؤن لوڈ کریں۔",
+            "sub_langs": "ذیلی عنوان کی زبانیں",
+            "sub_langs_hint": "جیسے، en,he,es",
+            "embed_thumb": "تھمب نیل ایمبیڈ کریں۔",
+            "embed_metadata": "میٹا ڈیٹا ایمبیڈ کریں۔",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "ایکشن",
+            "sb_mark": "نشان زد کریں (بطور باب)",
+            "sb_remove": "ہٹائیں (فائل سے)"
+        },
+        "network": {
+            "proxy": "پراکسی یو آر ایل",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "کلائنٹ کی نقالی",
+            "impersonate_hint": "نقالی براؤزر (بائی پاس بلاکس)",
+            "sleep": "نیند کا وقفہ",
+            "sleep_hint": "ڈاؤن لوڈ کے درمیان تاخیر (مسدود ہونے سے روکتا ہے)",
+            "no_check_cert": "کوئی چیک سرٹیفکیٹ نہیں۔",
+            "no_check_cert_hint": "ایس ایس ایل کے مسائل کو نظرانداز کریں۔"
+        },
+        "filesystem": {
+            "archive": "آرکائیو ڈاؤن لوڈ کریں۔",
+            "archive_hint": "پہلے سے ڈاؤن لوڈ کردہ ویڈیوز کو چھوڑ دیں۔",
+            "restrict_fn": "فائل ناموں کو محدود کریں (صرف ASCII)",
+            "restrict_fn_hint": "صرف ASCII، کوئی خالی جگہ نہیں۔",
+            "no_overwrites": "اوور رائٹ کو روکیں۔",
+            "no_overwrites_hint": "موجودہ فائلوں کو اوور رائٹ نہ کریں۔",
+            "no_playlist": "صرف ایک ویڈیو ڈاؤن لوڈ کریں (کوئی پلے لسٹ نہیں)",
+            "no_playlist_hint": "ایک ویڈیو ڈاؤن لوڈ کریں، پلے لسٹ نہیں۔",
+            "outtmpl": "اپنی مرضی کے مطابق فائل نام کا سانچہ",
+            "outtmpl_hint": "حسب ضرورت آؤٹ پٹ ٹیمپلیٹ"
+        },
+        "cookies": {
+            "browser": "براؤزر سے درآمد کریں۔",
+            "browser_hint": "براؤزر ڈیٹا بیس سے کوکیز نکالیں۔",
+            "browser_select_none": "کوئی نہیں (فائل استعمال کریں)"
+        },
+        "save": "اعلی درجے کی ترتیبات کو محفوظ کریں۔",
+        "reset": "ڈیفالٹس پر ری سیٹ کریں۔"
+    },
+    "about": {
+        "title": "کے بارے میں",
+        "description": "اٹامک ڈاؤنلوڈر ایک طاقتور، اوپن سورس ویڈیو ڈاؤنلوڈر ہے جو Python اور yt-dlp کے ساتھ بنایا گیا ہے۔",
+        "version": "ورژن",
+        "developer": "ڈویلپر: ایلچنان یہودا",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "چیک کر رہا ہے...",
+        "available": "yt-dlp اپ ڈیٹ دستیاب ہے ({version})",
+        "available_badge": "اپ ڈیٹ دستیاب ہے!",
+        "uptodate": "سب کچھ تازہ ترین ہے!",
+        "updating": "yt-dlp کو اپ ڈیٹ کیا جا رہا ہے...",
+        "success": "yt-dlp کامیابی کے ساتھ اپ ڈیٹ ہو گیا!",
+        "error": "اپ ڈیٹ ناکام ہو گیا۔",
+        "error_check": "اپ ڈیٹس کی جانچ کرنے میں خرابی۔",
+        "error_update_detail": "اپ ڈیٹ کی خرابی: {msg}"
+    },
+    "toasts": {
+        "saved": "ترتیبات کامیابی کے ساتھ محفوظ ہو گئیں!",
+        "reset": "سیٹنگز ڈیفالٹس پر ری سیٹ ہو گئیں۔",
+        "download_started": "ڈاؤن لوڈ شروع ہو گیا!",
+        "download_complete": "ڈاؤن لوڈ کامیابی سے مکمل ہو گیا!",
+        "error": "خرابی: {msg}",
+        "url_copied": "URL کو کلپ بورڈ پر کاپی کیا گیا۔",
+        "clipboard_error": "کلپ بورڈ تک رسائی حاصل نہیں کر سکتے",
+        "copy_logs": "لاگز کلپ بورڈ پر کاپی ہو گئے!",
+        "copy_error": "کاپی کرنے میں خرابی",
+        "login_success": "لاگ ان کامیاب! کوکیز محفوظ ہو گئیں۔",
+        "play_error": "فائل کھولنے میں خرابی۔",
+        "play_error_generic": "کھیلنے میں خرابی",
+        "advanced_saved": "اعلی درجے کی ترتیبات محفوظ ہوگئیں!",
+        "advanced_reset": "سیٹنگز ڈیفالٹس پر ری سیٹ ہو گئیں۔"
+    }
+}

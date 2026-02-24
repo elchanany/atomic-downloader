@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Slovenčina",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Nové stiahnutie",
+        "history": "História",
+        "settings": "Nastavenia",
+        "donate": "Darovať",
+        "check_updates": "Skontrolujte aktualizácie",
+        "about": "O"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Sem vložte webovú adresu videa...",
+        "paste_title": "Prilepiť zo schránky",
+        "quality_label": "kvalita:",
+        "quality_best": "Najlepšia kvalita",
+        "quality_audio": "Iba zvuk (MP3)",
+        "download_btn": "Spustiť sťahovanie",
+        "downloading": "Sťahuje sa...",
+        "downloading_pct": "Sťahuje sa... {pct} %",
+        "download_complete_btn": "Sťahovanie dokončené!",
+        "finished": "Sťahovanie dokončené!",
+        "add_queue_title": "Pridať do poradia",
+        "queue_title": "Front na stiahnutie",
+        "login_required": "Táto stránka vyžaduje prihlásenie",
+        "login_btn": "Prihláste sa",
+        "login_connecting": "Pripája sa...",
+        "stats": {
+            "speed": "Rýchlosť",
+            "eta": "Zostávajúci čas",
+            "size": "Veľkosť súboru"
+        },
+        "logs_title": "Denníky terminálu",
+        "copy_logs_title": "Kopírovať denníky",
+        "no_internet": "Žiadne pripojenie k internetu"
+    },
+    "history": {
+        "title": "Nedávne stiahnuté súbory",
+        "open_file": "Prehrať súbor",
+        "open_folder": "Otvorte priečinok",
+        "copy_link": "Kopírovať odkaz",
+        "redownload": "Znova stiahnuť",
+        "download_complete": "Sťahovanie dokončené"
+    },
+    "settings": {
+        "title": "Nastavenia",
+        "default_quality": "Predvolená kvalita",
+        "save_path": "Uložiť priečinok",
+        "browse": "Prehľadávať",
+        "cookies": "Stav súboru cookie",
+        "cookies_not_loaded": "Not Loaded",
+        "theme": "Farba motívu",
+        "language": "Jazyk",
+        "language_search_placeholder": "Jazyk vyhľadávania...",
+        "advanced_btn": "Rozšírené nastavenia",
+        "open_advanced": "Otvorte Rozšírené nastavenia",
+        "save": "Uložiť nastavenia",
+        "close": "Zavrieť"
+    },
+    "advanced": {
+        "title": "Rozšírené nastavenia",
+        "groups": {
+            "download": "Stiahnuť",
+            "format": "Formát / Zvuk",
+            "content": "Obsah / Metadáta",
+            "network": "sieť",
+            "filesystem": "Súborový systém",
+            "cookies": "Cookies"
+        },
+        "download": {
+            "concurrent": "Súbežné fragmenty",
+            "concurrent_hint": "Zrýchlite sťahovanie rozdelením súborov (1-16)",
+            "ratelimit": "Limit rýchlosti (MB/s)",
+            "ratelimit_hint": "0 = Neobmedzené",
+            "retries": "Opakované pokusy",
+            "retries_hint": "Počet opakovaní pri chybe",
+            "chunksize": "Veľkosť bloku HTTP (MB)",
+            "chunksize_hint": "0 = Predvolené"
+        },
+        "format": {
+            "audio_format": "Formát zvuku",
+            "audio_quality": "Kvalita zvuku (kbps)",
+            "container": "Výstupný kontajner"
+        },
+        "content": {
+            "subtitles": "Stiahnite si titulky",
+            "sub_langs": "Jazyky titulkov",
+            "sub_langs_hint": "napr. en,he,es",
+            "embed_thumb": "Vložiť miniatúru",
+            "embed_metadata": "Vložiť metadáta",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Akcia",
+            "sb_mark": "Označiť (ako kapitoly)",
+            "sb_remove": "Odstrániť (zo súboru)"
+        },
+        "network": {
+            "proxy": "Adresa URL proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Odcudzenie identity klienta",
+            "impersonate_hint": "Vydať sa za prehliadač (obchádza bloky)",
+            "sleep": "Interval spánku",
+            "sleep_hint": "Oneskorenie medzi sťahovaniami (bráni zablokovaniu)",
+            "no_check_cert": "Žiadne kontrolné certifikáty",
+            "no_check_cert_hint": "Obíďte problémy SSL"
+        },
+        "filesystem": {
+            "archive": "Stiahnite si archív",
+            "archive_hint": "Preskočiť už stiahnuté videá",
+            "restrict_fn": "Obmedziť názvy súborov (len ASCII)",
+            "restrict_fn_hint": "Iba ASCII, bez medzier",
+            "no_overwrites": "Zabrániť prepisom",
+            "no_overwrites_hint": "Neprepisujte existujúce súbory",
+            "no_playlist": "Stiahnuť iba jedno video (bez zoznamu videí)",
+            "no_playlist_hint": "Stiahnite si jedno video, nie zoznam videí",
+            "outtmpl": "Vlastná šablóna názvu súboru",
+            "outtmpl_hint": "Vlastná výstupná šablóna"
+        },
+        "cookies": {
+            "browser": "Importovať z prehliadača",
+            "browser_hint": "Extrahujte súbory cookie z databázy prehliadača",
+            "browser_select_none": "Žiadne (použite súbor)"
+        },
+        "save": "Uložiť rozšírené nastavenia",
+        "reset": "Obnoviť predvolené nastavenia"
+    },
+    "about": {
+        "title": "O",
+        "description": "Atomic Downloader is a powerful, open-source video downloader built with Python and yt-dlp.",
+        "version": "Verzia",
+        "developer": "Vývojár: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Prebieha kontrola...",
+        "available": "K dispozícii je aktualizácia yt-dlp ({version})",
+        "available_badge": "Aktualizácia k dispozícii!",
+        "uptodate": "Všetko je aktuálne!",
+        "updating": "Aktualizuje sa yt-dlp...",
+        "success": "yt-dlp úspešne aktualizovaný!",
+        "error": "Aktualizácia zlyhala",
+        "error_check": "Chyba pri kontrole aktualizácií",
+        "error_update_detail": "Chyba aktualizácie: {msg}"
+    },
+    "toasts": {
+        "saved": "Nastavenia boli úspešne uložené!",
+        "reset": "Nastavenia sa obnovia na predvolené hodnoty",
+        "download_started": "Sťahovanie začalo!",
+        "download_complete": "Sťahovanie bolo úspešne dokončené!",
+        "error": "Chyba: {msg}",
+        "url_copied": "Adresa URL bola skopírovaná do schránky",
+        "clipboard_error": "Nedá sa získať prístup do schránky",
+        "copy_logs": "Protokoly boli skopírované do schránky!",
+        "copy_error": "Chyba pri kopírovaní",
+        "login_success": "Prihlásenie úspešné! Súbory cookie boli uložené.",
+        "play_error": "Chyba pri otváraní súboru",
+        "play_error_generic": "Chyba pri prehrávaní",
+        "advanced_saved": "Pokročilé nastavenia sú uložené!",
+        "advanced_reset": "Nastavenia sa obnovia na predvolené hodnoty"
+    }
+}

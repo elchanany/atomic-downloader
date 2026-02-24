@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Polski",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Nowe pobieranie",
+        "history": "Historia",
+        "settings": "Ustawienia",
+        "donate": "Podarować",
+        "check_updates": "Sprawdź aktualizacje",
+        "about": "O"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Wklej tutaj adres URL filmu...",
+        "paste_title": "Wklej ze schowka",
+        "quality_label": "Jakość:",
+        "quality_best": "Najlepsza jakość",
+        "quality_audio": "Tylko dźwięk (MP3)",
+        "download_btn": "Rozpocznij pobieranie",
+        "downloading": "Ściąganie...",
+        "downloading_pct": "Pobieram... {pct}%",
+        "download_complete_btn": "Pobierz ukończone!",
+        "finished": "Pobierz ukończone!",
+        "add_queue_title": "Dodaj do kolejki",
+        "queue_title": "Pobierz kolejkę",
+        "login_required": "Ta strona wymaga logowania",
+        "login_btn": "Login",
+        "login_connecting": "Złączony...",
+        "stats": {
+            "speed": "Prędkość",
+            "eta": "Pozostały czas",
+            "size": "Rozmiar pliku"
+        },
+        "logs_title": "Dzienniki terminala",
+        "copy_logs_title": "Kopiuj logi",
+        "no_internet": "Brak połączenia z internetem"
+    },
+    "history": {
+        "title": "Najnowsze pliki do pobrania",
+        "open_file": "Odtwórz plik",
+        "open_folder": "Otwórz folder",
+        "copy_link": "Skopiuj link",
+        "redownload": "Pobierz ponownie",
+        "download_complete": "Pobierz ukończono"
+    },
+    "settings": {
+        "title": "Ustawienia",
+        "default_quality": "Domyślna jakość",
+        "save_path": "Zapisz folder",
+        "browse": "Przeglądać",
+        "cookies": "Stan plików cookie",
+        "cookies_not_loaded": "Nie załadowano",
+        "theme": "Kolor motywu",
+        "language": "Język",
+        "language_search_placeholder": "Wyszukaj język...",
+        "advanced_btn": "Ustawienia zaawansowane",
+        "open_advanced": "Otwórz Ustawienia zaawansowane",
+        "save": "Zapisz ustawienia",
+        "close": "Zamknąć"
+    },
+    "advanced": {
+        "title": "Ustawienia zaawansowane",
+        "groups": {
+            "download": "Pobierać",
+            "format": "Format/dźwięk",
+            "content": "Treść / Metadane",
+            "network": "Sieć",
+            "filesystem": "System plików",
+            "cookies": "Ciastka"
+        },
+        "download": {
+            "concurrent": "Równoczesne fragmenty",
+            "concurrent_hint": "Przyspiesz pobieranie, dzieląc pliki (1-16)",
+            "ratelimit": "Limit szybkości (MB/s)",
+            "ratelimit_hint": "0 = Nieograniczony",
+            "retries": "Ponowne próby",
+            "retries_hint": "Liczba ponownych prób w przypadku błędu",
+            "chunksize": "Rozmiar fragmentu HTTP (MB)",
+            "chunksize_hint": "0 = wartość domyślna"
+        },
+        "format": {
+            "audio_format": "Format dźwięku",
+            "audio_quality": "Jakość dźwięku (kb/s)",
+            "container": "Kontener wyjściowy"
+        },
+        "content": {
+            "subtitles": "Pobierz napisy",
+            "sub_langs": "Języki napisów",
+            "sub_langs_hint": "np. en, on, es",
+            "embed_thumb": "Osadź miniaturę",
+            "embed_metadata": "Osadź metadane",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Działanie",
+            "sb_mark": "Zaznacz (jako rozdziały)",
+            "sb_remove": "Usuń (z pliku)"
+        },
+        "network": {
+            "proxy": "Adres URL proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Podszywanie się pod klienta",
+            "impersonate_hint": "Podszywanie się pod przeglądarkę (pomija blokady)",
+            "sleep": "Interwał snu",
+            "sleep_hint": "Opóźnienie pomiędzy pobraniami (zapobiega blokowaniu)",
+            "no_check_cert": "Brak certyfikatów kontrolnych",
+            "no_check_cert_hint": "Pomiń problemy z SSL"
+        },
+        "filesystem": {
+            "archive": "Pobierz archiwum",
+            "archive_hint": "Pomiń już pobrane filmy",
+            "restrict_fn": "Ogranicz nazwy plików (tylko ASCII)",
+            "restrict_fn_hint": "Tylko ASCII, bez spacji",
+            "no_overwrites": "Zapobiegaj nadpisywaniu",
+            "no_overwrites_hint": "Nie nadpisuj istniejących plików",
+            "no_playlist": "Pobierz tylko pojedynczy film (bez listy odtwarzania)",
+            "no_playlist_hint": "Pobierz pojedynczy film, a nie playlistę",
+            "outtmpl": "Niestandardowy szablon nazwy pliku",
+            "outtmpl_hint": "Niestandardowy szablon wyjściowy"
+        },
+        "cookies": {
+            "browser": "Importuj z przeglądarki",
+            "browser_hint": "Wyodrębnij pliki cookie z bazy danych przeglądarki",
+            "browser_select_none": "Brak (użyj pliku)"
+        },
+        "save": "Zapisz ustawienia zaawansowane",
+        "reset": "Przywróć ustawienia domyślne"
+    },
+    "about": {
+        "title": "O",
+        "description": "Atomic Downloader to potężny program do pobierania wideo typu open source, zbudowany w języku Python i yt-dlp.",
+        "version": "Wersja",
+        "developer": "Deweloper: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Kontrola...",
+        "available": "Dostępna aktualizacja yt-dlp ({version})",
+        "available_badge": "Aktualizacja dostępna!",
+        "uptodate": "Wszystko jest aktualne!",
+        "updating": "Aktualizuję yt-dlp...",
+        "success": "yt-dlp został pomyślnie zaktualizowany!",
+        "error": "Aktualizacja nie powiodła się",
+        "error_check": "Błąd podczas sprawdzania dostępności aktualizacji",
+        "error_update_detail": "Błąd aktualizacji: {msg}"
+    },
+    "toasts": {
+        "saved": "Ustawienia zostały zapisane pomyślnie!",
+        "reset": "Ustawienia zresetowane do wartości domyślnych",
+        "download_started": "Pobieranie rozpoczęte!",
+        "download_complete": "Pobieranie zakończone pomyślnie!",
+        "error": "Błąd: {msg}",
+        "url_copied": "Adres URL skopiowany do schowka",
+        "clipboard_error": "Nie można uzyskać dostępu do schowka",
+        "copy_logs": "Logi skopiowane do schowka!",
+        "copy_error": "Błąd podczas kopiowania",
+        "login_success": "Zaloguj się pomyślnie! Pliki cookie zapisane.",
+        "play_error": "Błąd podczas otwierania pliku",
+        "play_error_generic": "Błąd podczas odtwarzania",
+        "advanced_saved": "Zaawansowane ustawienia zostały zapisane!",
+        "advanced_reset": "Ustawienia zresetowane do wartości domyślnych"
+    }
+}

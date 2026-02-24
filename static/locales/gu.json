@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "ગુજરાતી",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "નવું ડાઉનલોડ",
+        "history": "ઈતિહાસ",
+        "settings": "સેટિંગ્સ",
+        "donate": "દાન કરો",
+        "check_updates": "અપડેટ્સ તપાસો",
+        "about": "વિશે"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "વિડિઓ URL અહીં પેસ્ટ કરો...",
+        "paste_title": "ક્લિપબોર્ડમાંથી પેસ્ટ કરો",
+        "quality_label": "ગુણવત્તા:",
+        "quality_best": "શ્રેષ્ઠ ગુણવત્તા",
+        "quality_audio": "માત્ર ઓડિયો (MP3)",
+        "download_btn": "ડાઉનલોડ શરૂ કરો",
+        "downloading": "ડાઉનલોડ કરી રહ્યું છે...",
+        "downloading_pct": "ડાઉનલોડ કરી રહ્યું છે... {pct}%",
+        "download_complete_btn": "ડાઉનલોડ પૂર્ણ!",
+        "finished": "ડાઉનલોડ પૂર્ણ!",
+        "add_queue_title": "કતારમાં ઉમેરો",
+        "queue_title": "કતાર ડાઉનલોડ કરો",
+        "login_required": "આ સાઇટ માટે લોગિન જરૂરી છે",
+        "login_btn": "લૉગિન કરો",
+        "login_connecting": "કનેક્ટ કરી રહ્યું છે...",
+        "stats": {
+            "speed": "ઝડપ",
+            "eta": "બાકીનો સમય",
+            "size": "ફાઇલનું કદ"
+        },
+        "logs_title": "ટર્મિનલ લોગ્સ",
+        "copy_logs_title": "લોગની નકલ કરો",
+        "no_internet": "ઇન્ટરનેટ કનેક્શન નથી"
+    },
+    "history": {
+        "title": "તાજેતરના ડાઉનલોડ્સ",
+        "open_file": "ફાઇલ ચલાવો",
+        "open_folder": "ફોલ્ડર ખોલો",
+        "copy_link": "લિંક કૉપિ કરો",
+        "redownload": "ફરીથી ડાઉનલોડ કરો",
+        "download_complete": "ડાઉનલોડ પૂર્ણ"
+    },
+    "settings": {
+        "title": "સેટિંગ્સ",
+        "default_quality": "ડિફૉલ્ટ ગુણવત્તા",
+        "save_path": "ફોલ્ડર સાચવો",
+        "browse": "બ્રાઉઝ કરો",
+        "cookies": "કૂકી સ્થિતિ",
+        "cookies_not_loaded": "લોડ થયેલ નથી",
+        "theme": "થીમ રંગ",
+        "language": "ભાષા",
+        "language_search_placeholder": "ભાષા શોધો...",
+        "advanced_btn": "અદ્યતન સેટિંગ્સ",
+        "open_advanced": "એડવાન્સ્ડ સેટિંગ્સ ખોલો",
+        "save": "સેટિંગ્સ સાચવો",
+        "close": "બંધ કરો"
+    },
+    "advanced": {
+        "title": "અદ્યતન સેટિંગ્સ",
+        "groups": {
+            "download": "ડાઉનલોડ કરો",
+            "format": "ફોર્મેટ / ઓડિયો",
+            "content": "સામગ્રી / મેટાડેટા",
+            "network": "નેટવર્ક",
+            "filesystem": "ફાઇલસિસ્ટમ",
+            "cookies": "કૂકીઝ"
+        },
+        "download": {
+            "concurrent": "સમવર્તી ટુકડાઓ",
+            "concurrent_hint": "ફાઇલોને વિભાજીત કરીને ડાઉનલોડને ઝડપી બનાવો (1-16)",
+            "ratelimit": "દર મર્યાદા (MB/s)",
+            "ratelimit_hint": "0 = અમર્યાદિત",
+            "retries": "ફરી પ્રયાસ કરે છે",
+            "retries_hint": "ભૂલ પર ફરી પ્રયાસોની સંખ્યા",
+            "chunksize": "HTTP ચંક કદ (MB)",
+            "chunksize_hint": "0 = ડિફોલ્ટ"
+        },
+        "format": {
+            "audio_format": "ઓડિયો ફોર્મેટ",
+            "audio_quality": "ઓડિયો ગુણવત્તા (kbps)",
+            "container": "આઉટપુટ કન્ટેનર"
+        },
+        "content": {
+            "subtitles": "સબટાઈટલ ડાઉનલોડ કરો",
+            "sub_langs": "ઉપશીર્ષક ભાષાઓ",
+            "sub_langs_hint": "દા.ત., en,he,es",
+            "embed_thumb": "થંબનેલ એમ્બેડ કરો",
+            "embed_metadata": "મેટાડેટા એમ્બેડ કરો",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "ક્રિયા",
+            "sb_mark": "ચિહ્નિત કરો (પ્રકરણો તરીકે)",
+            "sb_remove": "દૂર કરો (ફાઈલમાંથી)"
+        },
+        "network": {
+            "proxy": "પ્રોક્સી URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "ક્લાયન્ટ ઢોંગ",
+            "impersonate_hint": "ઢોંગી બ્રાઉઝર (બ્લોકને બાયપાસ કરે છે)",
+            "sleep": "સ્લીપ ઇન્ટરવલ",
+            "sleep_hint": "ડાઉનલોડ્સ વચ્ચે વિલંબ (અવરોધિત કરવાનું અટકાવે છે)",
+            "no_check_cert": "કોઈ ચકાસણી પ્રમાણપત્રો નથી",
+            "no_check_cert_hint": "SSL સમસ્યાઓને બાયપાસ કરો"
+        },
+        "filesystem": {
+            "archive": "આર્કાઇવ ડાઉનલોડ કરો",
+            "archive_hint": "પહેલેથી જ ડાઉનલોડ કરેલ વિડિયો છોડો",
+            "restrict_fn": "ફાઇલનામોને પ્રતિબંધિત કરો (માત્ર ASCII)",
+            "restrict_fn_hint": "માત્ર ASCII, કોઈ જગ્યા નથી",
+            "no_overwrites": "ઓવરરાઈટ અટકાવો",
+            "no_overwrites_hint": "હાલની ફાઇલોને ઓવરરાઇટ કરશો નહીં",
+            "no_playlist": "ફક્ત એક જ વિડિઓ ડાઉનલોડ કરો (કોઈ પ્લેલિસ્ટ નથી)",
+            "no_playlist_hint": "એક વિડિઓ ડાઉનલોડ કરો, પ્લેલિસ્ટ નહીં",
+            "outtmpl": "કસ્ટમ ફાઇલનામ ટેમ્પલેટ",
+            "outtmpl_hint": "કસ્ટમ આઉટપુટ ટેમ્પલેટ"
+        },
+        "cookies": {
+            "browser": "બ્રાઉઝરમાંથી આયાત કરો",
+            "browser_hint": "બ્રાઉઝર ડેટાબેઝમાંથી કૂકીઝ કાઢો",
+            "browser_select_none": "કંઈ નહીં (ફાઈલનો ઉપયોગ કરો)"
+        },
+        "save": "અદ્યતન સેટિંગ્સ સાચવો",
+        "reset": "ડિફૉલ્ટ પર ફરીથી સેટ કરો"
+    },
+    "about": {
+        "title": "વિશે",
+        "description": "Atomic Downloader એ Python અને yt-dlp સાથે બનેલ એક શક્તિશાળી, ઓપન સોર્સ વિડિયો ડાઉનલોડર છે.",
+        "version": "સંસ્કરણ",
+        "developer": "વિકાસકર્તા: એલચનન યેહુદા",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "તપાસી રહ્યું છે...",
+        "available": "yt-dlp અપડેટ ઉપલબ્ધ છે ({version})",
+        "available_badge": "અપડેટ ઉપલબ્ધ છે!",
+        "uptodate": "બધું અદ્યતન છે!",
+        "updating": "yt-dlp અપડેટ કરી રહ્યું છે...",
+        "success": "yt-dlp સફળતાપૂર્વક અપડેટ થયું!",
+        "error": "અપડેટ નિષ્ફળ થયું",
+        "error_check": "અપડેટ્સ માટે તપાસ કરવામાં ભૂલ",
+        "error_update_detail": "અપડેટ ભૂલ: {msg}"
+    },
+    "toasts": {
+        "saved": "સેટિંગ્સ સફળતાપૂર્વક સાચવવામાં આવી!",
+        "reset": "સેટિંગ્સ ડિફોલ્ટ પર રીસેટ",
+        "download_started": "ડાઉનલોડ શરૂ થયું!",
+        "download_complete": "ડાઉનલોડ સફળતાપૂર્વક સમાપ્ત થયું!",
+        "error": "ભૂલ: {msg}",
+        "url_copied": "URL ક્લિપબોર્ડ પર કૉપિ કર્યું",
+        "clipboard_error": "ક્લિપબોર્ડને ઍક્સેસ કરી શકાતું નથી",
+        "copy_logs": "લૉગ્સ ક્લિપબોર્ડ પર કૉપિ કર્યા!",
+        "copy_error": "નકલ કરવામાં ભૂલ",
+        "login_success": "લૉગિન સફળ! કૂકીઝ સાચવી.",
+        "play_error": "ફાઇલ ખોલવામાં ભૂલ",
+        "play_error_generic": "રમવામાં ભૂલ",
+        "advanced_saved": "અદ્યતન સેટિંગ્સ સાચવી!",
+        "advanced_reset": "સેટિંગ્સ ડિફોલ્ટ પર રીસેટ"
+    }
+}

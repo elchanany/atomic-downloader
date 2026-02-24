@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Українська",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Нове завантаження",
+        "history": "історія",
+        "settings": "Налаштування",
+        "donate": "Пожертвуйте",
+        "check_updates": "Перевірте оновлення",
+        "about": "про"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Вставте тут URL-адресу відео...",
+        "paste_title": "Вставити з буфера обміну",
+        "quality_label": "якість:",
+        "quality_best": "Найкраща якість",
+        "quality_audio": "Лише аудіо (MP3)",
+        "download_btn": "Розпочати завантаження",
+        "downloading": "Завантаження...",
+        "downloading_pct": "Завантаження... {pct}%",
+        "download_complete_btn": "Завантаження завершено!",
+        "finished": "Завантаження завершено!",
+        "add_queue_title": "Додати в чергу",
+        "queue_title": "Черга завантажень",
+        "login_required": "Цей сайт вимагає авторизації",
+        "login_btn": "Логін",
+        "login_connecting": "Підключення...",
+        "stats": {
+            "speed": "швидкість",
+            "eta": "Час, що залишився",
+            "size": "Розмір файлу"
+        },
+        "logs_title": "Журнали терміналу",
+        "copy_logs_title": "Копіювати журнали",
+        "no_internet": "Немає підключення до інтернету"
+    },
+    "history": {
+        "title": "Останні завантаження",
+        "open_file": "Відтворити файл",
+        "open_folder": "Відкрити папку",
+        "copy_link": "Копіювати посилання",
+        "redownload": "Повторне завантаження",
+        "download_complete": "Завантаження завершено"
+    },
+    "settings": {
+        "title": "Налаштування",
+        "default_quality": "Якість за замовчуванням",
+        "save_path": "Зберегти папку",
+        "browse": "переглядати",
+        "cookies": "Статус файлу cookie",
+        "cookies_not_loaded": "Не завантажено",
+        "theme": "Колір теми",
+        "language": "Мова",
+        "language_search_placeholder": "Мова пошуку...",
+        "advanced_btn": "Розширені налаштування",
+        "open_advanced": "Відкрийте додаткові налаштування",
+        "save": "Зберегти налаштування",
+        "close": "Закрити"
+    },
+    "advanced": {
+        "title": "Розширені налаштування",
+        "groups": {
+            "download": "Завантажити",
+            "format": "Формат / Аудіо",
+            "content": "Вміст / метадані",
+            "network": "Мережа",
+            "filesystem": "Файлова система",
+            "cookies": "Печиво"
+        },
+        "download": {
+            "concurrent": "Одночасні фрагменти",
+            "concurrent_hint": "Прискорення завантажень шляхом розділення файлів (1-16)",
+            "ratelimit": "Обмеження швидкості (МБ/с)",
+            "ratelimit_hint": "0 = Необмежений",
+            "retries": "Повторні спроби",
+            "retries_hint": "Кількість повторних спроб у разі помилки",
+            "chunksize": "Розмір блоку HTTP (Мб)",
+            "chunksize_hint": "0 = за замовчуванням"
+        },
+        "format": {
+            "audio_format": "Аудіоформат",
+            "audio_quality": "Якість звуку (kbps)",
+            "container": "Вихідний контейнер"
+        },
+        "content": {
+            "subtitles": "Завантажити субтитри",
+            "sub_langs": "Мови субтитрів",
+            "sub_langs_hint": "наприклад, en,he,es",
+            "embed_thumb": "Вставити мініатюру",
+            "embed_metadata": "Вставити метадані",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Дія",
+            "sb_mark": "Позначити (як розділи)",
+            "sb_remove": "Видалити (з файлу)"
+        },
+        "network": {
+            "proxy": "URL проксі",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Уособлення клієнта",
+            "impersonate_hint": "Видавати себе за браузер (обходить блокування)",
+            "sleep": "Інтервал сну",
+            "sleep_hint": "Затримка між завантаженнями (запобігає блокуванню)",
+            "no_check_cert": "Без перевірки сертифікатів",
+            "no_check_cert_hint": "Обхід проблем із SSL"
+        },
+        "filesystem": {
+            "archive": "Завантажити Архів",
+            "archive_hint": "Пропустити вже завантажені відео",
+            "restrict_fn": "Обмежити імена файлів (лише ASCII)",
+            "restrict_fn_hint": "Лише ASCII, без пробілів",
+            "no_overwrites": "Запобігання перезапису",
+            "no_overwrites_hint": "Не перезаписуйте існуючі файли",
+            "no_playlist": "Завантажити лише одне відео (без списку відтворення)",
+            "no_playlist_hint": "Завантажуйте одне відео, а не список відтворення",
+            "outtmpl": "Користувацький шаблон імені файлу",
+            "outtmpl_hint": "Спеціальний шаблон виведення"
+        },
+        "cookies": {
+            "browser": "Імпортувати з браузера",
+            "browser_hint": "Видобути файли cookie з бази даних браузера",
+            "browser_select_none": "Немає (використовувати файл)"
+        },
+        "save": "Зберегти додаткові налаштування",
+        "reset": "Скинути до значень за замовчуванням"
+    },
+    "about": {
+        "title": "про",
+        "description": "Atomic Downloader — це потужний завантажувач відео з відкритим кодом, створений на Python і yt-dlp.",
+        "version": "Версія",
+        "developer": "Розробник: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Перевірка...",
+        "available": "доступне оновлення yt-dlp ({version})",
+        "available_badge": "Оновлення доступне!",
+        "uptodate": "Все в актуальному стані!",
+        "updating": "Оновлення yt-dlp...",
+        "success": "yt-dlp успішно оновлено!",
+        "error": "Не вдалося оновити",
+        "error_check": "Помилка перевірки оновлень",
+        "error_update_detail": "Помилка оновлення: {msg}"
+    },
+    "toasts": {
+        "saved": "Налаштування успішно збережено!",
+        "reset": "Скидання налаштувань до значень за замовчуванням",
+        "download_started": "Завантаження розпочато!",
+        "download_complete": "Завантаження успішно завершено!",
+        "error": "Помилка: {msg}",
+        "url_copied": "URL-адресу скопійовано в буфер обміну",
+        "clipboard_error": "Не вдається отримати доступ до буфера обміну",
+        "copy_logs": "Журнали скопійовано в буфер обміну!",
+        "copy_error": "Помилка копіювання",
+        "login_success": "Вхід успішний! Файли cookie збережено.",
+        "play_error": "Помилка відкриття файлу",
+        "play_error_generic": "Помилка відтворення",
+        "advanced_saved": "Розширені налаштування збережено!",
+        "advanced_reset": "Скидання налаштувань до значень за замовчуванням"
+    }
+}

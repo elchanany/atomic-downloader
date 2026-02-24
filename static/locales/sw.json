@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Kiswahili",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Upakuaji Mpya",
+        "history": "Historia",
+        "settings": "Mipangilio",
+        "donate": "Changia",
+        "check_updates": "Angalia Sasisho",
+        "about": "Kuhusu"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Bandika URL ya video hapa...",
+        "paste_title": "Bandika kutoka kwenye ubao wa kunakili",
+        "quality_label": "Ubora:",
+        "quality_best": "Ubora Bora",
+        "quality_audio": "Sauti Pekee (MP3)",
+        "download_btn": "Anza Kupakua",
+        "downloading": "Inapakua...",
+        "downloading_pct": "Inapakua... {pct}%",
+        "download_complete_btn": "Upakuaji umekamilika!",
+        "finished": "Upakuaji umekamilika!",
+        "add_queue_title": "Ongeza kwenye Foleni",
+        "queue_title": "Foleni ya Kupakua",
+        "login_required": "Tovuti hii inahitaji kuingia",
+        "login_btn": "Ingia",
+        "login_connecting": "Inaunganisha...",
+        "stats": {
+            "speed": "Kasi",
+            "eta": "Muda uliobaki",
+            "size": "Ukubwa wa Faili"
+        },
+        "logs_title": "Kumbukumbu za terminal",
+        "copy_logs_title": "Nakili Kumbukumbu",
+        "no_internet": "Hakuna muunganisho wa mtandao"
+    },
+    "history": {
+        "title": "Vipakuliwa vya Hivi Punde",
+        "open_file": "Cheza Faili",
+        "open_folder": "Fungua Folda",
+        "copy_link": "Nakili Kiungo",
+        "redownload": "Pakua upya",
+        "download_complete": "Upakuaji umekamilika"
+    },
+    "settings": {
+        "title": "Mipangilio",
+        "default_quality": "Ubora Chaguomsingi",
+        "save_path": "Hifadhi Folda",
+        "browse": "Vinjari",
+        "cookies": "Hali ya Kuki",
+        "cookies_not_loaded": "Haijapakiwa",
+        "theme": "Rangi ya Mandhari",
+        "language": "Lugha",
+        "language_search_placeholder": "Tafuta lugha...",
+        "advanced_btn": "Mipangilio ya Kina",
+        "open_advanced": "Fungua Mipangilio ya Kina",
+        "save": "Hifadhi Mipangilio",
+        "close": "Funga"
+    },
+    "advanced": {
+        "title": "Mipangilio ya Kina",
+        "groups": {
+            "download": "Pakua",
+            "format": "Umbizo / Sauti",
+            "content": "Maudhui / Metadata",
+            "network": "Mtandao",
+            "filesystem": "Mfumo wa faili",
+            "cookies": "Vidakuzi"
+        },
+        "download": {
+            "concurrent": "Vipande vya Sanjari",
+            "concurrent_hint": "Ongeza kasi ya upakuaji kwa kugawanya faili (1-16)",
+            "ratelimit": "Kikomo cha Viwango (MB/s)",
+            "ratelimit_hint": "0 = Bila kikomo",
+            "retries": "Inajaribu tena",
+            "retries_hint": "Idadi ya majaribio kwa hitilafu",
+            "chunksize": "Ukubwa wa Sehemu ya HTTP (MB)",
+            "chunksize_hint": "0 = Chaguomsingi"
+        },
+        "format": {
+            "audio_format": "Umbizo la Sauti",
+            "audio_quality": "Ubora wa Sauti (kbps)",
+            "container": "Chombo cha Pato"
+        },
+        "content": {
+            "subtitles": "Pakua Manukuu",
+            "sub_langs": "Lugha za Manukuu",
+            "sub_langs_hint": "k.m., sw, yeye, es",
+            "embed_thumb": "Pachika Kijipicha",
+            "embed_metadata": "Pachika Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Kitendo",
+            "sb_mark": "Weka alama (kama sura)",
+            "sb_remove": "Ondoa (kutoka kwa faili)"
+        },
+        "network": {
+            "proxy": "URL ya seva mbadala",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Uigaji wa Mteja",
+            "impersonate_hint": "Iga kivinjari (vizuizi vya kupita)",
+            "sleep": "Muda wa Kulala",
+            "sleep_hint": "Kuchelewa kati ya upakuaji (huzuia kuzuia)",
+            "no_check_cert": "Hakuna Vyeti vya Hundi",
+            "no_check_cert_hint": "Bypass masuala ya SSL"
+        },
+        "filesystem": {
+            "archive": "Pakua Kumbukumbu",
+            "archive_hint": "Ruka video ambazo tayari zimepakuliwa",
+            "restrict_fn": "Zuia Majina ya Faili (ASCII pekee)",
+            "restrict_fn_hint": "ASCII pekee, hakuna nafasi",
+            "no_overwrites": "Zuia Kuandika upya",
+            "no_overwrites_hint": "Usifute faili zilizopo",
+            "no_playlist": "Pakua Video Moja pekee (Hakuna Orodha ya Kucheza)",
+            "no_playlist_hint": "Pakua video moja, sio orodha ya kucheza",
+            "outtmpl": "Kiolezo Maalum cha Jina la Faili",
+            "outtmpl_hint": "Kiolezo maalum cha pato"
+        },
+        "cookies": {
+            "browser": "Ingiza kutoka kwa Kivinjari",
+            "browser_hint": "Toa vidakuzi kutoka kwa hifadhidata ya kivinjari",
+            "browser_select_none": "Hakuna (tumia faili)"
+        },
+        "save": "Hifadhi Mipangilio ya Kina",
+        "reset": "Weka upya kwa Chaguomsingi"
+    },
+    "about": {
+        "title": "Kuhusu",
+        "description": "Upakuaji wa Atomiki ni kipakuaji chenye nguvu, cha chanzo huria cha video kilichojengwa kwa Python na yt-dlp.",
+        "version": "Toleo",
+        "developer": "Msanidi programu: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Inaangalia...",
+        "available": "sasisho la yt-dlp linapatikana ({version})",
+        "available_badge": "Sasisho Linapatikana!",
+        "uptodate": "Kila kitu ni cha kisasa!",
+        "updating": "Inasasisha yt-dlp...",
+        "success": "yt-dlp imesasishwa kwa mafanikio!",
+        "error": "Usasishaji Umeshindwa",
+        "error_check": "Hitilafu katika kuangalia masasisho",
+        "error_update_detail": "Hitilafu ya kusasisha: {msg}"
+    },
+    "toasts": {
+        "saved": "Mipangilio imehifadhiwa!",
+        "reset": "Mipangilio imewekwa upya kwa chaguomsingi",
+        "download_started": "Upakuaji umeanza!",
+        "download_complete": "Upakuaji umekamilika!",
+        "error": "Hitilafu: {msg}",
+        "url_copied": "URL imenakiliwa kwenye ubao wa kunakili",
+        "clipboard_error": "Haiwezi kufikia ubao wa kunakili",
+        "copy_logs": "Kumbukumbu zimenakiliwa kwenye ubao wa kunakili!",
+        "copy_error": "Hitilafu katika kunakili",
+        "login_success": "Kuingia kumefaulu! Vidakuzi vimehifadhiwa.",
+        "play_error": "Hitilafu katika kufungua faili",
+        "play_error_generic": "Hitilafu katika kucheza",
+        "advanced_saved": "Mipangilio ya kina imehifadhiwa!",
+        "advanced_reset": "Mipangilio imewekwa upya kwa chaguomsingi"
+    }
+}

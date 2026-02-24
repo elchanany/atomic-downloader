@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Türkçe",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Yeni İndirme",
+        "history": "Tarih",
+        "settings": "Ayarlar",
+        "donate": "Bağış yapmak",
+        "check_updates": "Güncellemeleri Kontrol Et",
+        "about": "Hakkında"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Video URL'sini buraya yapıştırın...",
+        "paste_title": "Panodan yapıştır",
+        "quality_label": "Kalite:",
+        "quality_best": "En İyi Kalite",
+        "quality_audio": "Yalnızca Ses (MP3)",
+        "download_btn": "İndirmeyi Başlat",
+        "downloading": "İndiriliyor...",
+        "downloading_pct": "İndiriliyor... %{pct}",
+        "download_complete_btn": "İndirme Tamamlandı!",
+        "finished": "İndirme Tamamlandı!",
+        "add_queue_title": "Kuyruğa Ekle",
+        "queue_title": "İndirme Sırası",
+        "login_required": "Bu site giriş yapmayı gerektiriyor",
+        "login_btn": "Giriş yapmak",
+        "login_connecting": "Bağlanıyor...",
+        "stats": {
+            "speed": "Hız",
+            "eta": "Kalan süre",
+            "size": "Dosya Boyutu"
+        },
+        "logs_title": "Terminal Günlükleri",
+        "copy_logs_title": "Günlükleri Kopyala",
+        "no_internet": "İnternet bağlantısı yok"
+    },
+    "history": {
+        "title": "Son İndirilenler",
+        "open_file": "Dosyayı Oynat",
+        "open_folder": "Klasörü Aç",
+        "copy_link": "Bağlantıyı Kopyala",
+        "redownload": "Yeniden indir",
+        "download_complete": "İndirme Tamamlandı"
+    },
+    "settings": {
+        "title": "Ayarlar",
+        "default_quality": "Varsayılan Kalite",
+        "save_path": "Klasörü Kaydet",
+        "browse": "Göz at",
+        "cookies": "Çerez Durumu",
+        "cookies_not_loaded": "Yüklenmedi",
+        "theme": "Tema Rengi",
+        "language": "Dil",
+        "language_search_placeholder": "Dil ara...",
+        "advanced_btn": "Gelişmiş Ayarlar",
+        "open_advanced": "Gelişmiş Ayarları Aç",
+        "save": "Ayarları Kaydet",
+        "close": "Kapalı"
+    },
+    "advanced": {
+        "title": "Gelişmiş Ayarlar",
+        "groups": {
+            "download": "İndirmek",
+            "format": "Format / Ses",
+            "content": "İçerik / Meta Veri",
+            "network": "Ağ",
+            "filesystem": "Dosya sistemi",
+            "cookies": "Çerezler"
+        },
+        "download": {
+            "concurrent": "Eşzamanlı Parçalar",
+            "concurrent_hint": "Dosyaları bölerek indirmeleri hızlandırın (1-16)",
+            "ratelimit": "Hız Sınırı (MB/s)",
+            "ratelimit_hint": "0 = Sınırsız",
+            "retries": "Yeniden denemeler",
+            "retries_hint": "Hata durumunda yeniden deneme sayısı",
+            "chunksize": "HTTP Parça Boyutu (MB)",
+            "chunksize_hint": "0 = Varsayılan"
+        },
+        "format": {
+            "audio_format": "Ses Formatı",
+            "audio_quality": "Ses Kalitesi (kbps)",
+            "container": "Çıkış Kabı"
+        },
+        "content": {
+            "subtitles": "Altyazıları İndir",
+            "sub_langs": "Altyazı Dilleri",
+            "sub_langs_hint": "örneğin, en,o,es",
+            "embed_thumb": "Küçük Resmi Yerleştir",
+            "embed_metadata": "Meta Verileri Göm",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Aksiyon",
+            "sb_mark": "İşaretle (bölümler olarak)",
+            "sb_remove": "Kaldır (dosyadan)"
+        },
+        "network": {
+            "proxy": "Proxy URL'si",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "İstemci Kimliğine Bürünme",
+            "impersonate_hint": "Tarayıcının kimliğine bürün (blokları atlar)",
+            "sleep": "Uyku Aralığı",
+            "sleep_hint": "İndirmeler arasındaki gecikme (engellemeyi önler)",
+            "no_check_cert": "Çek Sertifikası Yok",
+            "no_check_cert_hint": "SSL sorunlarını atlayın"
+        },
+        "filesystem": {
+            "archive": "Arşivi İndir",
+            "archive_hint": "Zaten indirilmiş videoları atla",
+            "restrict_fn": "Dosya Adlarını Kısıtla (yalnızca ASCII)",
+            "restrict_fn_hint": "Yalnızca ASCII, boşluk yok",
+            "no_overwrites": "Üzerine Yazmayı Önle",
+            "no_overwrites_hint": "Mevcut dosyaların üzerine yazmayın",
+            "no_playlist": "Yalnızca Tek Videoyu İndir (Oynatma Listesi Yok)",
+            "no_playlist_hint": "Oynatma listesini değil, tek videoyu indirin",
+            "outtmpl": "Özel Dosya Adı Şablonu",
+            "outtmpl_hint": "Özel çıktı şablonu"
+        },
+        "cookies": {
+            "browser": "Tarayıcıdan İçe Aktar",
+            "browser_hint": "Çerezleri tarayıcı veritabanından çıkarın",
+            "browser_select_none": "Yok (dosyayı kullan)"
+        },
+        "save": "Gelişmiş Ayarları Kaydet",
+        "reset": "Varsayılanlara Sıfırla"
+    },
+    "about": {
+        "title": "Hakkında",
+        "description": "Atomic Downloader, Python ve yt-dlp ile oluşturulmuş güçlü, açık kaynaklı bir video indiricisidir.",
+        "version": "Sürüm",
+        "developer": "Geliştirici: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Kontrol ediliyor...",
+        "available": "yt-dlp güncellemesi mevcut ({version})",
+        "available_badge": "Güncelleme Mevcut!",
+        "uptodate": "Her şey güncel!",
+        "updating": "yt-dlp güncelleniyor...",
+        "success": "yt-dlp başarıyla güncellendi!",
+        "error": "Güncelleme Başarısız",
+        "error_check": "Güncellemeler kontrol edilirken hata oluştu",
+        "error_update_detail": "Güncelleme hatası: {msg}"
+    },
+    "toasts": {
+        "saved": "Ayarlar başarıyla kaydedildi!",
+        "reset": "Ayarlar varsayılanlara sıfırlandı",
+        "download_started": "İndirme başladı!",
+        "download_complete": "İndirme başarıyla tamamlandı!",
+        "error": "Hata: {msg}",
+        "url_copied": "URL panoya kopyalandı",
+        "clipboard_error": "Panoya erişilemiyor",
+        "copy_logs": "Günlükler panoya kopyalandı!",
+        "copy_error": "Kopyalama hatası",
+        "login_success": "Giriş başarılı! Çerezler kaydedildi.",
+        "play_error": "Dosya açılırken hata oluştu",
+        "play_error_generic": "Oynatma hatası",
+        "advanced_saved": "Gelişmiş ayarlar kaydedildi!",
+        "advanced_reset": "Ayarlar varsayılanlara sıfırlandı"
+    }
+}

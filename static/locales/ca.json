@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Català",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Descàrrega nova",
+        "history": "Història",
+        "settings": "Configuració",
+        "donate": "Donar",
+        "check_updates": "Comproveu les actualitzacions",
+        "about": "Sobre"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Enganxa l'URL del vídeo aquí...",
+        "paste_title": "Enganxa des del porta-retalls",
+        "quality_label": "Qualitat:",
+        "quality_best": "Millor Qualitat",
+        "quality_audio": "Només àudio (MP3)",
+        "download_btn": "Inicieu la descàrrega",
+        "downloading": "S'està baixant...",
+        "downloading_pct": "S'està baixant... {pct}%",
+        "download_complete_btn": "Descàrrega completa!",
+        "finished": "Descàrrega completa!",
+        "add_queue_title": "Afegeix a la cua",
+        "queue_title": "Cua de descàrrega",
+        "login_required": "Aquest lloc requereix inici de sessió",
+        "login_btn": "Inicieu sessió",
+        "login_connecting": "S'està connectant...",
+        "stats": {
+            "speed": "Velocitat",
+            "eta": "Temps restant",
+            "size": "Mida del fitxer"
+        },
+        "logs_title": "Registres de terminals",
+        "copy_logs_title": "Copia els registres",
+        "no_internet": "Sense connexió a Internet"
+    },
+    "history": {
+        "title": "Descàrregues recents",
+        "open_file": "Reproduir fitxer",
+        "open_folder": "Obre la carpeta",
+        "copy_link": "Copia l'enllaç",
+        "redownload": "Torna a descarregar",
+        "download_complete": "Descàrrega completa"
+    },
+    "settings": {
+        "title": "Configuració",
+        "default_quality": "Qualitat per defecte",
+        "save_path": "Desa la carpeta",
+        "browse": "Navega",
+        "cookies": "Estat de les galetes",
+        "cookies_not_loaded": "No carregat",
+        "theme": "Color del tema",
+        "language": "Llengua",
+        "language_search_placeholder": "Cerca l'idioma...",
+        "advanced_btn": "Configuració avançada",
+        "open_advanced": "Obriu Configuració avançada",
+        "save": "Desa la configuració",
+        "close": "Tancar"
+    },
+    "advanced": {
+        "title": "Configuració avançada",
+        "groups": {
+            "download": "Descarregar",
+            "format": "Format / Àudio",
+            "content": "Contingut / Metadades",
+            "network": "Xarxa",
+            "filesystem": "Sistema de fitxers",
+            "cookies": "Galetes"
+        },
+        "download": {
+            "concurrent": "Fragments concurrents",
+            "concurrent_hint": "Accelera les baixades dividint els fitxers (1-16)",
+            "ratelimit": "Límit de velocitat (MB/s)",
+            "ratelimit_hint": "0 = il·limitat",
+            "retries": "Reintents",
+            "retries_hint": "Nombre de reintents per error",
+            "chunksize": "Mida del fragment HTTP (MB)",
+            "chunksize_hint": "0 = Per defecte"
+        },
+        "format": {
+            "audio_format": "Format d'àudio",
+            "audio_quality": "Qualitat d'àudio (kbps)",
+            "container": "Contenidor de sortida"
+        },
+        "content": {
+            "subtitles": "Descarrega els subtítols",
+            "sub_langs": "Idiomes de subtítols",
+            "sub_langs_hint": "p. ex., en,he,es",
+            "embed_thumb": "Insereix una miniatura",
+            "embed_metadata": "Insereix metadades",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Acció",
+            "sb_mark": "Marca (com a capítols)",
+            "sb_remove": "Elimina (del fitxer)"
+        },
+        "network": {
+            "proxy": "URL del servidor intermediari",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Suplantació d'identitat del client",
+            "impersonate_hint": "Suplantar la identitat del navegador (obvia els blocs)",
+            "sleep": "Interval de son",
+            "sleep_hint": "Retard entre descàrregues (evita el bloqueig)",
+            "no_check_cert": "Sense certificats de verificació",
+            "no_check_cert_hint": "Evita problemes SSL"
+        },
+        "filesystem": {
+            "archive": "Descarregar Arxiu",
+            "archive_hint": "Omet els vídeos ja baixats",
+            "restrict_fn": "Restringeix els noms de fitxer (només ASCII)",
+            "restrict_fn_hint": "Només ASCII, sense espais",
+            "no_overwrites": "Evitar sobreescritures",
+            "no_overwrites_hint": "No sobreescriu els fitxers existents",
+            "no_playlist": "Baixa només un vídeo únic (sense llista de reproducció)",
+            "no_playlist_hint": "Baixeu un vídeo únic, no una llista de reproducció",
+            "outtmpl": "Plantilla de nom de fitxer personalitzada",
+            "outtmpl_hint": "Plantilla de sortida personalitzada"
+        },
+        "cookies": {
+            "browser": "Importa des del navegador",
+            "browser_hint": "Extreu galetes de la base de dades del navegador",
+            "browser_select_none": "Cap (utilitza el fitxer)"
+        },
+        "save": "Desa la configuració avançada",
+        "reset": "Restableix els valors per defecte"
+    },
+    "about": {
+        "title": "Sobre",
+        "description": "Atomic Downloader és un potent descarregador de vídeos de codi obert creat amb Python i yt-dlp.",
+        "version": "Versió",
+        "developer": "Desenvolupador: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "S'està comprovant...",
+        "available": "Actualització yt-dlp disponible ({version})",
+        "available_badge": "Actualització disponible!",
+        "uptodate": "Tot està al dia!",
+        "updating": "S'està actualitzant yt-dlp...",
+        "success": "yt-dlp s'ha actualitzat correctament!",
+        "error": "L'actualització ha fallat",
+        "error_check": "S'ha produït un error en comprovar si hi ha actualitzacions",
+        "error_update_detail": "Error d'actualització: {msg}"
+    },
+    "toasts": {
+        "saved": "La configuració s'ha desat correctament!",
+        "reset": "La configuració es restableix als valors predeterminats",
+        "download_started": "La descàrrega ha començat!",
+        "download_complete": "La descàrrega s'ha acabat correctament!",
+        "error": "Error: {msg}",
+        "url_copied": "URL copiat al porta-retalls",
+        "clipboard_error": "No es pot accedir al porta-retalls",
+        "copy_logs": "Registres copiats al porta-retalls!",
+        "copy_error": "S'ha produït un error en copiar",
+        "login_success": "Inici de sessió correcte! Galetes guardades.",
+        "play_error": "Error en obrir el fitxer",
+        "play_error_generic": "S'ha produït un error en jugar",
+        "advanced_saved": "Configuració avançada desada!",
+        "advanced_reset": "La configuració es restableix als valors predeterminats"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "العربية",
+        "dir": "rtl"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "تحميل جديد",
+        "history": "تاريخ",
+        "settings": "إعدادات",
+        "donate": "يتبرع",
+        "check_updates": "التحقق من التحديثات",
+        "about": "عن"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "الصق عنوان URL للفيديو هنا...",
+        "paste_title": "لصق من الحافظة",
+        "quality_label": "جودة:",
+        "quality_best": "أفضل جودة",
+        "quality_audio": "الصوت فقط (MP3)",
+        "download_btn": "ابدأ التنزيل",
+        "downloading": "جارٍ التنزيل...",
+        "downloading_pct": "جارٍ التنزيل... {pct}%",
+        "download_complete_btn": "اكتمل التنزيل!",
+        "finished": "اكتمل التنزيل!",
+        "add_queue_title": "إضافة إلى قائمة الانتظار",
+        "queue_title": "تحميل قائمة الانتظار",
+        "login_required": "هذا الموقع يتطلب تسجيل الدخول",
+        "login_btn": "تسجيل الدخول",
+        "login_connecting": "جارٍ الاتصال...",
+        "stats": {
+            "speed": "سرعة",
+            "eta": "الوقت المتبقي",
+            "size": "حجم الملف"
+        },
+        "logs_title": "سجلات المحطة الطرفية",
+        "copy_logs_title": "نسخ السجلات",
+        "no_internet": "لا يوجد اتصال بالإنترنت"
+    },
+    "history": {
+        "title": "التنزيلات الأخيرة",
+        "open_file": "تشغيل الملف",
+        "open_folder": "افتح المجلد",
+        "copy_link": "نسخ الوصلة",
+        "redownload": "إعادة التنزيل",
+        "download_complete": "اكتمل التنزيل"
+    },
+    "settings": {
+        "title": "إعدادات",
+        "default_quality": "الجودة الافتراضية",
+        "save_path": "حفظ المجلد",
+        "browse": "تصفح",
+        "cookies": "حالة ملفات تعريف الارتباط",
+        "cookies_not_loaded": "غير محملة",
+        "theme": "لون الموضوع",
+        "language": "لغة",
+        "language_search_placeholder": "لغة البحث...",
+        "advanced_btn": "الإعدادات المتقدمة",
+        "open_advanced": "افتح الإعدادات المتقدمة",
+        "save": "حفظ الإعدادات",
+        "close": "يغلق"
+    },
+    "advanced": {
+        "title": "الإعدادات المتقدمة",
+        "groups": {
+            "download": "تحميل",
+            "format": "التنسيق / الصوت",
+            "content": "المحتوى / البيانات الوصفية",
+            "network": "شبكة",
+            "filesystem": "نظام الملفات",
+            "cookies": "ملفات تعريف الارتباط"
+        },
+        "download": {
+            "concurrent": "الأجزاء المتزامنة",
+            "concurrent_hint": "تسريع التنزيلات عن طريق تقسيم الملفات (1-16)",
+            "ratelimit": "حد المعدل (ميجابايت/ثانية)",
+            "ratelimit_hint": "0 = غير محدود",
+            "retries": "إعادة المحاولة",
+            "retries_hint": "عدد مرات إعادة المحاولة عند حدوث خطأ",
+            "chunksize": "حجم قطعة HTTP (ميجابايت)",
+            "chunksize_hint": "0 = افتراضي"
+        },
+        "format": {
+            "audio_format": "تنسيق الصوت",
+            "audio_quality": "جودة الصوت (كيلوبت في الثانية)",
+            "container": "حاوية الإخراج"
+        },
+        "content": {
+            "subtitles": "تحميل ترجمات",
+            "sub_langs": "لغات الترجمة",
+            "sub_langs_hint": "على سبيل المثال، أون،هو،إس",
+            "embed_thumb": "تضمين الصورة المصغرة",
+            "embed_metadata": "تضمين بيانات التعريف",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "فعل",
+            "sb_mark": "علامة (كفصول)",
+            "sb_remove": "إزالة (من الملف)"
+        },
+        "network": {
+            "proxy": "عنوان URL الوكيل",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "انتحال شخصية العميل",
+            "impersonate_hint": "انتحال شخصية المتصفح (تجاوز الكتل)",
+            "sleep": "الفاصل الزمني للنوم",
+            "sleep_hint": "التأخير بين التنزيلات (يمنع الحظر)",
+            "no_check_cert": "لا يوجد شهادات فحص",
+            "no_check_cert_hint": "تجاوز مشاكل SSL"
+        },
+        "filesystem": {
+            "archive": "تحميل الأرشيف",
+            "archive_hint": "تخطي مقاطع الفيديو التي تم تنزيلها بالفعل",
+            "restrict_fn": "تقييد أسماء الملفات (ASCII فقط)",
+            "restrict_fn_hint": "ASCII فقط، بدون مسافات",
+            "no_overwrites": "منع الكتابة الفوقية",
+            "no_overwrites_hint": "لا تقم بالكتابة فوق الملفات الموجودة",
+            "no_playlist": "تنزيل فيديو واحد فقط (بدون قائمة تشغيل)",
+            "no_playlist_hint": "قم بتنزيل فيديو واحد، وليس قائمة التشغيل",
+            "outtmpl": "قالب اسم الملف المخصص",
+            "outtmpl_hint": "قالب الإخراج المخصص"
+        },
+        "cookies": {
+            "browser": "استيراد من المتصفح",
+            "browser_hint": "استخراج ملفات تعريف الارتباط من قاعدة بيانات المتصفح",
+            "browser_select_none": "لا شيء (استخدم الملف)"
+        },
+        "save": "حفظ الإعدادات المتقدمة",
+        "reset": "إعادة التعيين إلى الإعدادات الافتراضية"
+    },
+    "about": {
+        "title": "عن",
+        "description": "Atomic Downloader هو برنامج تنزيل فيديو قوي ومفتوح المصدر مصمم باستخدام Python وyt-dlp.",
+        "version": "إصدار",
+        "developer": "المطور: الشنان يهودا",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "جارٍ التحقق...",
+        "available": "يتوفر تحديث yt-dlp ({version})",
+        "available_badge": "التحديث متاح!",
+        "uptodate": "كل شيء محدث!",
+        "updating": "جارٍ تحديث yt-dlp...",
+        "success": "تم تحديث yt-dlp بنجاح!",
+        "error": "فشل التحديث",
+        "error_check": "خطأ في التحقق من التحديثات",
+        "error_update_detail": "خطأ في التحديث: {msg}"
+    },
+    "toasts": {
+        "saved": "تم حفظ الإعدادات بنجاح!",
+        "reset": "إعادة ضبط الإعدادات على الإعدادات الافتراضية",
+        "download_started": "بدأ التنزيل!",
+        "download_complete": "انتهى التنزيل بنجاح!",
+        "error": "خطأ: {msg}",
+        "url_copied": "تم نسخ عنوان URL إلى الحافظة",
+        "clipboard_error": "لا يمكن الوصول إلى الحافظة",
+        "copy_logs": "السجلات المنسوخة إلى الحافظة!",
+        "copy_error": "خطأ في النسخ",
+        "login_success": "تم تسجيل الدخول بنجاح! تم حفظ ملفات تعريف الارتباط.",
+        "play_error": "خطأ في فتح الملف",
+        "play_error_generic": "خطأ في اللعب",
+        "advanced_saved": "تم حفظ الإعدادات المتقدمة!",
+        "advanced_reset": "إعادة ضبط الإعدادات على الإعدادات الافتراضية"
+    }
+}

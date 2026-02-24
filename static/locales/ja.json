@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "日本語",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "新規ダウンロード",
+        "history": "歴史",
+        "settings": "設定",
+        "donate": "寄付する",
+        "check_updates": "アップデートを確認する",
+        "about": "について"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "ここにビデオの URL を貼り付けます...",
+        "paste_title": "クリップボードから貼り付け",
+        "quality_label": "品質：",
+        "quality_best": "最高の品質",
+        "quality_audio": "音声のみ(MP3)",
+        "download_btn": "ダウンロードの開始",
+        "downloading": "ダウンロード中...",
+        "downloading_pct": "ダウンロード中... {pct}%",
+        "download_complete_btn": "ダウンロード完了！",
+        "finished": "ダウンロード完了！",
+        "add_queue_title": "キューに追加",
+        "queue_title": "ダウンロードキュー",
+        "login_required": "このサイトにはログインが必要です",
+        "login_btn": "ログイン",
+        "login_connecting": "接続中...",
+        "stats": {
+            "speed": "スピード",
+            "eta": "残り時間",
+            "size": "ファイルサイズ"
+        },
+        "logs_title": "ターミナルログ",
+        "copy_logs_title": "ログのコピー",
+        "no_internet": "インターネット接続なし"
+    },
+    "history": {
+        "title": "最近のダウンロード",
+        "open_file": "再生ファイル",
+        "open_folder": "フォルダーを開く",
+        "copy_link": "リンクをコピー",
+        "redownload": "再ダウンロード",
+        "download_complete": "ダウンロード完了"
+    },
+    "settings": {
+        "title": "設定",
+        "default_quality": "デフォルトの品質",
+        "save_path": "保存フォルダー",
+        "browse": "ブラウズ",
+        "cookies": "クッキーのステータス",
+        "cookies_not_loaded": "ロードされていません",
+        "theme": "テーマカラー",
+        "language": "言語",
+        "language_search_placeholder": "言語を検索...",
+        "advanced_btn": "詳細設定",
+        "open_advanced": "詳細設定を開く",
+        "save": "設定の保存",
+        "close": "閉じる"
+    },
+    "advanced": {
+        "title": "詳細設定",
+        "groups": {
+            "download": "ダウンロード",
+            "format": "フォーマット / オーディオ",
+            "content": "コンテンツ/メタデータ",
+            "network": "ネットワーク",
+            "filesystem": "ファイルシステム",
+            "cookies": "クッキー"
+        },
+        "download": {
+            "concurrent": "同時フラグメント",
+            "concurrent_hint": "ファイルを分割してダウンロードを高速化します (1-16)",
+            "ratelimit": "レート制限 (MB/秒)",
+            "ratelimit_hint": "0 = 無制限",
+            "retries": "再試行",
+            "retries_hint": "エラー時の再試行回数",
+            "chunksize": "HTTP チャンク サイズ (MB)",
+            "chunksize_hint": "0 = デフォルト"
+        },
+        "format": {
+            "audio_format": "オーディオフォーマット",
+            "audio_quality": "オーディオ品質 (kbps)",
+            "container": "出力コンテナ"
+        },
+        "content": {
+            "subtitles": "字幕をダウンロードする",
+            "sub_langs": "字幕言語",
+            "sub_langs_hint": "例: en、he、es",
+            "embed_thumb": "サムネイルを埋め込む",
+            "embed_metadata": "メタデータの埋め込み",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "アクション",
+            "sb_mark": "マーク（章として）",
+            "sb_remove": "(ファイルから) 削除します"
+        },
+        "network": {
+            "proxy": "プロキシURL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "クライアントのなりすまし",
+            "impersonate_hint": "ブラウザになりすます (ブロックをバイパス)",
+            "sleep": "睡眠間隔",
+            "sleep_hint": "ダウンロード間の遅延 (ブロックを防止)",
+            "no_check_cert": "小切手証明書なし",
+            "no_check_cert_hint": "SSLの問題をバイパスする"
+        },
+        "filesystem": {
+            "archive": "アーカイブをダウンロード",
+            "archive_hint": "すでにダウンロードされているビデオをスキップする",
+            "restrict_fn": "ファイル名を制限する (ASCII のみ)",
+            "restrict_fn_hint": "ASCIIのみ、スペースは不可",
+            "no_overwrites": "上書きを防止する",
+            "no_overwrites_hint": "既存のファイルを上書きしないでください",
+            "no_playlist": "単一のビデオのみをダウンロード (プレイリストなし)",
+            "no_playlist_hint": "プレイリストではなく単一のビデオをダウンロードする",
+            "outtmpl": "カスタムファイル名テンプレート",
+            "outtmpl_hint": "カスタム出力テンプレート"
+        },
+        "cookies": {
+            "browser": "ブラウザからインポート",
+            "browser_hint": "ブラウザデータベースからCookieを抽出する",
+            "browser_select_none": "なし（ファイルを使用）"
+        },
+        "save": "詳細設定の保存",
+        "reset": "デフォルトにリセット"
+    },
+    "about": {
+        "title": "について",
+        "description": "Atomic Downloader は、Python と yt-dlp で構築された強力なオープンソース ビデオ ダウンローダーです。",
+        "version": "バージョン",
+        "developer": "開発者: エルチャナン・イェフダ",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "チェック中...",
+        "available": "yt-dlp アップデートが利用可能です ({version})",
+        "available_badge": "アップデートが利用可能です!",
+        "uptodate": "すべてが最新です!",
+        "updating": "yt-dlp を更新しています...",
+        "success": "yt-dlp が正常に更新されました。",
+        "error": "更新に失敗しました",
+        "error_check": "アップデートのチェック中にエラーが発生しました",
+        "error_update_detail": "更新エラー: {msg}"
+    },
+    "toasts": {
+        "saved": "設定が正常に保存されました。",
+        "reset": "設定がデフォルトにリセットされる",
+        "download_started": "ダウンロード開始しました！",
+        "download_complete": "ダウンロードは正常に完了しました！",
+        "error": "エラー: {msg}",
+        "url_copied": "URLがクリップボードにコピーされました",
+        "clipboard_error": "クリップボードにアクセスできません",
+        "copy_logs": "ログがクリップボードにコピーされました。",
+        "copy_error": "コピーエラー",
+        "login_success": "ログイン成功しました！クッキーが保存されました。",
+        "play_error": "ファイルを開くときにエラーが発生しました",
+        "play_error_generic": "再生エラー",
+        "advanced_saved": "詳細設定が保存されました!",
+        "advanced_reset": "設定がデフォルトにリセットされる"
+    }
+}

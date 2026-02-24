@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Български",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Ново изтегляне",
+        "history": "История",
+        "settings": "Настройки",
+        "donate": "Дарете",
+        "check_updates": "Проверете актуализациите",
+        "about": "За"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Поставете URL адреса на видеоклипа тук...",
+        "paste_title": "Поставяне от клипборда",
+        "quality_label": "качество:",
+        "quality_best": "Най-добро качество",
+        "quality_audio": "Само аудио (MP3)",
+        "download_btn": "Стартирайте изтеглянето",
+        "downloading": "Изтегля се...",
+        "downloading_pct": "Изтегля се... {pct}%",
+        "download_complete_btn": "Изтеглянето е завършено!",
+        "finished": "Изтеглянето е завършено!",
+        "add_queue_title": "Добавяне към опашката",
+        "queue_title": "Опашка за изтегляне",
+        "login_required": "Този сайт изисква влизане",
+        "login_btn": "Вход",
+        "login_connecting": "Свързване...",
+        "stats": {
+            "speed": "Скорост",
+            "eta": "Оставащо време",
+            "size": "Размер на файла"
+        },
+        "logs_title": "Терминални регистрационни файлове",
+        "copy_logs_title": "Копиране на регистрационни файлове",
+        "no_internet": "Няма интернет връзка"
+    },
+    "history": {
+        "title": "Последни изтегляния",
+        "open_file": "Възпроизвеждане на файл",
+        "open_folder": "Отворете папката",
+        "copy_link": "Копиране на връзката",
+        "redownload": "Повторно изтегляне",
+        "download_complete": "Изтеглянето завърши"
+    },
+    "settings": {
+        "title": "Настройки",
+        "default_quality": "Качество по подразбиране",
+        "save_path": "Запазване на папка",
+        "browse": "Прегледайте",
+        "cookies": "Състояние на бисквитките",
+        "cookies_not_loaded": "Не е заредено",
+        "theme": "Цвят на темата",
+        "language": "език",
+        "language_search_placeholder": "Език за търсене...",
+        "advanced_btn": "Разширени настройки",
+        "open_advanced": "Отворете Разширени настройки",
+        "save": "Запазване на настройките",
+        "close": "затвори"
+    },
+    "advanced": {
+        "title": "Разширени настройки",
+        "groups": {
+            "download": "Изтегляне",
+            "format": "Формат / Аудио",
+            "content": "Съдържание/Метаданни",
+            "network": "мрежа",
+            "filesystem": "Файлова система",
+            "cookies": "Бисквитки"
+        },
+        "download": {
+            "concurrent": "Едновременни фрагменти",
+            "concurrent_hint": "Ускорете изтеглянията чрез разделяне на файлове (1-16)",
+            "ratelimit": "Ограничение на скоростта (MB/s)",
+            "ratelimit_hint": "0 = Неограничен",
+            "retries": "Повторни опити",
+            "retries_hint": "Брой повторни опити при грешка",
+            "chunksize": "Размер на парче HTTP (MB)",
+            "chunksize_hint": "0 = По подразбиране"
+        },
+        "format": {
+            "audio_format": "Аудио формат",
+            "audio_quality": "Качество на звука (kbps)",
+            "container": "Изходен контейнер"
+        },
+        "content": {
+            "subtitles": "Изтегляне на субтитри",
+            "sub_langs": "Езици на субтитрите",
+            "sub_langs_hint": "напр. en,he,es",
+            "embed_thumb": "Вграждане на миниизображение",
+            "embed_metadata": "Вграждане на метаданни",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Действие",
+            "sb_mark": "Маркиране (като глави)",
+            "sb_remove": "Премахване (от файл)"
+        },
+        "network": {
+            "proxy": "Прокси URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Представяне на клиент",
+            "impersonate_hint": "Имитиране на браузър (заобикаля блоковете)",
+            "sleep": "Интервал на съня",
+            "sleep_hint": "Забавяне между изтеглянията (предотвратява блокирането)",
+            "no_check_cert": "Без проверка на сертификати",
+            "no_check_cert_hint": "Заобикаляне на проблеми със SSL"
+        },
+        "filesystem": {
+            "archive": "Изтегляне на архив",
+            "archive_hint": "Пропуснете вече изтеглените видеоклипове",
+            "restrict_fn": "Ограничаване на имена на файлове (само ASCII)",
+            "restrict_fn_hint": "Само ASCII, без интервали",
+            "no_overwrites": "Предотвратяване на презаписи",
+            "no_overwrites_hint": "Не презаписвайте съществуващи файлове",
+            "no_playlist": "Изтегляне само на един видеоклип (без плейлист)",
+            "no_playlist_hint": "Изтеглете едно видео, а не плейлист",
+            "outtmpl": "Персонализиран шаблон за име на файл",
+            "outtmpl_hint": "Персонализиран изходен шаблон"
+        },
+        "cookies": {
+            "browser": "Импортиране от браузър",
+            "browser_hint": "Извличане на бисквитки от базата данни на браузъра",
+            "browser_select_none": "Няма (използване на файл)"
+        },
+        "save": "Запазете разширените настройки",
+        "reset": "Възстановяване на настройките по подразбиране"
+    },
+    "about": {
+        "title": "За",
+        "description": "Atomic Downloader е мощна програма за изтегляне на видео с отворен код, създадена с Python и yt-dlp.",
+        "version": "Версия",
+        "developer": "Разработчик: Елчанан Йехуда",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Проверка...",
+        "available": "налична актуализация на yt-dlp ({version})",
+        "available_badge": "Налична актуализация!",
+        "uptodate": "Всичко е актуално!",
+        "updating": "Актуализиране на yt-dlp...",
+        "success": "yt-dlp актуализиран успешно!",
+        "error": "Неуспешна актуализация",
+        "error_check": "Грешка при проверка за актуализации",
+        "error_update_detail": "Грешка при актуализиране: {msg}"
+    },
+    "toasts": {
+        "saved": "Настройките са запазени успешно!",
+        "reset": "Настройките се нулират до стойностите по подразбиране",
+        "download_started": "Изтеглянето започна!",
+        "download_complete": "Изтеглянето завърши успешно!",
+        "error": "Грешка: {msg}",
+        "url_copied": "URL адресът е копиран в клипборда",
+        "clipboard_error": "Няма достъп до клипборда",
+        "copy_logs": "Журналите са копирани в клипборда!",
+        "copy_error": "Грешка при копиране",
+        "login_success": "Успешно влизане! Бисквитките са запазени.",
+        "play_error": "Грешка при отваряне на файл",
+        "play_error_generic": "Грешка при възпроизвеждане",
+        "advanced_saved": "Разширените настройки са запазени!",
+        "advanced_reset": "Настройките се нулират до стойностите по подразбиране"
+    }
+}

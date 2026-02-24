@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Română",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Descărcare nouă",
+        "history": "Istorie",
+        "settings": "Setări",
+        "donate": "Dona",
+        "check_updates": "Verificați actualizările",
+        "about": "Despre"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Inserați adresa URL a videoclipului aici...",
+        "paste_title": "Lipiți din clipboard",
+        "quality_label": "Calitate:",
+        "quality_best": "Cea mai bună calitate",
+        "quality_audio": "Numai audio (MP3)",
+        "download_btn": "Începeți descărcarea",
+        "downloading": "Se descarcă...",
+        "downloading_pct": "Se descarcă... {pct}%",
+        "download_complete_btn": "Descărcare finalizată!",
+        "finished": "Descărcare finalizată!",
+        "add_queue_title": "Adăugați la coadă",
+        "queue_title": "Coadă de descărcare",
+        "login_required": "Acest site necesită autentificare",
+        "login_btn": "Log in",
+        "login_connecting": "Se conectează...",
+        "stats": {
+            "speed": "Viteză",
+            "eta": "Timp rămas",
+            "size": "Dimensiunea fișierului"
+        },
+        "logs_title": "Jurnalele terminalului",
+        "copy_logs_title": "Copiați jurnalele",
+        "no_internet": "Fără conexiune la internet"
+    },
+    "history": {
+        "title": "Descărcări recente",
+        "open_file": "Play File",
+        "open_folder": "Deschideți folderul",
+        "copy_link": "Copiați linkul",
+        "redownload": "Redescărcați",
+        "download_complete": "Descărcare finalizată"
+    },
+    "settings": {
+        "title": "Setări",
+        "default_quality": "Calitate implicită",
+        "save_path": "Salvare dosar",
+        "browse": "Răsfoiește",
+        "cookies": "Starea cookie-urilor",
+        "cookies_not_loaded": "Neîncărcat",
+        "theme": "Culoare tema",
+        "language": "Limbă",
+        "language_search_placeholder": "Căutați limba...",
+        "advanced_btn": "Setări avansate",
+        "open_advanced": "Deschide Setări avansate",
+        "save": "Salvați setările",
+        "close": "Aproape"
+    },
+    "advanced": {
+        "title": "Setări avansate",
+        "groups": {
+            "download": "Descărcați",
+            "format": "Format / Audio",
+            "content": "Conținut / Metadate",
+            "network": "Reţea",
+            "filesystem": "Sistem de fișiere",
+            "cookies": "Cookie-uri"
+        },
+        "download": {
+            "concurrent": "Fragmente concurente",
+            "concurrent_hint": "Accelerează descărcările prin împărțirea fișierelor (1-16)",
+            "ratelimit": "Limită de rată (MB/s)",
+            "ratelimit_hint": "0 = Nelimitat",
+            "retries": "Reîncercări",
+            "retries_hint": "Numărul de reîncercări la eroare",
+            "chunksize": "Dimensiunea fragmentului HTTP (MB)",
+            "chunksize_hint": "0 = Implicit"
+        },
+        "format": {
+            "audio_format": "Format audio",
+            "audio_quality": "Calitate audio (kbps)",
+            "container": "Container de ieșire"
+        },
+        "content": {
+            "subtitles": "Descărcați subtitrări",
+            "sub_langs": "Limbi de subtitrare",
+            "sub_langs_hint": "de ex., en,he,es",
+            "embed_thumb": "Încorporați miniatură",
+            "embed_metadata": "Încorporați metadate",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Acţiune",
+            "sb_mark": "Marcați (ca capitole)",
+            "sb_remove": "Eliminați (din fișier)"
+        },
+        "network": {
+            "proxy": "Adresa URL proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Uzurparea identității clientului",
+            "impersonate_hint": "Uzurpare identitatea browserului (ocolește blocurile)",
+            "sleep": "Interval de somn",
+            "sleep_hint": "Întârziere între descărcări (previne blocarea)",
+            "no_check_cert": "Fără certificate de verificare",
+            "no_check_cert_hint": "Ocoliți problemele SSL"
+        },
+        "filesystem": {
+            "archive": "Descărcați arhiva",
+            "archive_hint": "Omite videoclipurile deja descărcate",
+            "restrict_fn": "Restricționați numele fișierelor (numai ASCII)",
+            "restrict_fn_hint": "Numai ASCII, fără spații",
+            "no_overwrites": "Preveniți suprascrierile",
+            "no_overwrites_hint": "Nu suprascrieți fișierele existente",
+            "no_playlist": "Descărcați doar un singur videoclip (fără listă de redare)",
+            "no_playlist_hint": "Descărcați un singur videoclip, nu playlist",
+            "outtmpl": "Șablon de nume de fișier personalizat",
+            "outtmpl_hint": "Șablon de ieșire personalizat"
+        },
+        "cookies": {
+            "browser": "Import din browser",
+            "browser_hint": "Extrageți cookie-uri din baza de date a browserului",
+            "browser_select_none": "Niciunul (utilizați fișierul)"
+        },
+        "save": "Salvați setările avansate",
+        "reset": "Resetați la valorile implicite"
+    },
+    "about": {
+        "title": "Despre",
+        "description": "Atomic Downloader este un program de descărcare video puternic, open-source, construit cu Python și yt-dlp.",
+        "version": "Versiune",
+        "developer": "Dezvoltator: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Control...",
+        "available": "Actualizare yt-dlp disponibilă ({versiune})",
+        "available_badge": "Actualizare disponibilă!",
+        "uptodate": "Totul este la zi!",
+        "updating": "Se actualizează yt-dlp...",
+        "success": "yt-dlp a fost actualizat cu succes!",
+        "error": "Actualizare a eșuat",
+        "error_check": "Eroare la verificarea actualizărilor",
+        "error_update_detail": "Eroare de actualizare: {msg}"
+    },
+    "toasts": {
+        "saved": "Setările au fost salvate cu succes!",
+        "reset": "Setările revin la valorile implicite",
+        "download_started": "Descărcarea a început!",
+        "download_complete": "Descărcarea s-a încheiat cu succes!",
+        "error": "Eroare: {msg}",
+        "url_copied": "Adresa URL a fost copiată în clipboard",
+        "clipboard_error": "Nu se poate accesa clipboard",
+        "copy_logs": "Jurnalele copiate în clipboard!",
+        "copy_error": "Eroare la copiere",
+        "login_success": "Conectare reușită! Cookie-uri salvate.",
+        "play_error": "Eroare la deschiderea fișierului",
+        "play_error_generic": "Eroare la redare",
+        "advanced_saved": "Setări avansate salvate!",
+        "advanced_reset": "Setările revin la valorile implicite"
+    }
+}

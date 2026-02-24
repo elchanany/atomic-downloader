@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "한국어",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "새로운 다운로드",
+        "history": "역사",
+        "settings": "설정",
+        "donate": "기부",
+        "check_updates": "업데이트 확인",
+        "about": "에 대한"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "여기에 동영상 URL을 붙여넣으세요...",
+        "paste_title": "클립보드에서 붙여넣기",
+        "quality_label": "품질:",
+        "quality_best": "최고의 품질",
+        "quality_audio": "오디오 전용(MP3)",
+        "download_btn": "다운로드 시작",
+        "downloading": "다운로드 중...",
+        "downloading_pct": "다운로드 중... {pct}%",
+        "download_complete_btn": "다운로드 완료!",
+        "finished": "다운로드 완료!",
+        "add_queue_title": "대기열에 추가",
+        "queue_title": "대기열 다운로드",
+        "login_required": "이 사이트는 로그인이 필요합니다",
+        "login_btn": "로그인",
+        "login_connecting": "연결 중...",
+        "stats": {
+            "speed": "속도",
+            "eta": "남은 시간",
+            "size": "파일 크기"
+        },
+        "logs_title": "터미널 로그",
+        "copy_logs_title": "로그 복사",
+        "no_internet": "인터넷 연결 없음"
+    },
+    "history": {
+        "title": "최근 다운로드",
+        "open_file": "파일 재생",
+        "open_folder": "폴더 열기",
+        "copy_link": "링크 복사",
+        "redownload": "다시 다운로드",
+        "download_complete": "다운로드 완료"
+    },
+    "settings": {
+        "title": "설정",
+        "default_quality": "기본 품질",
+        "save_path": "폴더 저장",
+        "browse": "찾아보기",
+        "cookies": "쿠키 상태",
+        "cookies_not_loaded": "로드되지 않음",
+        "theme": "테마 색상",
+        "language": "언어",
+        "language_search_placeholder": "검색 언어...",
+        "advanced_btn": "고급 설정",
+        "open_advanced": "고급 설정 열기",
+        "save": "설정 저장",
+        "close": "닫다"
+    },
+    "advanced": {
+        "title": "고급 설정",
+        "groups": {
+            "download": "다운로드",
+            "format": "형식 / 오디오",
+            "content": "콘텐츠/메타데이터",
+            "network": "회로망",
+            "filesystem": "파일 시스템",
+            "cookies": "쿠키"
+        },
+        "download": {
+            "concurrent": "동시 조각",
+            "concurrent_hint": "파일을 분할하여 다운로드 속도 향상(1-16)",
+            "ratelimit": "속도 제한(MB/초)",
+            "ratelimit_hint": "0 = 무제한",
+            "retries": "재시도",
+            "retries_hint": "오류 시 재시도 횟수",
+            "chunksize": "HTTP 청크 크기(MB)",
+            "chunksize_hint": "0 = 기본값"
+        },
+        "format": {
+            "audio_format": "오디오 형식",
+            "audio_quality": "오디오 품질(kbps)",
+            "container": "출력 컨테이너"
+        },
+        "content": {
+            "subtitles": "자막 다운로드",
+            "sub_langs": "자막 언어",
+            "sub_langs_hint": "예: en,he,es",
+            "embed_thumb": "썸네일 삽입",
+            "embed_metadata": "메타데이터 삽입",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "행동",
+            "sb_mark": "마크(장으로)",
+            "sb_remove": "제거(파일에서)"
+        },
+        "network": {
+            "proxy": "프록시 URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "클라이언트 가장",
+            "impersonate_hint": "브라우저 가장(블록 우회)",
+            "sleep": "수면 간격",
+            "sleep_hint": "다운로드 간 지연(차단 방지)",
+            "no_check_cert": "수표 증명서 없음",
+            "no_check_cert_hint": "SSL 문제 우회"
+        },
+        "filesystem": {
+            "archive": "아카이브 다운로드",
+            "archive_hint": "이미 다운로드한 동영상 건너뛰기",
+            "restrict_fn": "파일 이름 제한(ASCII에만 해당)",
+            "restrict_fn_hint": "ASCII만, 공백 없음",
+            "no_overwrites": "덮어쓰기 방지",
+            "no_overwrites_hint": "기존 파일을 덮어쓰지 마세요",
+            "no_playlist": "단일 비디오만 다운로드(재생 목록 없음)",
+            "no_playlist_hint": "재생목록이 아닌 단일 동영상 다운로드",
+            "outtmpl": "사용자 정의 파일 이름 템플릿",
+            "outtmpl_hint": "사용자 정의 출력 템플릿"
+        },
+        "cookies": {
+            "browser": "브라우저에서 가져오기",
+            "browser_hint": "브라우저 데이터베이스에서 쿠키 추출",
+            "browser_select_none": "없음(파일 사용)"
+        },
+        "save": "고급 설정 저장",
+        "reset": "기본값으로 재설정"
+    },
+    "about": {
+        "title": "에 대한",
+        "description": "Atomic Downloader는 Python 및 yt-dlp로 구축된 강력한 오픈 소스 비디오 다운로더입니다.",
+        "version": "버전",
+        "developer": "개발자: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "확인 중...",
+        "available": "yt-dlp 업데이트 사용 가능({version})",
+        "available_badge": "업데이트 가능!",
+        "uptodate": "모든 것이 최신 상태입니다!",
+        "updating": "yt-dlp 업데이트 중...",
+        "success": "yt-dlp가 성공적으로 업데이트되었습니다!",
+        "error": "업데이트 실패",
+        "error_check": "업데이트 확인 중 오류 발생",
+        "error_update_detail": "업데이트 오류: {msg}"
+    },
+    "toasts": {
+        "saved": "설정이 성공적으로 저장되었습니다!",
+        "reset": "설정이 기본값으로 재설정됨",
+        "download_started": "다운로드가 시작되었습니다!",
+        "download_complete": "다운로드가 성공적으로 완료되었습니다!",
+        "error": "오류: {msg}",
+        "url_copied": "URL이 클립보드에 복사되었습니다.",
+        "clipboard_error": "클립보드에 액세스할 수 없습니다.",
+        "copy_logs": "로그가 클립보드에 복사되었습니다!",
+        "copy_error": "복사 중 오류가 발생했습니다.",
+        "login_success": "로그인 성공! 쿠키가 저장되었습니다.",
+        "play_error": "파일을 여는 중 오류가 발생했습니다.",
+        "play_error_generic": "재생 중 오류가 발생했습니다.",
+        "advanced_saved": "고급 설정이 저장되었습니다!",
+        "advanced_reset": "설정이 기본값으로 재설정됨"
+    }
+}

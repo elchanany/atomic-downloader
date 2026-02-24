@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Downloader</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v={{ range(100000) | random }}">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="bg-animation"></div>
+    <div class="overlay"></div>
+
+    <!-- Sidebar Overlay -->
+    <div id="sidebar-overlay" class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="ph-bold ph-list"></i> MENU</h2>
+            <button class="sidebar-close" onclick="toggleSidebar()"><i class="ph-bold ph-x"></i></button>
+        </div>
+        <div class="sidebar-content">
+            <!-- Settings -->
+            <button class="sidebar-item" onclick="openSettingsModal()">
+                <i class="ph-bold ph-gear-six"></i>
+                <span data-i18n="sidebar.settings">הגדרות</span>
+                <i class="ph-bold ph-caret-left sidebar-arrow"></i>
+            </button>
+
+            <!-- Language -->
+            <button class="sidebar-item" onclick="openLanguageModal()">
+                <i class="ph-bold ph-globe"></i>
+                <span data-i18n="settings.language">שפה / Language</span>
+                <i class="ph-bold ph-caret-left sidebar-arrow"></i>
+            </button>
+
+            <hr class="sidebar-divider">
+
+            <!-- Donate -->
+            <a href="https://patreon.com/elchanan?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"
+                target="_blank" class="sidebar-item donate-item">
+                <i class="ph-bold ph-heart"></i>
+                <span data-i18n="sidebar.donate">תרומה / Donate</span>
+            </a>
+
+            <!-- Updates -->
+            <button class="sidebar-item" id="update-btn" onclick="checkForUpdates()">
+                <i class="ph-bold ph-arrow-clockwise"></i>
+                <span data-i18n="sidebar.check_updates">בדוק עדכונים</span>
+                <span id="update-badge" class="update-badge hidden"></span>
+            </button>
+
+            <!-- About -->
+            <button class="sidebar-item" onclick="openAboutModal()">
+                <i class="ph-bold ph-info"></i>
+                <span data-i18n="sidebar.about">אודות</span>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal-overlay hidden" onclick="closeModal(event, 'settings-modal')">
+        <div class="modal-content glass" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2><i class="ph-bold ph-gear-six"></i> <span data-i18n="settings.title">הגדרות</span></h2>
+                <button class="modal-close" onclick="document.getElementById('settings-modal').classList.add('hidden')">
+                    <i class="ph-bold ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label><i class="ph-bold ph-faders"></i> <span data-i18n="settings.default_quality">איכות ברירת
+                            מחדל</span></label>
+                    <select id="default-quality-setting" class="quality-select"
+                        onchange="localStorage.setItem('preferred_quality', this.value)">
+                        <option value="best" selected data-i18n="dashboard.quality_best">Max Quality</option>
+                        <option value="4k">4K / 2160p</option>
+                        <option value="1080p">1080p Full HD</option>
+                        <option value="720p">720p HD</option>
+                        <option value="480p">480p</option>
+                        <option value="audio" data-i18n="dashboard.quality_audio">Audio Only</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label><i class="ph-bold ph-folder-open"></i> <span data-i18n="settings.save_path">תיקיית
+                            שמירה</span></label>
+                    <div class="path-display" onclick="openFolder()">
+                        <span id="save-path">~/Downloads</span>
+                        <i class="ph-bold ph-arrow-square-out"></i>
+                    </div>
+                </div>
+                <div class="setting-group">
+                    <label><i class="ph-bold ph-cookie"></i> <span data-i18n="settings.cookies">סטטוס
+                            עוגיות</span></label>
+                    <span id="cookie-status" class="cookie-indicator" data-i18n="settings.cookies_not_loaded">לא
+                        נטען</span>
+                </div>
+                <hr class="sidebar-divider">
+                <div class="setting-group">
+                    <label><i class="ph-bold ph-sliders-horizontal"></i> <span data-i18n="settings.advanced_btn">הגדרות
+                            מתקדמות</span></label>
+                    <button class="setting-btn adv-settings-btn" onclick="openAdvancedSettings()">
+                        <i class="ph-bold ph-gear-fine"></i> <span data-i18n="settings.open_advanced">פתח הגדרות
+                            מתקדמות</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Modal -->
+    <div id="about-modal" class="modal-overlay hidden" onclick="closeModal(event, 'about-modal')">
+        <div class="modal-content glass" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2><i class="ph-bold ph-info"></i> <span data-i18n="about.title">אודות</span></h2>
+                <button class="modal-close" onclick="document.getElementById('about-modal').classList.add('hidden')">
+                    <i class="ph-bold ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body about-body">
+                <div class="about-logo">
+                    <!-- <i class="ph-fill ph-rocket-launch"></i> Replaced with logo -->
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="logo-img rounded-logo mb-10"
+                        alt="Logo" style="width: 80px; height: 80px;">
+                    <h1>ATOMIC</h1>
+                    <span class="version"><span data-i18n="about.version">גרסה</span> v2.1</span>
+                </div>
+                <p class="about-text" data-i18n="about.description">Atomic Downloader הוא מוריד סרטונים חזק בקוד פתוח
+                    המבוסס על Python ו-yt-dlp.</p>
+                <p class="about-sub"><span data-i18n="about.developer">מפתח: אלחנן יהודה</span> | Powered by yt-dlp</p>
+                <div class="about-links">
+                    <a href="https://github.com/elchanan-y/atomic-downloader" target="_blank" class="about-link-btn">
+                        <i class="ph-bold ph-github-logo"></i> <span data-i18n="about.github">GitHub Repository</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <div class="container">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <button class="hamburger-btn" onclick="toggleSidebar()">
+                <i class="ph-bold ph-list"></i>
+            </button>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" class="logo-img rounded-logo" alt="Logo">
+            <h1 class="logo-text"><span class="neon" data-i18n="dashboard.title">ATOMIC</span></h1>
+            <p class="subtitle" data-i18n="dashboard.subtitle">DOWNLOADER</p>
+        </div>
+
+        <!-- No Internet Banner -->
+        <div id="no-internet-banner" class="no-internet-banner hidden">
+            <i class="ph-bold ph-wifi-slash"></i>
+            <span data-i18n="dashboard.no_internet">No Internet Connection</span>
+        </div>
+
+        <!-- URL Input -->
+        <div class="input-group">
+            <input type="text" id="url-input" data-i18n-placeholder="dashboard.url_placeholder"
+                placeholder="הדבק קישור כאן..." autocomplete="off">
+            <button id="paste-btn" class="icon-btn" data-i18n-title="dashboard.paste_title" title="הדבק מהלוח">
+                <i class="ph-bold ph-clipboard-text"></i>
+            </button>
+        </div>
+
+        <!-- Site Badge -->
+        <div id="site-badge" class="site-badge-row hidden">
+            <span id="site-icon"></span>
+            <span id="site-name"></span>
+        </div>
+
+        <!-- Smart Login -->
+        <div id="smart-login" class="smart-card hidden">
+            <div class="content">
+                <i class="ph-bold ph-warning-circle text-orange"></i>
+                <span data-i18n="dashboard.login_required">אתר זה דורש התחברות</span>
+            </div>
+            <button id="login-btn" class="glow-btn orange">
+                <i class="ph-bold ph-key"></i> <span data-i18n="dashboard.login_btn">התחבר (Login)</span>
+            </button>
+        </div>
+
+        <!-- Quality Pills -->
+        <div id="quality-row" class="quality-row hidden">
+            <div class="quality-label">
+                <span data-i18n="dashboard.quality_label">איכות:</span>
+            </div>
+            <div id="quality-pills" class="quality-pills">
+                <!-- Pills injected by JS -->
+                <button class="quality-pill active" data-value="best">MAX</button>
+                <button class="quality-pill" data-value="1080p">1080p</button>
+                <button class="quality-pill" data-value="720p">720p</button>
+                <button class="quality-pill" data-value="480p">480p</button>
+                <button class="quality-pill" data-value="audio" data-i18n="dashboard.quality_audio">Audio</button>
+            </div>
+            <span id="quality-loading" class="quality-loading hidden">
+                <i class="ph-bold ph-spinner ph-spin"></i>
+            </span>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-row">
+            <button id="download-btn" class="action-btn">
+                <span class="btn-text" data-i18n="dashboard.download_btn">הפעל הורדה</span>
+                <i class="ph-bold ph-download-simple"></i>
+            </button>
+            <button id="cancel-btn" class="cancel-btn hidden" onclick="cancelDownload()">
+                <i class="ph-bold ph-x"></i>
+            </button>
+            <button id="add-queue-btn" class="add-btn" data-i18n-title="dashboard.add_queue_title" title="הוסף לתור">
+                <i class="ph-bold ph-plus"></i>
+            </button>
+        </div>
+
+        <!-- Download Title (filename shown during download) -->
+        <div id="download-title" class="download-title hidden"></div>
+
+        <!-- Progress Bar (directly under download button) -->
+        <div id="progress-wrap" class="progress-wrap hidden">
+            <div class="progress-bar-track">
+                <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+            </div>
+            <span id="progress-text" class="progress-text">0%</span>
+        </div>
+
+        <!-- URL Queue -->
+        <div id="url-queue" class="url-queue hidden">
+            <div class="queue-header">
+                <span data-i18n="dashboard.queue_title">תור הורדות</span>
+                <span class="queue-badge" id="queue-count">0</span>
+            </div>
+            <div id="queue-list" class="queue-list"></div>
+        </div>
+
+        <!-- Dashboard (Stats only) -->
+        <div id="dashboard" class="dashboard hidden">
+            <!-- Stats Row -->
+            <div class="stats-row">
+                <div class="stat-card">
+                    <i class="ph-bold ph-lightning"></i>
+                    <span class="stat-label" data-i18n="dashboard.stats.speed">מהירות</span>
+                    <span id="stat-speed" class="stat-value">--</span>
+                </div>
+                <div class="stat-card">
+                    <i class="ph-bold ph-timer"></i>
+                    <span class="stat-label" data-i18n="dashboard.stats.eta">זמן נותר</span>
+                    <span id="stat-eta" class="stat-value">--</span>
+                </div>
+                <div class="stat-card">
+                    <i class="ph-bold ph-hard-drives"></i>
+                    <span class="stat-label" data-i18n="dashboard.stats.size">גודל קובץ</span>
+                    <span id="stat-total" class="stat-value">--</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-msg" class="error-msg hidden"></div>
+
+        <!-- History Section -->
+        <div id="history-section" class="history-section"></div>
+
+        <!-- Logs Button (opens modal) -->
+        <div class="logs-open-row">
+            <button id="logs-open-btn" class="logs-open-btn" onclick="openLogsModal()">
+                <i class="ph-bold ph-terminal"></i>
+                <span data-i18n="dashboard.logs_title">Terminal Logs</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Logs Modal -->
+    <div id="logs-modal" class="modal-overlay hidden" onclick="closeModal(event, 'logs-modal')">
+        <div class="modal-content glass logs-modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2><i class="ph-bold ph-terminal"></i> <span data-i18n="dashboard.logs_title">Terminal Logs</span></h2>
+                <button class="modal-close" onclick="document.getElementById('logs-modal').classList.add('hidden')">
+                    <i class="ph-bold ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body logs-modal-body">
+                <button class="copy-logs-btn-modal" onclick="copyLogs()" data-i18n-title="dashboard.copy_logs_title"
+                    title="Copy Logs">
+                    <i class="ph-bold ph-copy"></i> Copy
+                </button>
+                <pre id="logs-content" class="logs-content"></pre>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Advanced Settings Modal -->
+    <div id="advanced-modal" class="modal-overlay hidden" onclick="closeModal(event, 'advanced-modal')">
+        <div class="modal-content glass adv-modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2><i class="ph-bold ph-sliders-horizontal"></i> <span data-i18n="advanced.title">הגדרות מתקדמות</span>
+                </h2>
+                <button class="modal-close" onclick="document.getElementById('advanced-modal').classList.add('hidden')">
+                    <i class="ph-bold ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body adv-body">
+
+                <!-- Group 1: Download -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-download-simple"></i> <span
+                                data-i18n="advanced.groups.download">הורדה</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row">
+                            <label><span data-i18n="advanced.download.concurrent">Con. Fragments</span> <i
+                                    class="ph-bold ph-info"
+                                    data-i18n-title="advanced.download.concurrent_hint"></i></label>
+                            <span class="adv-hint" data-i18n="advanced.download.concurrent_hint">האצת הורדה על ידי פיצול
+                                הקובץ (1-16)</span>
+                            <input type="range" id="adv-concurrent" min="1" max="16" value="1" class="adv-slider"
+                                oninput="this.nextElementSibling.textContent=this.value">
+                            <span class="adv-slider-val">1</span>
+                        </div>
+                        <div class="adv-row">
+                            <label><span data-i18n="advanced.download.ratelimit">Rate Limit</span> <i
+                                    class="ph-bold ph-info"
+                                    data-i18n-title="advanced.download.ratelimit_hint"></i></label>
+                            <span class="adv-hint" data-i18n="advanced.download.ratelimit_hint">0 = ללא הגבלה</span>
+                            <input type="number" id="adv-ratelimit" value="0" min="0" class="adv-input" placeholder="0">
+                        </div>
+                        <div class="adv-row">
+                            <label><span data-i18n="advanced.download.retries">Retries</span> <i class="ph-bold ph-info"
+                                    data-i18n-title="advanced.download.retries_hint"></i></label>
+                            <span class="adv-hint" data-i18n="advanced.download.retries_hint">מספר נסיונות במקרה
+                                שגיאה</span>
+                            <input type="number" id="adv-retries" value="10" min="1" max="100" class="adv-input">
+                        </div>
+                        <div class="adv-row">
+                            <label><span data-i18n="advanced.download.chunksize">Chunk Size</span> <i
+                                    class="ph-bold ph-info"
+                                    data-i18n-title="advanced.download.chunksize_hint"></i></label>
+                            <span class="adv-hint" data-i18n="advanced.download.chunksize_hint">0 = ברירת מחדל</span>
+                            <input type="number" id="adv-chunksize" value="0" min="0" class="adv-input" placeholder="0">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 2: Format -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-music-notes-simple"></i> <span
+                                data-i18n="advanced.groups.format">פורמט אודיו</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row">
+                            <label data-i18n="advanced.format.audio_format">Audio Format</label>
+                            <span class="adv-hint">MP3 / AAC / FLAC / WAV</span>
+                            <select id="adv-audio-format" class="adv-select">
+                                <option value="mp3" selected>MP3</option>
+                                <option value="aac">AAC</option>
+                                <option value="flac">FLAC</option>
+                                <option value="m4a">M4A</option>
+                                <option value="opus">Opus</option>
+                                <option value="wav">WAV</option>
+                                <option value="vorbis">Vorbis</option>
+                            </select>
+                        </div>
+                        <div class="adv-row">
+                            <label data-i18n="advanced.format.audio_quality">Audio Quality</label>
+                            <span class="adv-hint">kbps</span>
+                            <select id="adv-audio-quality" class="adv-select">
+                                <option value="0">Best</option>
+                                <option value="128">128K</option>
+                                <option value="192" selected>192K</option>
+                                <option value="256">256K</option>
+                                <option value="320">320K</option>
+                            </select>
+                        </div>
+                        <div class="adv-row">
+                            <label data-i18n="advanced.format.container">Output Container</label>
+                            <span class="adv-hint">MP4 / MKV / WebM</span>
+                            <select id="adv-container" class="adv-select">
+                                <option value="mp4" selected>MP4</option>
+                                <option value="mkv">MKV</option>
+                                <option value="webm">WebM</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 3: Content -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-subtitles"></i> <span
+                                data-i18n="advanced.groups.content">תוכן</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.content.subtitles">Subtitles</label>
+                                <span class="adv-hint" data-i18n="advanced.content.sub_langs_hint">e.g., en,he,es</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-subtitles">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row" id="adv-sub-langs-row" style="display:none">
+                            <label data-i18n="advanced.content.sub_langs">שפות כתוביות</label>
+                            <input type="text" id="adv-sub-langs" class="adv-input" placeholder="he,en,ar"
+                                data-i18n-placeholder="advanced.content.sub_langs_hint" value="he,en">
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.content.embed_thumb">Embed Thumbnail</label>
+                                <span class="adv-hint" data-i18n="advanced.content.embed_thumb">Embed thumbnail in
+                                    file</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-embed-thumb">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.content.embed_metadata">Embed Metadata</label>
+                                <span class="adv-hint" data-i18n="advanced.content.embed_metadata">Embed metadata</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-embed-metadata">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.content.sponsorblock">SponsorBlock</label>
+                                <span class="adv-hint" data-i18n="advanced.content.sponsorblock">SponsorBlock</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-sponsorblock">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row" id="adv-sb-action-row" style="display:none">
+                            <label data-i18n="advanced.content.sb_action">SponsorBlock Action</label>
+                            <select id="adv-sb-action" class="adv-select">
+                                <option value="mark" data-i18n="advanced.content.sb_mark">Mark (סימון כפרקים)</option>
+                                <option value="remove" data-i18n="advanced.content.sb_remove">Remove (הסרה מהקובץ)
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 4: Network -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-wifi-high"></i> <span
+                                data-i18n="advanced.groups.network">רשת</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row">
+                            <label data-i18n="advanced.network.proxy">Proxy</label>
+                            <span class="adv-hint" data-i18n="advanced.network.proxy_hint">HTTP/SOCKS5 proxy URL</span>
+                            <input type="text" id="adv-proxy" class="adv-input" placeholder="socks5://127.0.0.1:1080"
+                                dir="ltr">
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.network.impersonate">Client Impersonation</label>
+                                <span class="adv-hint" data-i18n="advanced.network.impersonate_hint">התחזות לדפדפן (עוקף
+                                    חסימות)</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-impersonate">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row">
+                            <label data-i18n="advanced.network.sleep">Sleep Interval</label>
+                            <span class="adv-hint" data-i18n="advanced.network.sleep_hint">השהייה בין הורדות (מניעת
+                                חסימה)</span>
+                            <input type="number" id="adv-sleep" value="0" min="0" max="60" class="adv-input">
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.network.no_check_cert">No Check Certificates</label>
+                                <span class="adv-hint" data-i18n="advanced.network.no_check_cert_hint">עקיפת בעיות
+                                    SSL</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-no-check-cert">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 5: Filesystem -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-folder-simple"></i> <span
+                                data-i18n="advanced.groups.filesystem">קבצים</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.filesystem.archive">Download Archive</label>
+                                <span class="adv-hint" data-i18n="advanced.filesystem.archive_hint">דלג על סרטונים שכבר
+                                    הורדו בעבר</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-archive">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.filesystem.restrict_fn">Restrict Filenames</label>
+                                <span class="adv-hint" data-i18n="advanced.filesystem.restrict_fn_hint">רק ASCII ללא
+                                    רווחים</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-restrict-fn">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.filesystem.no_overwrites">No Overwrites</label>
+                                <span class="adv-hint" data-i18n="advanced.filesystem.no_overwrites_hint">לא לדרוס קבצים
+                                    קיימים</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-no-overwrites">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row toggle-row">
+                            <div>
+                                <label data-i18n="advanced.filesystem.no_playlist">No Playlist</label>
+                                <span class="adv-hint" data-i18n="advanced.filesystem.no_playlist_hint">הורדת סרטון
+                                    בודד, לא פלייליסט</span>
+                            </div>
+                            <label class="adv-toggle">
+                                <input type="checkbox" id="adv-no-playlist">
+                                <span class="adv-toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="adv-row">
+                            <label data-i18n="advanced.filesystem.outtmpl">Output Template</label>
+                            <span class="adv-hint" data-i18n="advanced.filesystem.outtmpl_hint">תבנית שם קובץ</span>
+                            <input type="text" id="adv-outtmpl" class="adv-input" placeholder="%(title)s.%(ext)s"
+                                dir="ltr">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 6: Cookies -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-cookie"></i> <span
+                                data-i18n="advanced.groups.cookies">Cookies</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row">
+                            <label data-i18n="advanced.cookies.browser">Cookies from Browser</label>
+                            <span class="adv-hint" data-i18n="advanced.cookies.browser_hint">חלץ עוגיות ממאגר
+                                הדפדפן</span>
+                            <select id="adv-cookies-browser" class="adv-select">
+                                <option value="" selected data-i18n="advanced.cookies.browser_select_none">ללא (שימוש
+                                    בקובץ)</option>
+                                <option value="chrome">Chrome</option>
+                                <option value="edge">Edge</option>
+                                <option value="firefox">Firefox</option>
+                                <option value="brave">Brave</option>
+                                <option value="opera">Opera</option>
+                                <option value="vivaldi">Vivaldi</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: Download Path Selection -->
+                <div class="adv-group">
+                    <div class="adv-group-header" onclick="toggleAdvGroup(this)">
+                        <span><i class="ph-bold ph-folder-open"></i> <span data-i18n="settings.save_path">תיקיית
+                                שמירה</span></span>
+                        <i class="ph-bold ph-caret-down adv-chevron"></i>
+                    </div>
+                    <div class="adv-group-body">
+                        <div class="adv-row">
+                            <label data-i18n="settings.save_path">Save Folder</label>
+                            <div class="input-with-btn">
+                                <input type="text" id="adv-save-path" class="adv-input" placeholder="C:/Downloads"
+                                    dir="ltr">
+                                <button class="mini-btn" onclick="chooseFolder()">
+                                    <i class="ph-bold ph-dots-three"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Save Button -->
+                <button class="adv-save-btn" onclick="saveAdvancedSettings()">
+                    <i class="ph-bold ph-floppy-disk"></i> <span data-i18n="advanced.save">שמור הגדרות</span>
+                </button>
+                <button class="adv-reset-btn" onclick="resetAdvancedSettings()">
+                    <i class="ph-bold ph-arrow-counter-clockwise"></i> <span data-i18n="advanced.reset">איפוס</span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Language Selector Modal -->
+    <div id="language-modal" class="modal-overlay hidden" onclick="closeModal(event, 'language-modal')">
+        <div class="modal-content glass" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 data-i18n="settings.language">שפה / Language</h2>
+                <button class="modal-close" onclick="document.getElementById('language-modal').classList.add('hidden')">
+                    <i class="ph-bold ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="search-container">
+                    <i class="ph-bold ph-magnifying-glass search-icon"></i>
+                    <input type="text" id="lang-search" placeholder="Search language..."
+                        data-i18n-placeholder="settings.language_search_placeholder" oninput="filterLanguages()">
+                </div>
+                <div id="lang-grid" class="lang-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v={{ range(100000) | random }}"></script>
+    <script>
+        // Inline ETA patch — bypasses pywebview cache completely
+        (function () {
+            var _origUpdateStatus = window.updateStatus;
+            if (!_origUpdateStatus) return;
+
+            var _etaSec = null;
+            var _etaTimer = null;
+            var _etaLastSync = 0;
+
+            function _fmtEta(sec) {
+                if (sec == null || sec <= 0) return '--';
+                sec = Math.round(sec);
+                var h = Math.floor(sec / 3600);
+                var m = Math.floor((sec % 3600) / 60);
+                var s = sec % 60;
+                var ms = m < 10 ? '0' + m : '' + m;
+                var ss = s < 10 ? '0' + s : '' + s;
+                if (h > 0) return h + ':' + ms + ':' + ss;
+                return ms + ':' + ss;
+            }
+
+            function _startTimer() {
+                if (_etaTimer) return;
+                _etaTimer = setInterval(function () {
+                    if (_etaSec != null && _etaSec > 0) {
+                        _etaSec--;
+                        var el = document.getElementById('eta') || (dom && dom.stats && dom.stats.eta);
+                        if (el) el.innerText = _fmtEta(_etaSec);
+                    }
+                }, 1000);
+            }
+
+            function _stopTimer() {
+                if (_etaTimer) { clearInterval(_etaTimer); _etaTimer = null; }
+                _etaSec = null;
+                _etaLastSync = 0;
+            }
+
+            window.updateStatus = async function () {
+                try {
+                    var res = await fetch('/api/status');
+                    var state = await res.json();
+
+                    // Progress
+                    smoothProgress(state.percent);
+
+                    // Speed & Size
+                    dom.stats.speed.innerText = cleanStat(state.speed);
+                    dom.stats.total.innerText = cleanStat(state.total);
+
+                    // ETA — display directly from backend (simple and reliable)
+                    var etaVal = cleanStat(state.eta);
+                    dom.stats.eta.innerText = etaVal;
+
+                    // Button text + filename display
+                    var dlTitle = document.getElementById('download-title');
+                    if (state.status === 'downloading' && state.percent > 0) {
+                        var pct = Math.round(state.percent * 100);
+                        var text = i18n.t('dashboard.downloading_pct').replace('{pct}', pct);
+                        if (state.playlist_count && state.playlist_count > 1) {
+                            text += ' <span class="playlist-info">(' + state.playlist_index + '/' + state.playlist_count + ')</span>';
+                        }
+                        if (state.percent >= 0.99) {
+                            dom.downloadBtn.innerHTML = '<i class="ph-bold ph-gear ph-spin"></i> ' + i18n.t('dashboard.processing');
+                            dom.stats.eta.innerText = '--';
+                        } else {
+                            dom.downloadBtn.innerHTML = '<i class="ph-bold ph-spinner ph-spin"></i> ' + text;
+                        }
+                        // Show filename
+                        if (dlTitle && state.title) {
+                            dlTitle.innerText = state.title;
+                            dlTitle.classList.remove('hidden');
+                        }
+                    } else if (state.status === 'processing') {
+                        _stopTimer();
+                        dom.downloadBtn.innerHTML = '<i class="ph-bold ph-gear ph-spin"></i> ' + i18n.t('dashboard.processing');
+                        dom.stats.eta.innerText = '--';
+                        dom.stats.speed.innerText = '--';
+                    }
+
+                    // Logs
+                    dom.logsContent.innerText = state.logs.join('\n');
+                    if (!logsUserScrolled) dom.logsContent.scrollTop = dom.logsContent.scrollHeight;
+
+                    // History
+                    if (state.history) {
+                        state.history.forEach(function (item) {
+                            var key = item.filename || item.title;
+                            if (!renderedHistory.has(key)) {
+                                renderedHistory.add(key);
+                                renderHistoryCard(item);
+                            }
+                        });
+                    }
+
+                    // Finished
+                    if (state.status === 'finished') {
+                        clearInterval(pollInterval);
+                        _stopTimer();
+                        currentProgress = 1.0;
+                        dom.progressBar.style.width = '100%';
+                        dom.progressText.innerText = '100%';
+                        dom.stats.eta.innerText = '--';
+                        dom.downloadBtn.disabled = false;
+                        dom.downloadBtn.innerHTML = '<i class="ph-bold ph-check-circle"></i> ' + i18n.t('dashboard.download_complete_btn');
+                        dom.downloadBtn.classList.remove('downloading');
+                        dom.downloadBtn.classList.add('complete');
+                        // Hide cancel button and download title
+                        document.getElementById('cancel-btn').classList.add('hidden');
+                        if (dlTitle) dlTitle.classList.add('hidden');
+                        if (typeof showToast === 'function') showToast(i18n.t('toasts.download_complete'), 'success');
+                    }
+
+                    if (state.status === 'error') {
+                        clearInterval(pollInterval);
+                        _stopTimer();
+                        dom.downloadBtn.disabled = false;
+                        dom.downloadBtn.innerHTML = '<i class="ph-bold ph-warning-circle"></i> ' + i18n.t('dashboard.error_btn');
+                        dom.downloadBtn.classList.remove('downloading');
+                        // Hide cancel button and download title
+                        document.getElementById('cancel-btn').classList.add('hidden');
+                        if (dlTitle) dlTitle.classList.add('hidden');
+                        if (typeof showToast === 'function') showToast(state.error_msg || i18n.t('toasts.download_failed'), 'error');
+                    }
+                } catch (e) {
+                    console.error('updateStatus error:', e);
+                }
+            };
+
+            console.log('[ETA PATCH] Inline ETA override loaded successfully');
+        })();
+    </script>
+</body>
+
+</html>

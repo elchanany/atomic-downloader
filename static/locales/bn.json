@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "বাংলা",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "নতুন ডাউনলোড",
+        "history": "ইতিহাস",
+        "settings": "সেটিংস",
+        "donate": "দান করুন",
+        "check_updates": "আপডেট চেক করুন",
+        "about": "সম্পর্কে"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "এখানে ভিডিও URL আটকান...",
+        "paste_title": "ক্লিপবোর্ড থেকে পেস্ট করুন",
+        "quality_label": "গুণমান:",
+        "quality_best": "সেরা গুণমান",
+        "quality_audio": "শুধুমাত্র অডিও (MP3)",
+        "download_btn": "ডাউনলোড শুরু করুন",
+        "downloading": "ডাউনলোড হচ্ছে...",
+        "downloading_pct": "ডাউনলোড হচ্ছে... {pct}%",
+        "download_complete_btn": "ডাউনলোড সম্পূর্ণ!",
+        "finished": "ডাউনলোড সম্পূর্ণ!",
+        "add_queue_title": "সারিতে যোগ করুন",
+        "queue_title": "ডাউনলোড সারি",
+        "login_required": "এই সাইটে লগইন প্রয়োজন",
+        "login_btn": "লগইন করুন",
+        "login_connecting": "সংযোগ করা হচ্ছে...",
+        "stats": {
+            "speed": "গতি",
+            "eta": "বাকি সময়",
+            "size": "ফাইলের আকার"
+        },
+        "logs_title": "টার্মিনাল লগ",
+        "copy_logs_title": "লগ কপি করুন",
+        "no_internet": "ইন্টারনেট সংযোগ নেই"
+    },
+    "history": {
+        "title": "সাম্প্রতিক ডাউনলোড",
+        "open_file": "ফাইল খেলুন",
+        "open_folder": "ফোল্ডার খুলুন",
+        "copy_link": "লিংক কপি করুন",
+        "redownload": "পুনরায় ডাউনলোড করুন",
+        "download_complete": "ডাউনলোড সম্পূর্ণ"
+    },
+    "settings": {
+        "title": "সেটিংস",
+        "default_quality": "ডিফল্ট গুণমান",
+        "save_path": "ফোল্ডার সংরক্ষণ করুন",
+        "browse": "ব্রাউজ করুন",
+        "cookies": "কুকি স্ট্যাটাস",
+        "cookies_not_loaded": "লোড করা হয়নি",
+        "theme": "থিম রঙ",
+        "language": "ভাষা",
+        "language_search_placeholder": "ভাষা অনুসন্ধান করুন...",
+        "advanced_btn": "উন্নত সেটিংস",
+        "open_advanced": "অ্যাডভান্সড সেটিংস খুলুন",
+        "save": "সেটিংস সংরক্ষণ করুন",
+        "close": "বন্ধ"
+    },
+    "advanced": {
+        "title": "উন্নত সেটিংস",
+        "groups": {
+            "download": "ডাউনলোড করুন",
+            "format": "বিন্যাস / অডিও",
+            "content": "বিষয়বস্তু / মেটাডেটা",
+            "network": "নেটওয়ার্ক",
+            "filesystem": "ফাইল সিস্টেম",
+            "cookies": "কুকিজ"
+        },
+        "download": {
+            "concurrent": "সমবর্তী টুকরা",
+            "concurrent_hint": "ফাইলগুলিকে বিভক্ত করে ডাউনলোডের গতি বাড়ান (1-16)",
+            "ratelimit": "হারের সীমা (MB/s)",
+            "ratelimit_hint": "0 = সীমাহীন",
+            "retries": "পুনরায় চেষ্টা করে",
+            "retries_hint": "ত্রুটির উপর পুনরায় চেষ্টার সংখ্যা",
+            "chunksize": "HTTP খণ্ড আকার (MB)",
+            "chunksize_hint": "0 = ডিফল্ট"
+        },
+        "format": {
+            "audio_format": "অডিও ফরম্যাট",
+            "audio_quality": "অডিও কোয়ালিটি (kbps)",
+            "container": "আউটপুট ধারক"
+        },
+        "content": {
+            "subtitles": "সাবটাইটেল ডাউনলোড করুন",
+            "sub_langs": "সাবটাইটেল ভাষা",
+            "sub_langs_hint": "যেমন, en,he,es",
+            "embed_thumb": "থাম্বনেল এম্বেড করুন",
+            "embed_metadata": "মেটাডেটা এম্বেড করুন",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "অ্যাকশন",
+            "sb_mark": "চিহ্নিত করুন (অধ্যায় হিসাবে)",
+            "sb_remove": "সরান (ফাইল থেকে)"
+        },
+        "network": {
+            "proxy": "প্রক্সি URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "ক্লায়েন্ট ছদ্মবেশ",
+            "impersonate_hint": "ছদ্মবেশী ব্রাউজার (ব্লকগুলিকে বাইপাস করে)",
+            "sleep": "ঘুমের ব্যবধান",
+            "sleep_hint": "ডাউনলোডের মধ্যে বিলম্ব (ব্লক করা প্রতিরোধ করে)",
+            "no_check_cert": "কোন চেক সার্টিফিকেট",
+            "no_check_cert_hint": "বাইপাস SSL সমস্যা"
+        },
+        "filesystem": {
+            "archive": "সংরক্ষণাগার ডাউনলোড করুন",
+            "archive_hint": "ইতিমধ্যে ডাউনলোড করা ভিডিওগুলি এড়িয়ে যান",
+            "restrict_fn": "ফাইলের নাম সীমাবদ্ধ করুন (শুধুমাত্র ASCII)",
+            "restrict_fn_hint": "শুধুমাত্র ASCII, কোন স্পেস নেই",
+            "no_overwrites": "ওভাররাইট প্রতিরোধ করুন",
+            "no_overwrites_hint": "বিদ্যমান ফাইলগুলি ওভাররাইট করবেন না",
+            "no_playlist": "শুধুমাত্র একক ভিডিও ডাউনলোড করুন (কোন প্লেলিস্ট নেই)",
+            "no_playlist_hint": "একক ভিডিও ডাউনলোড করুন, প্লেলিস্ট নয়",
+            "outtmpl": "কাস্টম ফাইলের নাম টেমপ্লেট",
+            "outtmpl_hint": "কাস্টম আউটপুট টেমপ্লেট"
+        },
+        "cookies": {
+            "browser": "ব্রাউজার থেকে আমদানি করুন",
+            "browser_hint": "ব্রাউজার ডাটাবেস থেকে কুকিজ বের করুন",
+            "browser_select_none": "কোনটিই নয় (ফাইল ব্যবহার করুন)"
+        },
+        "save": "উন্নত সেটিংস সংরক্ষণ করুন",
+        "reset": "ডিফল্টে রিসেট করুন"
+    },
+    "about": {
+        "title": "সম্পর্কে",
+        "description": "অ্যাটমিক ডাউনলোডার হল একটি শক্তিশালী, ওপেন সোর্স ভিডিও ডাউনলোডার যা পাইথন এবং yt-dlp দিয়ে তৈরি।",
+        "version": "সংস্করণ",
+        "developer": "বিকাশকারী: এলচানান ইহুদা",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "পরীক্ষা করা হচ্ছে...",
+        "available": "yt-dlp আপডেট উপলব্ধ ({version})",
+        "available_badge": "আপডেট উপলব্ধ!",
+        "uptodate": "সবকিছু আপ টু ডেট!",
+        "updating": "yt-dlp আপডেট করা হচ্ছে...",
+        "success": "yt-dlp সফলভাবে আপডেট হয়েছে!",
+        "error": "আপডেট ব্যর্থ হয়েছে৷",
+        "error_check": "আপডেটের জন্য পরীক্ষা করা ত্রুটি৷",
+        "error_update_detail": "আপডেট ত্রুটি: {msg}"
+    },
+    "toasts": {
+        "saved": "সেটিংস সফলভাবে সংরক্ষিত!",
+        "reset": "সেটিংস ডিফল্টে রিসেট করুন৷",
+        "download_started": "ডাউনলোড শুরু!",
+        "download_complete": "ডাউনলোড সফলভাবে সমাপ্ত!",
+        "error": "ত্রুটি: {msg}",
+        "url_copied": "ক্লিপবোর্ডে URL কপি করা হয়েছে",
+        "clipboard_error": "ক্লিপবোর্ড অ্যাক্সেস করতে পারবেন না",
+        "copy_logs": "ক্লিপবোর্ডে লগ কপি করা হয়েছে!",
+        "copy_error": "কপি করার সময় ত্রুটি",
+        "login_success": "লগইন সফল! কুকি সংরক্ষিত.",
+        "play_error": "ফাইল খোলার সময় ত্রুটি",
+        "play_error_generic": "খেলায় ত্রুটি",
+        "advanced_saved": "উন্নত সেটিংস সংরক্ষিত!",
+        "advanced_reset": "সেটিংস ডিফল্টে রিসেট করুন৷"
+    }
+}

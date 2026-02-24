@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Bahasa Melayu",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Muat Turun Baharu",
+        "history": "Sejarah",
+        "settings": "tetapan",
+        "donate": "Menderma",
+        "check_updates": "Semak Kemas Kini",
+        "about": "Tentang"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Tampal URL video di sini...",
+        "paste_title": "Tampal dari papan keratan",
+        "quality_label": "Kualiti:",
+        "quality_best": "Kualiti Terbaik",
+        "quality_audio": "Audio Sahaja (MP3)",
+        "download_btn": "Mulakan Muat Turun",
+        "downloading": "Memuat turun...",
+        "downloading_pct": "Memuat turun... {pct}%",
+        "download_complete_btn": "Muat Turun Selesai!",
+        "finished": "Muat Turun Selesai!",
+        "add_queue_title": "Tambahkan pada Baris Gilir",
+        "queue_title": "Muat Turun Baris",
+        "login_required": "Laman web ini memerlukan log masuk",
+        "login_btn": "Log masuk",
+        "login_connecting": "Menyambung...",
+        "stats": {
+            "speed": "Kelajuan",
+            "eta": "Masa yang tinggal",
+            "size": "Saiz Fail"
+        },
+        "logs_title": "Log Terminal",
+        "copy_logs_title": "Salin Log",
+        "no_internet": "Tiada sambungan Internet"
+    },
+    "history": {
+        "title": "Muat Turun Terkini",
+        "open_file": "Mainkan Fail",
+        "open_folder": "Buka Folder",
+        "copy_link": "Salin Pautan",
+        "redownload": "Muat turun semula",
+        "download_complete": "Muat Turun Selesai"
+    },
+    "settings": {
+        "title": "tetapan",
+        "default_quality": "Kualiti Lalai",
+        "save_path": "Simpan Folder",
+        "browse": "Semak imbas",
+        "cookies": "Status Kuki",
+        "cookies_not_loaded": "Tidak Dimuatkan",
+        "theme": "Warna Tema",
+        "language": "Bahasa",
+        "language_search_placeholder": "Cari bahasa...",
+        "advanced_btn": "Tetapan Lanjutan",
+        "open_advanced": "Buka Tetapan Lanjutan",
+        "save": "Simpan Tetapan",
+        "close": "tutup"
+    },
+    "advanced": {
+        "title": "Tetapan Lanjutan",
+        "groups": {
+            "download": "Muat turun",
+            "format": "Format / Audio",
+            "content": "Kandungan / Metadata",
+            "network": "Rangkaian",
+            "filesystem": "Sistem fail",
+            "cookies": "biskut"
+        },
+        "download": {
+            "concurrent": "Serpihan Serentak",
+            "concurrent_hint": "Percepatkan muat turun dengan membahagikan fail (1-16)",
+            "ratelimit": "Had Kadar (MB/s)",
+            "ratelimit_hint": "0 = Tidak terhad",
+            "retries": "Cuba semula",
+            "retries_hint": "Bilangan percubaan semula pada ralat",
+            "chunksize": "Saiz Bahagian HTTP (MB)",
+            "chunksize_hint": "0 = Lalai"
+        },
+        "format": {
+            "audio_format": "Format Audio",
+            "audio_quality": "Kualiti Audio (kbps)",
+            "container": "Bekas Keluaran"
+        },
+        "content": {
+            "subtitles": "Muat turun Sarikata",
+            "sub_langs": "Bahasa Sarikata",
+            "sub_langs_hint": "cth., en,he,es",
+            "embed_thumb": "Benamkan Thumbnail",
+            "embed_metadata": "Benamkan Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Tindakan",
+            "sb_mark": "Tandai (sebagai bab)",
+            "sb_remove": "Alih keluar (dari fail)"
+        },
+        "network": {
+            "proxy": "URL proksi",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Penyamaran Pelanggan",
+            "impersonate_hint": "Menyamar sebagai penyemak imbas (memintas blok)",
+            "sleep": "Selang Tidur",
+            "sleep_hint": "Kelewatan antara muat turun (menghalang penyekatan)",
+            "no_check_cert": "Tiada Sijil Cek",
+            "no_check_cert_hint": "Pintasan isu SSL"
+        },
+        "filesystem": {
+            "archive": "Muat turun Arkib",
+            "archive_hint": "Langkau video yang telah dimuat turun",
+            "restrict_fn": "Hadkan Nama Fail (ASCII sahaja)",
+            "restrict_fn_hint": "ASCII sahaja, tiada ruang",
+            "no_overwrites": "Cegah Tulis Ganti",
+            "no_overwrites_hint": "Jangan tulis ganti fail sedia ada",
+            "no_playlist": "Muat turun Video Tunggal sahaja (Tiada Senarai Main)",
+            "no_playlist_hint": "Muat turun video tunggal, bukan senarai main",
+            "outtmpl": "Templat Nama Fail Tersuai",
+            "outtmpl_hint": "Templat keluaran tersuai"
+        },
+        "cookies": {
+            "browser": "Import daripada Pelayar",
+            "browser_hint": "Ekstrak kuki daripada pangkalan data penyemak imbas",
+            "browser_select_none": "Tiada (gunakan fail)"
+        },
+        "save": "Simpan Tetapan Lanjutan",
+        "reset": "Tetapkan semula kepada Lalai"
+    },
+    "about": {
+        "title": "Tentang",
+        "description": "Atomic Downloader ialah pemuat turun video sumber terbuka yang berkuasa dibina dengan Python dan yt-dlp.",
+        "version": "Versi",
+        "developer": "Pemaju: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Menyemak...",
+        "available": "kemas kini yt-dlp tersedia ({versi})",
+        "available_badge": "Kemas Kini Tersedia!",
+        "uptodate": "Semuanya terkini!",
+        "updating": "Mengemas kini yt-dlp...",
+        "success": "yt-dlp berjaya dikemas kini!",
+        "error": "Kemas Kini Gagal",
+        "error_check": "Ralat semasa menyemak kemas kini",
+        "error_update_detail": "Ralat kemas kini: {msg}"
+    },
+    "toasts": {
+        "saved": "Tetapan berjaya disimpan!",
+        "reset": "Tetapan ditetapkan semula kepada lalai",
+        "download_started": "Muat turun bermula!",
+        "download_complete": "Muat turun berjaya diselesaikan!",
+        "error": "Ralat: {msg}",
+        "url_copied": "URL disalin ke papan keratan",
+        "clipboard_error": "Tidak boleh mengakses papan keratan",
+        "copy_logs": "Log disalin ke papan keratan!",
+        "copy_error": "Ralat menyalin",
+        "login_success": "Log masuk berjaya! Kuki disimpan.",
+        "play_error": "Ralat membuka fail",
+        "play_error_generic": "Ralat bermain",
+        "advanced_saved": "Tetapan lanjutan disimpan!",
+        "advanced_reset": "Tetapan ditetapkan semula kepada lalai"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Русский",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Новая загрузка",
+        "history": "История",
+        "settings": "Настройки",
+        "donate": "Пожертвовать",
+        "check_updates": "Проверить обновления",
+        "about": "О"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Вставьте сюда URL-адрес видео...",
+        "paste_title": "Вставить из буфера обмена",
+        "quality_label": "Качество:",
+        "quality_best": "Лучшее качество",
+        "quality_audio": "Только аудио (MP3)",
+        "download_btn": "Начать загрузку",
+        "downloading": "Загрузка...",
+        "downloading_pct": "Загрузка... {pct} %",
+        "download_complete_btn": "Загрузка завершена!",
+        "finished": "Загрузка завершена!",
+        "add_queue_title": "Добавить в очередь",
+        "queue_title": "Очередь загрузки",
+        "login_required": "Этот сайт требует входа в систему",
+        "login_btn": "Авторизоваться",
+        "login_connecting": "Подключение...",
+        "stats": {
+            "speed": "Скорость",
+            "eta": "Оставшееся время",
+            "size": "Размер файла"
+        },
+        "logs_title": "Журналы терминала",
+        "copy_logs_title": "Копировать журналы",
+        "no_internet": "Нет подключения к интернету"
+    },
+    "history": {
+        "title": "Недавние загрузки",
+        "open_file": "Воспроизвести файл",
+        "open_folder": "Открыть папку",
+        "copy_link": "Копировать ссылку",
+        "redownload": "Перезагрузить",
+        "download_complete": "Загрузка завершена"
+    },
+    "settings": {
+        "title": "Настройки",
+        "default_quality": "Качество по умолчанию",
+        "save_path": "Сохранить папку",
+        "browse": "Просматривать",
+        "cookies": "Статус файлов cookie",
+        "cookies_not_loaded": "Не загружено",
+        "theme": "Цвет темы",
+        "language": "Язык",
+        "language_search_placeholder": "Язык поиска...",
+        "advanced_btn": "Расширенные настройки",
+        "open_advanced": "Открыть дополнительные настройки",
+        "save": "Сохранить настройки",
+        "close": "Закрывать"
+    },
+    "advanced": {
+        "title": "Расширенные настройки",
+        "groups": {
+            "download": "Скачать",
+            "format": "Формат/Аудио",
+            "content": "Контент/Метаданные",
+            "network": "Сеть",
+            "filesystem": "Файловая система",
+            "cookies": "Файлы cookie"
+        },
+        "download": {
+            "concurrent": "Параллельные фрагменты",
+            "concurrent_hint": "Ускорьте загрузку, разделив файлы (1–16)",
+            "ratelimit": "Ограничение скорости (МБ/с)",
+            "ratelimit_hint": "0 = без ограничений",
+            "retries": "Повторные попытки",
+            "retries_hint": "Количество повторов при ошибке",
+            "chunksize": "Размер HTTP-блока (МБ)",
+            "chunksize_hint": "0 = по умолчанию"
+        },
+        "format": {
+            "audio_format": "Аудио формат",
+            "audio_quality": "Качество звука (кбит/с)",
+            "container": "Выходной контейнер"
+        },
+        "content": {
+            "subtitles": "Скачать субтитры",
+            "sub_langs": "Языки субтитров",
+            "sub_langs_hint": "например, en,he,es",
+            "embed_thumb": "Встроить миниатюру",
+            "embed_metadata": "Встроить метаданные",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Действие",
+            "sb_mark": "Марк (как главы)",
+            "sb_remove": "Удалить (из файла)"
+        },
+        "network": {
+            "proxy": "URL-адрес прокси-сервера",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Олицетворение клиента",
+            "impersonate_hint": "Олицетворение браузера (обходит блокировки)",
+            "sleep": "Интервал сна",
+            "sleep_hint": "Задержка между загрузками (предотвращает блокировку)",
+            "no_check_cert": "Нет проверочных сертификатов",
+            "no_check_cert_hint": "Обход проблем с SSL"
+        },
+        "filesystem": {
+            "archive": "Скачать архив",
+            "archive_hint": "Пропустить уже загруженные видео",
+            "restrict_fn": "Ограничить имена файлов (только ASCII)",
+            "restrict_fn_hint": "Только ASCII, без пробелов",
+            "no_overwrites": "Предотвратить перезапись",
+            "no_overwrites_hint": "Не перезаписывать существующие файлы",
+            "no_playlist": "Загрузить только одно видео (без плейлиста)",
+            "no_playlist_hint": "Скачать одно видео, а не плейлист",
+            "outtmpl": "Пользовательский шаблон имени файла",
+            "outtmpl_hint": "Пользовательский шаблон вывода"
+        },
+        "cookies": {
+            "browser": "Импорт из браузера",
+            "browser_hint": "Извлечь файлы cookie из базы данных браузера",
+            "browser_select_none": "Нет (использовать файл)"
+        },
+        "save": "Сохранить дополнительные настройки",
+        "reset": "Сброс к настройкам по умолчанию"
+    },
+    "about": {
+        "title": "О",
+        "description": "Atomic Downloader — это мощный загрузчик видео с открытым исходным кодом, созданный с использованием Python и yt-dlp.",
+        "version": "Версия",
+        "developer": "Разработчик: Эльханан Иегуда",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Проверка...",
+        "available": "Доступно обновление yt-dlp ({version})",
+        "available_badge": "Доступно обновление!",
+        "uptodate": "Все актуально!",
+        "updating": "Обновление yt-dlp...",
+        "success": "yt-dlp успешно обновлен!",
+        "error": "Обновление не выполнено",
+        "error_check": "Ошибка проверки обновлений",
+        "error_update_detail": "Ошибка обновления: {msg}"
+    },
+    "toasts": {
+        "saved": "Настройки успешно сохранены!",
+        "reset": "Настройки сброшены на значения по умолчанию",
+        "download_started": "Загрузка началась!",
+        "download_complete": "Загрузка успешно завершена!",
+        "error": "Ошибка: {msg}",
+        "url_copied": "URL-адрес скопирован в буфер обмена",
+        "clipboard_error": "Не могу получить доступ к буферу обмена",
+        "copy_logs": "Логи скопированы в буфер обмена!",
+        "copy_error": "Ошибка копирования",
+        "login_success": "Вход успешен! Файлы cookie сохранены.",
+        "play_error": "Ошибка открытия файла",
+        "play_error_generic": "Ошибка воспроизведения",
+        "advanced_saved": "Расширенные настройки сохранены!",
+        "advanced_reset": "Настройки сброшены на значения по умолчанию"
+    }
+}

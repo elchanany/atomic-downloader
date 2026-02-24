@@ -1,0 +1,169 @@
+{
+    "_meta": {
+        "displayName": "עברית",
+        "dir": "rtl"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "הורדה חדשה",
+        "history": "היסטוריה",
+        "settings": "הגדרות",
+        "donate": "תרומה / Donate",
+        "check_updates": "בדוק עדכונים",
+        "about": "אודות"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "הדבק קישור לסרטון כאן...",
+        "paste_title": "הדבק מהלוח",
+        "quality_label": "איכות:",
+        "quality_best": "האיכות הגבוהה ביותר",
+        "quality_audio": "שמע בלבד (MP3)",
+        "download_btn": "הפעל הורדה",
+        "downloading": "מוריד...",
+        "downloading_pct": "מוריד... {pct}%",
+        "initializing": "מאתחל...",
+        "processing": "מעבד...",
+        "download_complete_btn": "הורדה הושלמה!",
+        "finished": "הורדה הושלמה!",
+        "add_queue_title": "הוסף לתור",
+        "queue_title": "תור הורדות",
+        "login_required": "אתר זה דורש התחברות",
+        "login_btn": "התחבר (Login)",
+        "login_connecting": "מתחבר...",
+        "stats": {
+            "speed": "מהירות",
+            "eta": "זמן נותר",
+            "size": "גודל קובץ"
+        },
+        "logs_title": "לוגים (Terminal)",
+        "copy_logs_title": "העתק לוגים",
+        "no_internet": "אין חיבור לאינטרנט"
+    },
+    "history": {
+        "title": "הורדות אחרונות",
+        "open_file": "נגן קובץ",
+        "open_folder": "פתח תיקייה",
+        "copy_link": "העתק קישור",
+        "redownload": "הורד מחדש",
+        "download_complete": "הורדה הושלמה"
+    },
+    "settings": {
+        "title": "הגדרות",
+        "default_quality": "איכות ברירת מחדל",
+        "browse": "עיון",
+        "cookies": "סטטוס עוגיות",
+        "cookies_not_loaded": "לא נטען",
+        "theme": "ערכת נושא",
+        "language": "שפה / Language",
+        "language_search_placeholder": "חפש שפה...",
+        "advanced_btn": "הגדרות מתקדמות",
+        "open_advanced": "פתח הגדרות מתקדמות",
+        "save": "שמור הגדרות",
+        "close": "סגור",
+        "save_path": "תיקיית שמירה"
+    },
+    "advanced": {
+        "title": "הגדרות מתקדמות",
+        "groups": {
+            "download": "הורדה",
+            "format": "פורמט / שמע",
+            "content": "תוכן / מטא-דאטה",
+            "network": "רשת",
+            "filesystem": "מערכת קבצים",
+            "cookies": "עוגיות"
+        },
+        "download": {
+            "concurrent": "מקביל (Fragments)",
+            "concurrent_hint": "האצת הורדה על ידי פיצול הקובץ (1-16)",
+            "ratelimit": "הגבלת מהירות (MB/s)",
+            "ratelimit_hint": "0 = ללא הגבלה",
+            "retries": "נסיונות חוזרים",
+            "retries_hint": "מספר נסיונות במקרה שגיאה",
+            "chunksize": "גודל צ'אנק HTTP (MB)",
+            "chunksize_hint": "0 = ברירת מחדל"
+        },
+        "format": {
+            "audio_format": "פורמט שמע",
+            "audio_quality": "איכות שמע (kbps)",
+            "container": "סיומת קובץ (Container)"
+        },
+        "content": {
+            "subtitles": "הורד כתוביות",
+            "sub_langs": "שפות כתוביות",
+            "sub_langs_hint": "לדוגמה: en,he,es",
+            "embed_thumb": "הטמע תמונה ממוזערת",
+            "embed_metadata": "הטמע מטא-דאטה",
+            "sponsorblock": "SponsorBlock (דילוג חסויות)",
+            "sb_action": "פעולה",
+            "sb_mark": "סימון (כפרקים)",
+            "sb_remove": "הסרה (מהקובץ)"
+        },
+        "network": {
+            "proxy": "שרת פרוקסי",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "התחזות לדפדפן",
+            "impersonate_hint": "התחזות לדפדפן (עוקף חסימות)",
+            "sleep": "השהייה בין בקשות",
+            "sleep_hint": "השהייה בין הורדות (מניעת חסימה)",
+            "no_check_cert": "בטל בדיקת אישורי אבטחה",
+            "no_check_cert_hint": "עקיפת בעיות SSL"
+        },
+        "filesystem": {
+            "archive": "השתמש בארכיון הורדות",
+            "archive_hint": "דלג על סרטונים שכבר הורדו בעבר",
+            "restrict_fn": "הגבל שמות קבצים (ASCII בלבד)",
+            "restrict_fn_hint": "רק ASCII ללא רווחים",
+            "no_overwrites": "מנע דריסת קבצים קיימים",
+            "no_overwrites_hint": "לא לדרוס קבצים קיימים",
+            "no_playlist": "הורד סרטון יחיד בלבד (בטל פלייליסט)",
+            "no_playlist_hint": "הורדת סרטון בודד, לא פלייליסט",
+            "outtmpl": "תבנית שם קובץ מותאמת אישית",
+            "outtmpl_hint": "תבנית שם קובץ"
+        },
+        "cookies": {
+            "browser": "ייבא מהדפדפן",
+            "browser_hint": "חלץ עוגיות ממאגר הדפדפן",
+            "browser_select_none": "ללא (שימוש בקובץ)"
+        },
+        "save": "שמור הגדרות מתקדמות",
+        "reset": "איפוס לברירת מחדל"
+    },
+    "about": {
+        "title": "אודות",
+        "description": "Atomic Downloader הוא מוריד סרטונים חזק בקוד פתוח המבוסס על Python ו-yt-dlp.",
+        "version": "גרסה",
+        "developer": "מפתח: אלחנן יהודה",
+        "github": "מאגר ב-GitHub"
+    },
+    "updates": {
+        "checking": "בודק...",
+        "available": "עדכון yt-dlp זמין ({version})",
+        "available_badge": "עדכון זמין!",
+        "uptodate": "הכל מעודכן!",
+        "updating": "מעדכן yt-dlp...",
+        "success": "yt-dlp עודכן בהצלחה!",
+        "error": "עדכון נכשל",
+        "error_check": "שגיאה בבדיקת עדכונים",
+        "error_update_detail": "שגיאה בעדכון: {msg}"
+    },
+    "toasts": {
+        "saved": "ההגדרות נשמרו בהצלחה!",
+        "reset": "ההגדרות אופסו לברירת מחדל",
+        "download_started": "ההורדה החלה!",
+        "download_complete": "ההורדה הושלמה בהצלחה!",
+        "error": "שגיאה: {msg}",
+        "url_copied": "הקישור הועתק ללוח",
+        "clipboard_error": "לא ניתן לגשת ללוח",
+        "copy_logs": "הלוגים הועתקו ללוח!",
+        "copy_error": "שגיאה בהעתקה",
+        "login_success": "התחברות הצליחה! הקוקיז נשמרו.",
+        "download_cancelled": "ההורדה בוטלה",
+        "error_fetching_formats": "שגיאה בטעינת פורמטים",
+        "play_error": "לא ניתן לנגן קובץ",
+        "play_error_generic": "שגיאה בניגון קובץ",
+        "advanced_saved": "הגדרות מתקדמות נשמרו",
+        "advanced_reset": "ההגדרות אופסו לברירת המחדל"
+    }
+}

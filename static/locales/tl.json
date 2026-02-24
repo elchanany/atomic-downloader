@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Filipino",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Bagong Download",
+        "history": "Kasaysayan",
+        "settings": "Mga setting",
+        "donate": "Mag-donate",
+        "check_updates": "Suriin ang Mga Update",
+        "about": "Tungkol sa"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "I-paste ang URL ng video dito...",
+        "paste_title": "I-paste mula sa clipboard",
+        "quality_label": "Kalidad:",
+        "quality_best": "Pinakamahusay na Kalidad",
+        "quality_audio": "Audio Lamang (MP3)",
+        "download_btn": "Simulan ang Pag-download",
+        "downloading": "Dina-download...",
+        "downloading_pct": "Dina-download... {pct}%",
+        "download_complete_btn": "Kumpleto na ang pag-download!",
+        "finished": "Kumpleto na ang pag-download!",
+        "add_queue_title": "Idagdag sa Queue",
+        "queue_title": "I-download ang Queue",
+        "login_required": "Ang site na ito ay nangangailangan ng pag-login",
+        "login_btn": "Mag-login",
+        "login_connecting": "Kumokonekta...",
+        "stats": {
+            "speed": "Bilis",
+            "eta": "Natitirang oras",
+            "size": "Laki ng File"
+        },
+        "logs_title": "Mga Log ng Terminal",
+        "copy_logs_title": "Kopyahin ang mga Log",
+        "no_internet": "Walang koneksyon sa Internet"
+    },
+    "history": {
+        "title": "Mga Kamakailang Pag-download",
+        "open_file": "I-play ang File",
+        "open_folder": "Buksan ang Folder",
+        "copy_link": "Kopyahin ang Link",
+        "redownload": "Muling i-download",
+        "download_complete": "Kumpleto na ang pag-download"
+    },
+    "settings": {
+        "title": "Mga setting",
+        "default_quality": "Default na Kalidad",
+        "save_path": "I-save ang Folder",
+        "browse": "Mag-browse",
+        "cookies": "Katayuan ng Cookie",
+        "cookies_not_loaded": "Hindi Na-load",
+        "theme": "Kulay ng Tema",
+        "language": "Wika",
+        "language_search_placeholder": "Maghanap ng wika...",
+        "advanced_btn": "Mga Advanced na Setting",
+        "open_advanced": "Buksan ang Mga Advanced na Setting",
+        "save": "I-save ang Mga Setting",
+        "close": "Isara"
+    },
+    "advanced": {
+        "title": "Mga Advanced na Setting",
+        "groups": {
+            "download": "I-download",
+            "format": "Format / Audio",
+            "content": "Nilalaman / Metadata",
+            "network": "Network",
+            "filesystem": "Filesystem",
+            "cookies": "Mga cookies"
+        },
+        "download": {
+            "concurrent": "Mga Kasabay na Fragment",
+            "concurrent_hint": "Pabilisin ang mga pag-download sa pamamagitan ng paghahati ng mga file (1-16)",
+            "ratelimit": "Hangganan ng Rate (MB/s)",
+            "ratelimit_hint": "0 = Walang limitasyon",
+            "retries": "Sinusubukang muli",
+            "retries_hint": "Bilang ng mga muling pagsubok sa error",
+            "chunksize": "Laki ng HTTP Chunk (MB)",
+            "chunksize_hint": "0 = Default"
+        },
+        "format": {
+            "audio_format": "Format ng Audio",
+            "audio_quality": "Kalidad ng Audio (kbps)",
+            "container": "Lalagyan ng Output"
+        },
+        "content": {
+            "subtitles": "Mag-download ng Mga Subtitle",
+            "sub_langs": "Mga Subtitle na Wika",
+            "sub_langs_hint": "hal., en,he,es",
+            "embed_thumb": "I-embed ang Thumbnail",
+            "embed_metadata": "I-embed ang Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Aksyon",
+            "sb_mark": "Markahan (bilang mga kabanata)",
+            "sb_remove": "Alisin (mula sa file)"
+        },
+        "network": {
+            "proxy": "URL ng proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Pagpapanggap ng Kliyente",
+            "impersonate_hint": "Magpapanggap na browser (nag-bypass ng mga block)",
+            "sleep": "Sleep Interval",
+            "sleep_hint": "Pagkaantala sa pagitan ng mga pag-download (pinipigilan ang pagharang)",
+            "no_check_cert": "Walang Mga Sertipiko sa Pagsusuri",
+            "no_check_cert_hint": "I-bypass ang mga isyu sa SSL"
+        },
+        "filesystem": {
+            "archive": "I-download ang Archive",
+            "archive_hint": "Laktawan ang mga na-download na video",
+            "restrict_fn": "Paghigpitan ang Mga Filename (ASCII lang)",
+            "restrict_fn_hint": "ASCII lang, walang puwang",
+            "no_overwrites": "Pigilan ang mga Overwrite",
+            "no_overwrites_hint": "Huwag i-overwrite ang mga kasalukuyang file",
+            "no_playlist": "Mag-download ng Single Video lang (Walang Playlist)",
+            "no_playlist_hint": "Mag-download ng isang video, hindi playlist",
+            "outtmpl": "Custom na Filename Template",
+            "outtmpl_hint": "Custom na template ng output"
+        },
+        "cookies": {
+            "browser": "Mag-import mula sa Browser",
+            "browser_hint": "I-extract ang cookies mula sa database ng browser",
+            "browser_select_none": "Wala (gamitin ang file)"
+        },
+        "save": "I-save ang Mga Advanced na Setting",
+        "reset": "I-reset sa Mga Default"
+    },
+    "about": {
+        "title": "Tungkol sa",
+        "description": "Ang Atomic Downloader ay isang malakas, open-source na video downloader na binuo gamit ang Python at yt-dlp.",
+        "version": "Bersyon",
+        "developer": "Nag-develop: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Sinusuri...",
+        "available": "Available ang yt-dlp update ({version})",
+        "available_badge": "Magagamit ang Update!",
+        "uptodate": "Ang lahat ay napapanahon!",
+        "updating": "Ina-update ang yt-dlp...",
+        "success": "Matagumpay na na-update ang yt-dlp!",
+        "error": "Nabigo ang pag-update",
+        "error_check": "Error sa pagsuri para sa mga update",
+        "error_update_detail": "Error sa pag-update: {msg}"
+    },
+    "toasts": {
+        "saved": "Matagumpay na na-save ang mga setting!",
+        "reset": "Ni-reset ang mga setting sa mga default",
+        "download_started": "Nagsimula na ang pag-download!",
+        "download_complete": "Matagumpay na natapos ang pag-download!",
+        "error": "Error: {msg}",
+        "url_copied": "Nakopya ang URL sa clipboard",
+        "clipboard_error": "Hindi ma-access ang clipboard",
+        "copy_logs": "Nakopya ang mga log sa clipboard!",
+        "copy_error": "Error sa pagkopya",
+        "login_success": "Matagumpay ang pag-login! Na-save ang cookies.",
+        "play_error": "Error sa pagbubukas ng file",
+        "play_error_generic": "Error sa paglalaro",
+        "advanced_saved": "Na-save ang mga advanced na setting!",
+        "advanced_reset": "Ni-reset ang mga setting sa mga default"
+    }
+}

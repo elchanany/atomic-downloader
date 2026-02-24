@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "ਪੰਜਾਬੀ",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "ਨਵਾਂ ਡਾਊਨਲੋਡ",
+        "history": "ਇਤਿਹਾਸ",
+        "settings": "ਸੈਟਿੰਗਾਂ",
+        "donate": "ਦਾਨ ਕਰੋ",
+        "check_updates": "ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ",
+        "about": "ਬਾਰੇ"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "ਵੀਡੀਓ URL ਇੱਥੇ ਪੇਸਟ ਕਰੋ...",
+        "paste_title": "ਕਲਿੱਪਬੋਰਡ ਤੋਂ ਪੇਸਟ ਕਰੋ",
+        "quality_label": "ਗੁਣਵੱਤਾ:",
+        "quality_best": "ਵਧੀਆ ਕੁਆਲਿਟੀ",
+        "quality_audio": "ਸਿਰਫ਼ ਆਡੀਓ (MP3)",
+        "download_btn": "ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਕਰੋ",
+        "downloading": "ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+        "downloading_pct": "ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ... {pct}%",
+        "download_complete_btn": "ਡਾਊਨਲੋਡ ਪੂਰਾ!",
+        "finished": "ਡਾਊਨਲੋਡ ਪੂਰਾ!",
+        "add_queue_title": "ਕਤਾਰ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+        "queue_title": "ਕਤਾਰ ਡਾਊਨਲੋਡ ਕਰੋ",
+        "login_required": "ਇਸ ਸਾਈਟ ਨੂੰ ਲੌਗਇਨ ਦੀ ਲੋੜ ਹੈ",
+        "login_btn": "ਲਾਗਿਨ",
+        "login_connecting": "ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+        "stats": {
+            "speed": "ਗਤੀ",
+            "eta": "ਬਾਕੀ ਸਮਾਂ",
+            "size": "ਫਾਈਲ ਦਾ ਆਕਾਰ"
+        },
+        "logs_title": "ਟਰਮੀਨਲ ਲੌਗਸ",
+        "copy_logs_title": "ਲੌਗਸ ਨੂੰ ਕਾਪੀ ਕਰੋ",
+        "no_internet": "ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ"
+    },
+    "history": {
+        "title": "ਹਾਲੀਆ ਡਾਊਨਲੋਡ",
+        "open_file": "ਪਲੇ ਫਾਈਲ",
+        "open_folder": "ਫੋਲਡਰ ਖੋਲ੍ਹੋ",
+        "copy_link": "ਲਿੰਕ ਕਾਪੀ ਕਰੋ",
+        "redownload": "ਮੁੜ ਡਾਊਨਲੋਡ ਕਰੋ",
+        "download_complete": "ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ"
+    },
+    "settings": {
+        "title": "ਸੈਟਿੰਗਾਂ",
+        "default_quality": "ਪੂਰਵ-ਨਿਰਧਾਰਤ ਗੁਣਵੱਤਾ",
+        "save_path": "ਫੋਲਡਰ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+        "browse": "ਬ੍ਰਾਊਜ਼ ਕਰੋ",
+        "cookies": "ਕੂਕੀ ਸਥਿਤੀ",
+        "cookies_not_loaded": "ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ",
+        "theme": "ਥੀਮ ਦਾ ਰੰਗ",
+        "language": "ਭਾਸ਼ਾ",
+        "language_search_placeholder": "ਭਾਸ਼ਾ ਖੋਜੋ...",
+        "advanced_btn": "ਉੱਨਤ ਸੈਟਿੰਗਾਂ",
+        "open_advanced": "ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ",
+        "save": "ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+        "close": "ਬੰਦ ਕਰੋ"
+    },
+    "advanced": {
+        "title": "ਉੱਨਤ ਸੈਟਿੰਗਾਂ",
+        "groups": {
+            "download": "ਡਾਊਨਲੋਡ ਕਰੋ",
+            "format": "ਫਾਰਮੈਟ / ਆਡੀਓ",
+            "content": "ਸਮੱਗਰੀ / ਮੈਟਾਡੇਟਾ",
+            "network": "ਨੈੱਟਵਰਕ",
+            "filesystem": "ਫਾਈਲ ਸਿਸਟਮ",
+            "cookies": "ਕੂਕੀਜ਼"
+        },
+        "download": {
+            "concurrent": "ਸਮਕਾਲੀ ਟੁਕੜੇ",
+            "concurrent_hint": "ਫਾਈਲਾਂ ਨੂੰ ਵੰਡ ਕੇ ਡਾਊਨਲੋਡ ਦੀ ਗਤੀ ਵਧਾਓ (1-16)",
+            "ratelimit": "ਦਰ ਸੀਮਾ (MB/s)",
+            "ratelimit_hint": "0 = ਅਸੀਮਤ",
+            "retries": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ",
+            "retries_hint": "ਗਲਤੀ 'ਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਸੰਖਿਆ",
+            "chunksize": "HTTP ਚੰਕ ਆਕਾਰ (MB)",
+            "chunksize_hint": "0 = ਡਿਫਾਲਟ"
+        },
+        "format": {
+            "audio_format": "ਆਡੀਓ ਫਾਰਮੈਟ",
+            "audio_quality": "ਆਡੀਓ ਗੁਣਵੱਤਾ (kbps)",
+            "container": "ਆਉਟਪੁੱਟ ਕੰਟੇਨਰ"
+        },
+        "content": {
+            "subtitles": "ਉਪਸਿਰਲੇਖ ਡਾਊਨਲੋਡ ਕਰੋ",
+            "sub_langs": "ਉਪਸਿਰਲੇਖ ਭਾਸ਼ਾਵਾਂ",
+            "sub_langs_hint": "ਉਦਾਹਰਨ ਲਈ, en,he,es",
+            "embed_thumb": "ਥੰਬਨੇਲ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ",
+            "embed_metadata": "ਮੈਟਾਡਾਟਾ ਏਮਬੇਡ ਕਰੋ",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "ਕਾਰਵਾਈ",
+            "sb_mark": "ਮਾਰਕ (ਅਧਿਆਇ ਵਜੋਂ)",
+            "sb_remove": "ਹਟਾਓ (ਫਾਈਲ ਵਿੱਚੋਂ)"
+        },
+        "network": {
+            "proxy": "ਪ੍ਰੌਕਸੀ URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "ਕਲਾਇੰਟ ਪ੍ਰਤੀਰੂਪਤਾ",
+            "impersonate_hint": "ਨਕਲੀ ਬ੍ਰਾਊਜ਼ਰ (ਬਲਾਕ ਨੂੰ ਬਾਈਪਾਸ ਕਰਦਾ ਹੈ)",
+            "sleep": "ਨੀਂਦ ਦਾ ਅੰਤਰਾਲ",
+            "sleep_hint": "ਡਾਉਨਲੋਡਸ ਵਿਚਕਾਰ ਦੇਰੀ (ਬਲਾਕ ਹੋਣ ਤੋਂ ਰੋਕਦਾ ਹੈ)",
+            "no_check_cert": "ਕੋਈ ਜਾਂਚ ਸਰਟੀਫਿਕੇਟ ਨਹੀਂ",
+            "no_check_cert_hint": "SSL ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਬਾਈਪਾਸ ਕਰੋ"
+        },
+        "filesystem": {
+            "archive": "ਪੁਰਾਲੇਖ ਡਾਊਨਲੋਡ ਕਰੋ",
+            "archive_hint": "ਪਹਿਲਾਂ ਤੋਂ ਡਾਊਨਲੋਡ ਕੀਤੇ ਵੀਡੀਓ ਛੱਡੋ",
+            "restrict_fn": "ਫਾਈਲਨਾਮਾਂ 'ਤੇ ਪਾਬੰਦੀ ਲਗਾਓ (ਸਿਰਫ਼ ASCII)",
+            "restrict_fn_hint": "ਸਿਰਫ਼ ASCII, ਕੋਈ ਖਾਲੀ ਥਾਂ ਨਹੀਂ",
+            "no_overwrites": "ਓਵਰਰਾਈਟਸ ਨੂੰ ਰੋਕੋ",
+            "no_overwrites_hint": "ਮੌਜੂਦਾ ਫਾਈਲਾਂ ਨੂੰ ਓਵਰਰਾਈਟ ਨਾ ਕਰੋ",
+            "no_playlist": "ਸਿਰਫ਼ ਸਿੰਗਲ ਵੀਡੀਓ ਡਾਊਨਲੋਡ ਕਰੋ (ਕੋਈ ਪਲੇਲਿਸਟ ਨਹੀਂ)",
+            "no_playlist_hint": "ਸਿੰਗਲ ਵੀਡੀਓ ਡਾਊਨਲੋਡ ਕਰੋ, ਪਲੇਲਿਸਟ ਨਹੀਂ",
+            "outtmpl": "ਕਸਟਮ ਫਾਈਲਨਾਮ ਟੈਮਪਲੇਟ",
+            "outtmpl_hint": "ਕਸਟਮ ਆਉਟਪੁੱਟ ਟੈਮਪਲੇਟ"
+        },
+        "cookies": {
+            "browser": "ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਆਯਾਤ ਕਰੋ",
+            "browser_hint": "ਬ੍ਰਾਊਜ਼ਰ ਡੇਟਾਬੇਸ ਤੋਂ ਕੂਕੀਜ਼ ਐਕਸਟਰੈਕਟ ਕਰੋ",
+            "browser_select_none": "ਕੋਈ ਨਹੀਂ (ਫਾਇਲ ਦੀ ਵਰਤੋਂ ਕਰੋ)"
+        },
+        "save": "ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+        "reset": "ਪੂਰਵ-ਨਿਰਧਾਰਤ 'ਤੇ ਰੀਸੈਟ ਕਰੋ"
+    },
+    "about": {
+        "title": "ਬਾਰੇ",
+        "description": "ਐਟੋਮਿਕ ਡਾਊਨਲੋਡਰ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ, ਓਪਨ-ਸੋਰਸ ਵੀਡੀਓ ਡਾਊਨਲੋਡਰ ਹੈ ਜੋ ਪਾਈਥਨ ਅਤੇ yt-dlp ਨਾਲ ਬਣਾਇਆ ਗਿਆ ਹੈ।",
+        "version": "ਸੰਸਕਰਣ",
+        "developer": "ਵਿਕਾਸਕਾਰ: ਏਲਚਾਨਨ ਯੇਹੂਦਾ",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+        "available": "yt-dlp ਅੱਪਡੇਟ ਉਪਲਬਧ ({version})",
+        "available_badge": "ਅੱਪਡੇਟ ਉਪਲਬਧ ਹੈ!",
+        "uptodate": "ਹਰ ਚੀਜ਼ ਅੱਪ ਟੂ ਡੇਟ ਹੈ!",
+        "updating": "yt-dlp ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+        "success": "yt-dlp ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਹੋਇਆ!",
+        "error": "ਅੱਪਡੇਟ ਅਸਫਲ ਰਿਹਾ",
+        "error_check": "ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਵਿੱਚ ਗੜਬੜ ਹੋਈ",
+        "error_update_detail": "ਅੱਪਡੇਟ ਗਲਤੀ: {msg}"
+    },
+    "toasts": {
+        "saved": "ਸੈਟਿੰਗਾਂ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ!",
+        "reset": "ਸੈਟਿੰਗਾਂ ਨੂੰ ਪੂਰਵ-ਨਿਰਧਾਰਤ 'ਤੇ ਰੀਸੈਟ ਕਰੋ",
+        "download_started": "ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਹੋਇਆ!",
+        "download_complete": "ਡਾਊਨਲੋਡ ਸਫਲਤਾਪੂਰਵਕ ਸਮਾਪਤ ਹੋਇਆ!",
+        "error": "ਗਲਤੀ: {msg}",
+        "url_copied": "URL ਨੂੰ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
+        "clipboard_error": "ਕਲਿੱਪਬੋਰਡ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ",
+        "copy_logs": "ਲੌਗਸ ਨੂੰ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ!",
+        "copy_error": "ਕਾਪੀ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ",
+        "login_success": "ਲੌਗਇਨ ਸਫਲ! ਕੂਕੀਜ਼ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ।",
+        "play_error": "ਫ਼ਾਈਲ ਖੋਲ੍ਹਣ ਵਿੱਚ ਗੜਬੜ ਹੋਈ",
+        "play_error_generic": "ਚਲਾਉਣ ਵਿੱਚ ਤਰੁੱਟੀ",
+        "advanced_saved": "ਉੱਨਤ ਸੈਟਿੰਗਾਂ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ!",
+        "advanced_reset": "ਸੈਟਿੰਗਾਂ ਨੂੰ ਪੂਰਵ-ਨਿਰਧਾਰਤ 'ਤੇ ਰੀਸੈਟ ਕਰੋ"
+    }
+}

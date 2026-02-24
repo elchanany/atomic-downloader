@@ -1,0 +1,168 @@
+{
+    "_meta": {
+        "displayName": "English",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "New Download",
+        "history": "History",
+        "settings": "Settings",
+        "donate": "Donate",
+        "check_updates": "Check Updates",
+        "about": "About"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Paste video URL here...",
+        "paste_title": "Paste from clipboard",
+        "quality_label": "Quality:",
+        "quality_best": "Best Quality",
+        "quality_audio": "Audio Only (MP3)",
+        "download_btn": "Start Download",
+        "downloading": "Downloading...",
+        "downloading_pct": "Downloading... {pct}%",
+        "initializing": "Initializing...",
+        "processing": "Processing...",
+        "download_complete_btn": "Download Complete!",
+        "finished": "Download Complete!",
+        "add_queue_title": "Add to Queue",
+        "queue_title": "Download Queue",
+        "login_required": "This site requires login",
+        "login_btn": "Login",
+        "login_connecting": "Connecting...",
+        "stats": {
+            "speed": "Speed",
+            "eta": "Time Left",
+            "size": "File Size"
+        },
+        "logs_title": "Terminal Logs",
+        "copy_logs_title": "Copy Logs",
+        "no_internet": "No Internet Connection"
+    },
+    "history": {
+        "title": "Recent Downloads",
+        "open_file": "Play File",
+        "open_folder": "Open Folder",
+        "copy_link": "Copy Link",
+        "redownload": "Redownload",
+        "download_complete": "Download Complete"
+    },
+    "settings": {
+        "title": "Settings",
+        "default_quality": "Default Quality",
+        "browse": "Browse",
+        "cookies": "Cookie Status",
+        "cookies_not_loaded": "Not Loaded",
+        "theme": "Theme Color",
+        "language": "Language",
+        "language_search_placeholder": "Search language...",
+        "advanced_btn": "Advanced Settings",
+        "open_advanced": "Open Advanced Settings",
+        "save": "Save Settings",
+        "close": "Close",
+        "save_path": "Save Folder"
+    },
+    "advanced": {
+        "title": "Advanced Settings",
+        "groups": {
+            "download": "Download",
+            "format": "Format / Audio",
+            "content": "Content / Metadata",
+            "network": "Network",
+            "filesystem": "Filesystem",
+            "cookies": "Cookies"
+        },
+        "download": {
+            "concurrent": "Concurrent Fragments",
+            "concurrent_hint": "Speed up downloads by splitting files (1-16)",
+            "ratelimit": "Rate Limit (MB/s)",
+            "ratelimit_hint": "0 = Unlimited",
+            "retries": "Retries",
+            "retries_hint": "Number of retries on error",
+            "chunksize": "HTTP Chunk Size (MB)",
+            "chunksize_hint": "0 = Default"
+        },
+        "format": {
+            "audio_format": "Audio Format",
+            "audio_quality": "Audio Quality (kbps)",
+            "container": "Output Container"
+        },
+        "content": {
+            "subtitles": "Download Subtitles",
+            "sub_langs": "Subtitle Languages",
+            "sub_langs_hint": "e.g., en,he,es",
+            "embed_thumb": "Embed Thumbnail",
+            "embed_metadata": "Embed Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Action",
+            "sb_mark": "Mark (as chapters)",
+            "sb_remove": "Remove (from file)"
+        },
+        "network": {
+            "proxy": "Proxy URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Client Impersonation",
+            "impersonate_hint": "Impersonate browser (bypasses blocks)",
+            "sleep": "Sleep Interval",
+            "sleep_hint": "Delay between downloads (prevents blocking)",
+            "no_check_cert": "No Check Certificates",
+            "no_check_cert_hint": "Bypass SSL issues"
+        },
+        "filesystem": {
+            "archive": "Download Archive",
+            "archive_hint": "Skip already downloaded videos",
+            "restrict_fn": "Restrict Filenames (ASCII only)",
+            "restrict_fn_hint": "ASCII only, no spaces",
+            "no_overwrites": "Prevent Overwrites",
+            "no_overwrites_hint": "Don't overwrite existing files",
+            "no_playlist": "Download Single Video only (No Playlist)",
+            "no_playlist_hint": "Download single video, not playlist",
+            "outtmpl": "Custom Filename Template",
+            "outtmpl_hint": "Custom output template"
+        },
+        "cookies": {
+            "browser": "Import from Browser",
+            "browser_hint": "Extract cookies from browser database",
+            "browser_select_none": "None (use file)"
+        },
+        "save": "Save Advanced Settings",
+        "reset": "Reset to Defaults"
+    },
+    "about": {
+        "title": "About",
+        "description": "Atomic Downloader is a powerful, open-source video downloader built with Python and yt-dlp.",
+        "version": "Version",
+        "developer": "Developer: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Checking...",
+        "available": "yt-dlp update available ({version})",
+        "available_badge": "Update Available!",
+        "uptodate": "Everything is up to date!",
+        "updating": "Updating yt-dlp...",
+        "success": "yt-dlp updated successfully!",
+        "error": "Update Failed",
+        "error_check": "Error checking for updates",
+        "error_update_detail": "Update error: {msg}"
+    },
+    "toasts": {
+        "saved": "Settings saved successfully!",
+        "reset": "Settings reset to defaults",
+        "download_started": "Download started!",
+        "download_complete": "Download finished successfully!",
+        "error": "Error: {msg}",
+        "url_copied": "URL copied to clipboard",
+        "clipboard_error": "Cannot access clipboard",
+        "copy_logs": "Logs copied to clipboard!",
+        "copy_error": "Error copying",
+        "login_success": "Login successful! Cookies saved.",
+        "download_cancelled": "Download Cancelled",
+        "error_fetching_formats": "Error fetching formats",
+        "advanced_reset": "Settings reset to defaults",
+        "play_error": "Cannot play file",
+        "play_error_generic": "Error playing file"
+    }
+}

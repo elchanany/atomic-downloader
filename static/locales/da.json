@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Dansk",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Ny download",
+        "history": "Historie",
+        "settings": "Indstillinger",
+        "donate": "Doner",
+        "check_updates": "Tjek opdateringer",
+        "about": "Om"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Indsæt video-URL her...",
+        "paste_title": "Indsæt fra udklipsholder",
+        "quality_label": "Kvalitet:",
+        "quality_best": "Bedste kvalitet",
+        "quality_audio": "Kun lyd (MP3)",
+        "download_btn": "Start download",
+        "downloading": "Downloader...",
+        "downloading_pct": "Downloader... {pct} %",
+        "download_complete_btn": "Download fuldført!",
+        "finished": "Download fuldført!",
+        "add_queue_title": "Tilføj til kø",
+        "queue_title": "Download kø",
+        "login_required": "Denne side kræver login",
+        "login_btn": "Log ind",
+        "login_connecting": "Opretter forbindelse...",
+        "stats": {
+            "speed": "Hastighed",
+            "eta": "Resterende tid",
+            "size": "Filstørrelse"
+        },
+        "logs_title": "Terminallogs",
+        "copy_logs_title": "Kopier logs",
+        "no_internet": "Ingen internetforbindelse"
+    },
+    "history": {
+        "title": "Seneste downloads",
+        "open_file": "Afspil fil",
+        "open_folder": "Åbn mappe",
+        "copy_link": "Kopiér link",
+        "redownload": "Gendownload",
+        "download_complete": "Download fuldført"
+    },
+    "settings": {
+        "title": "Indstillinger",
+        "default_quality": "Standardkvalitet",
+        "save_path": "Gem mappe",
+        "browse": "Gennemse",
+        "cookies": "Cookie status",
+        "cookies_not_loaded": "Ikke indlæst",
+        "theme": "Tema farve",
+        "language": "Sprog",
+        "language_search_placeholder": "Søg sprog...",
+        "advanced_btn": "Avancerede indstillinger",
+        "open_advanced": "Åbn Avancerede indstillinger",
+        "save": "Gem indstillinger",
+        "close": "Tæt"
+    },
+    "advanced": {
+        "title": "Avancerede indstillinger",
+        "groups": {
+            "download": "Download",
+            "format": "Format/lyd",
+            "content": "Indhold / Metadata",
+            "network": "Netværk",
+            "filesystem": "Filsystem",
+            "cookies": "Cookies"
+        },
+        "download": {
+            "concurrent": "Samtidige Fragmenter",
+            "concurrent_hint": "Fremskynd downloads ved at opdele filer (1-16)",
+            "ratelimit": "Satsgrænse (MB/s)",
+            "ratelimit_hint": "0 = Ubegrænset",
+            "retries": "Forsøg igen",
+            "retries_hint": "Antal genforsøg på fejl",
+            "chunksize": "HTTP-klumpstørrelse (MB)",
+            "chunksize_hint": "0 = Standard"
+        },
+        "format": {
+            "audio_format": "Lydformat",
+            "audio_quality": "Lydkvalitet (kbps)",
+            "container": "Udgangsbeholder"
+        },
+        "content": {
+            "subtitles": "Download undertekster",
+            "sub_langs": "Undertekstsprog",
+            "sub_langs_hint": "f.eks. en,he,es",
+            "embed_thumb": "Integrer miniaturebillede",
+            "embed_metadata": "Integrer metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Handling",
+            "sb_mark": "Marker (som kapitler)",
+            "sb_remove": "Fjern (fra fil)"
+        },
+        "network": {
+            "proxy": "Proxy-URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Efterligning af klient",
+            "impersonate_hint": "Efterligne browser (omgår blokeringer)",
+            "sleep": "Søvninterval",
+            "sleep_hint": "Forsinkelse mellem downloads (forhindrer blokering)",
+            "no_check_cert": "Ingen kontrolcertifikater",
+            "no_check_cert_hint": "Omgå SSL-problemer"
+        },
+        "filesystem": {
+            "archive": "Download arkiv",
+            "archive_hint": "Spring allerede downloadede videoer over",
+            "restrict_fn": "Begræns filnavne (kun ASCII)",
+            "restrict_fn_hint": "Kun ASCII, ingen mellemrum",
+            "no_overwrites": "Undgå overskrivninger",
+            "no_overwrites_hint": "Overskriv ikke eksisterende filer",
+            "no_playlist": "Download kun enkelt video (ingen afspilningsliste)",
+            "no_playlist_hint": "Download enkelt video, ikke afspilningsliste",
+            "outtmpl": "Brugerdefineret filnavnskabelon",
+            "outtmpl_hint": "Brugerdefineret output skabelon"
+        },
+        "cookies": {
+            "browser": "Importer fra browser",
+            "browser_hint": "Udtræk cookies fra browserdatabasen",
+            "browser_select_none": "Ingen (brug fil)"
+        },
+        "save": "Gem avancerede indstillinger",
+        "reset": "Nulstil til standarder"
+    },
+    "about": {
+        "title": "Om",
+        "description": "Atomic Downloader er en kraftfuld, open source videodownloader bygget med Python og yt-dlp.",
+        "version": "Version",
+        "developer": "Udvikler: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Tjekker...",
+        "available": "yt-dlp-opdatering tilgængelig ({version})",
+        "available_badge": "Opdatering tilgængelig!",
+        "uptodate": "Alt er up to date!",
+        "updating": "Opdaterer yt-dlp...",
+        "success": "yt-dlp blev opdateret!",
+        "error": "Opdatering mislykkedes",
+        "error_check": "Fejl ved søgning efter opdateringer",
+        "error_update_detail": "Opdateringsfejl: {msg}"
+    },
+    "toasts": {
+        "saved": "Indstillinger blev gemt!",
+        "reset": "Indstillinger nulstilles til standardindstillinger",
+        "download_started": "Download startede!",
+        "download_complete": "Download afsluttet med succes!",
+        "error": "Fejl: {msg}",
+        "url_copied": "URL kopieret til udklipsholder",
+        "clipboard_error": "Kan ikke få adgang til udklipsholderen",
+        "copy_logs": "Logfiler kopieret til udklipsholder!",
+        "copy_error": "Fejl ved kopiering",
+        "login_success": "Login lykkedes! Cookies gemt.",
+        "play_error": "Fejl ved åbning af fil",
+        "play_error_generic": "Fejl ved afspilning",
+        "advanced_saved": "Avancerede indstillinger gemt!",
+        "advanced_reset": "Indstillinger nulstilles til standardindstillinger"
+    }
+}

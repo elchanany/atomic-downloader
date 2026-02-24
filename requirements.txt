@@ -1,0 +1,9 @@
+customtkinter
+yt-dlp
+packaging
+requests
+pillow
+selenium
+webdriver-manager
+Flask
+pywebview

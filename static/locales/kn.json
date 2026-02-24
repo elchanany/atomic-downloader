@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "ಕನ್ನಡ",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "ಹೊಸ ಡೌನ್‌ಲೋಡ್",
+        "history": "ಇತಿಹಾಸ",
+        "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "donate": "ದಾನ ಮಾಡಿ",
+        "check_updates": "ನವೀಕರಣಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "about": "ಬಗ್ಗೆ"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "ವೀಡಿಯೊ URL ಅನ್ನು ಇಲ್ಲಿ ಅಂಟಿಸಿ...",
+        "paste_title": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ನಿಂದ ಅಂಟಿಸಿ",
+        "quality_label": "ಗುಣಮಟ್ಟ:",
+        "quality_best": "ಅತ್ಯುತ್ತಮ ಗುಣಮಟ್ಟ",
+        "quality_audio": "ಆಡಿಯೋ ಮಾತ್ರ (MP3)",
+        "download_btn": "ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭಿಸಿ",
+        "downloading": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+        "downloading_pct": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ... {pct}%",
+        "download_complete_btn": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+        "finished": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+        "add_queue_title": "ಸರದಿಯಲ್ಲಿ ಸೇರಿಸಿ",
+        "queue_title": "ಸರದಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "login_required": "ಈ ಸೈಟ್‌ಗೆ ಲಾಗಿನ್ ಅಗತ್ಯವಿದೆ",
+        "login_btn": "ಲಾಗಿನ್ ಮಾಡಿ",
+        "login_connecting": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...",
+        "stats": {
+            "speed": "ವೇಗ",
+            "eta": "ಉಳಿದ ಸಮಯ",
+            "size": "ಫೈಲ್ ಗಾತ್ರ"
+        },
+        "logs_title": "ಟರ್ಮಿನಲ್ ದಾಖಲೆಗಳು",
+        "copy_logs_title": "ದಾಖಲೆಗಳನ್ನು ನಕಲಿಸಿ",
+        "no_internet": "ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ"
+    },
+    "history": {
+        "title": "ಇತ್ತೀಚಿನ ಡೌನ್‌ಲೋಡ್‌ಗಳು",
+        "open_file": "ಫೈಲ್ ಪ್ಲೇ ಮಾಡಿ",
+        "open_folder": "ಫೋಲ್ಡರ್ ತೆರೆಯಿರಿ",
+        "copy_link": "ಲಿಂಕ್ ನಕಲಿಸಿ",
+        "redownload": "ಮರುಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "download_complete": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ"
+    },
+    "settings": {
+        "title": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "default_quality": "ಡೀಫಾಲ್ಟ್ ಗುಣಮಟ್ಟ",
+        "save_path": "ಫೋಲ್ಡರ್ ಉಳಿಸಿ",
+        "browse": "ಬ್ರೌಸ್ ಮಾಡಿ",
+        "cookies": "ಕುಕಿ ಸ್ಥಿತಿ",
+        "cookies_not_loaded": "ಲೋಡ್ ಆಗಿಲ್ಲ",
+        "theme": "ಥೀಮ್ ಬಣ್ಣ",
+        "language": "ಭಾಷೆ",
+        "language_search_placeholder": "ಹುಡುಕಾಟ ಭಾಷೆ...",
+        "advanced_btn": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "open_advanced": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ",
+        "save": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ",
+        "close": "ಮುಚ್ಚಿ"
+    },
+    "advanced": {
+        "title": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "groups": {
+            "download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+            "format": "ಫಾರ್ಮ್ಯಾಟ್ / ಆಡಿಯೋ",
+            "content": "ವಿಷಯ / ಮೆಟಾಡೇಟಾ",
+            "network": "ನೆಟ್ವರ್ಕ್",
+            "filesystem": "ಫೈಲ್‌ಸಿಸ್ಟಮ್",
+            "cookies": "ಕುಕೀಸ್"
+        },
+        "download": {
+            "concurrent": "ಏಕಕಾಲೀನ ತುಣುಕುಗಳು",
+            "concurrent_hint": "ಫೈಲ್‌ಗಳನ್ನು ವಿಭಜಿಸುವ ಮೂಲಕ ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ವೇಗಗೊಳಿಸಿ (1-16)",
+            "ratelimit": "ದರ ಮಿತಿ (MB/s)",
+            "ratelimit_hint": "0 = ಅನಿಯಮಿತ",
+            "retries": "ಮರುಪ್ರಯತ್ನಿಸುತ್ತದೆ",
+            "retries_hint": "ದೋಷದ ಮರುಪ್ರಯತ್ನಗಳ ಸಂಖ್ಯೆ",
+            "chunksize": "HTTP ಚಂಕ್ ಗಾತ್ರ (MB)",
+            "chunksize_hint": "0 = ಡೀಫಾಲ್ಟ್"
+        },
+        "format": {
+            "audio_format": "ಆಡಿಯೋ ಫಾರ್ಮ್ಯಾಟ್",
+            "audio_quality": "ಆಡಿಯೋ ಗುಣಮಟ್ಟ (kbps)",
+            "container": "ಔಟ್ಪುಟ್ ಕಂಟೇನರ್"
+        },
+        "content": {
+            "subtitles": "ಉಪಶೀರ್ಷಿಕೆಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+            "sub_langs": "ಉಪಶೀರ್ಷಿಕೆ ಭಾಷೆಗಳು",
+            "sub_langs_hint": "ಉದಾ., en,he,es",
+            "embed_thumb": "ಎಂಬೆಡ್ ಥಂಬ್‌ನೇಲ್",
+            "embed_metadata": "ಎಂಬೆಡ್ ಮೆಟಾಡೇಟಾ",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "ಕ್ರಿಯೆ",
+            "sb_mark": "ಗುರುತು (ಅಧ್ಯಾಯಗಳಾಗಿ)",
+            "sb_remove": "ತೆಗೆದುಹಾಕಿ (ಫೈಲ್‌ನಿಂದ)"
+        },
+        "network": {
+            "proxy": "ಪ್ರಾಕ್ಸಿ URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "ಗ್ರಾಹಕರ ಸೋಗು ಹಾಕುವಿಕೆ",
+            "impersonate_hint": "ಸೋಗುಹಾಕುವ ಬ್ರೌಸರ್ (ಬ್ಲಾಕ್‌ಗಳನ್ನು ಬೈಪಾಸ್ ಮಾಡುತ್ತದೆ)",
+            "sleep": "ನಿದ್ರೆಯ ಮಧ್ಯಂತರ",
+            "sleep_hint": "ಡೌನ್‌ಲೋಡ್‌ಗಳ ನಡುವೆ ವಿಳಂಬ (ನಿರ್ಬಂಧಿಸುವುದನ್ನು ತಡೆಯುತ್ತದೆ)",
+            "no_check_cert": "ಯಾವುದೇ ಚೆಕ್ ಪ್ರಮಾಣಪತ್ರಗಳಿಲ್ಲ",
+            "no_check_cert_hint": "SSL ಸಮಸ್ಯೆಗಳನ್ನು ಬೈಪಾಸ್ ಮಾಡಿ"
+        },
+        "filesystem": {
+            "archive": "ಆರ್ಕೈವ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+            "archive_hint": "ಈಗಾಗಲೇ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿರುವ ವೀಡಿಯೊಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಿ",
+            "restrict_fn": "ಫೈಲ್ ಹೆಸರುಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ (ASCII ಮಾತ್ರ)",
+            "restrict_fn_hint": "ASCII ಮಾತ್ರ, ಯಾವುದೇ ಸ್ಥಳಗಳಿಲ್ಲ",
+            "no_overwrites": "ಓವರ್‌ರೈಟ್‌ಗಳನ್ನು ತಡೆಯಿರಿ",
+            "no_overwrites_hint": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಫೈಲ್‌ಗಳನ್ನು ಓವರ್‌ರೈಟ್ ಮಾಡಬೇಡಿ",
+            "no_playlist": "ಏಕ ವೀಡಿಯೊವನ್ನು ಮಾತ್ರ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ (ಪ್ಲೇಪಟ್ಟಿ ಇಲ್ಲ)",
+            "no_playlist_hint": "ಒಂದೇ ವೀಡಿಯೊವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಪ್ಲೇಪಟ್ಟಿ ಅಲ್ಲ",
+            "outtmpl": "ಕಸ್ಟಮ್ ಫೈಲ್ ಹೆಸರು ಟೆಂಪ್ಲೇಟ್",
+            "outtmpl_hint": "ಕಸ್ಟಮ್ ಔಟ್ಪುಟ್ ಟೆಂಪ್ಲೇಟ್"
+        },
+        "cookies": {
+            "browser": "ಬ್ರೌಸರ್‌ನಿಂದ ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ",
+            "browser_hint": "ಬ್ರೌಸರ್ ಡೇಟಾಬೇಸ್‌ನಿಂದ ಕುಕೀಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+            "browser_select_none": "ಯಾವುದೂ ಇಲ್ಲ (ಫೈಲ್ ಬಳಸಿ)"
+        },
+        "save": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ",
+        "reset": "ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ"
+    },
+    "about": {
+        "title": "ಬಗ್ಗೆ",
+        "description": "ಪರಮಾಣು ಡೌನ್‌ಲೋಡರ್ ಪೈಥಾನ್ ಮತ್ತು yt-dlp ನೊಂದಿಗೆ ನಿರ್ಮಿಸಲಾದ ಪ್ರಬಲ, ಮುಕ್ತ-ಮೂಲ ವೀಡಿಯೊ ಡೌನ್‌ಲೋಡರ್ ಆಗಿದೆ.",
+        "version": "ಆವೃತ್ತಿ",
+        "developer": "ಡೆವಲಪರ್: ಎಲ್ಕಾನನ್ ಯೆಹುದಾ",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...",
+        "available": "yt-dlp ನವೀಕರಣ ಲಭ್ಯವಿದೆ ({version})",
+        "available_badge": "ನವೀಕರಣ ಲಭ್ಯವಿದೆ!",
+        "uptodate": "ಎಲ್ಲವೂ ನವೀಕೃತವಾಗಿದೆ!",
+        "updating": "yt-dlp ಅನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ...",
+        "success": "yt-dlp ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ!",
+        "error": "ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ",
+        "error_check": "ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸುವಲ್ಲಿ ದೋಷ",
+        "error_update_detail": "ನವೀಕರಣ ದೋಷ: {msg}"
+    },
+    "toasts": {
+        "saved": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!",
+        "reset": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ",
+        "download_started": "ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭವಾಗಿದೆ!",
+        "download_complete": "ಡೌನ್‌ಲೋಡ್ ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+        "error": "ದೋಷ: {msg}",
+        "url_copied": "URL ಅನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ",
+        "clipboard_error": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ",
+        "copy_logs": "ಲಾಗ್‌ಗಳನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ!",
+        "copy_error": "ನಕಲಿಸುವಲ್ಲಿ ದೋಷ",
+        "login_success": "ಲಾಗಿನ್ ಯಶಸ್ವಿಯಾಗಿದೆ! ಕುಕೀಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ.",
+        "play_error": "ಫೈಲ್ ತೆರೆಯುವಲ್ಲಿ ದೋಷ",
+        "play_error_generic": "ಆಡುವಲ್ಲಿ ದೋಷ",
+        "advanced_saved": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ!",
+        "advanced_reset": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ"
+    }
+}

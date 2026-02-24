@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Svenska",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Ny nedladdning",
+        "history": "Historia",
+        "settings": "Inställningar",
+        "donate": "Donera",
+        "check_updates": "Kontrollera uppdateringar",
+        "about": "Om"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Klistra in videons URL här...",
+        "paste_title": "Klistra in från urklipp",
+        "quality_label": "Kvalitet:",
+        "quality_best": "Bästa kvalitet",
+        "quality_audio": "Endast ljud (MP3)",
+        "download_btn": "Starta nedladdning",
+        "downloading": "Laddar ned...",
+        "downloading_pct": "Laddar ned... {pct}%",
+        "download_complete_btn": "Nedladdningen är klar!",
+        "finished": "Nedladdningen är klar!",
+        "add_queue_title": "Lägg till i kö",
+        "queue_title": "Ladda ner kö",
+        "login_required": "Denna sida kräver inloggning",
+        "login_btn": "Inloggning",
+        "login_connecting": "Ansluter...",
+        "stats": {
+            "speed": "Hastighet",
+            "eta": "Återstående tid",
+            "size": "Fil-storlek"
+        },
+        "logs_title": "Terminalloggar",
+        "copy_logs_title": "Kopiera loggar",
+        "no_internet": "Ingen internetanslutning"
+    },
+    "history": {
+        "title": "Senaste nedladdningar",
+        "open_file": "Spela fil",
+        "open_folder": "Öppna mapp",
+        "copy_link": "Kopiera länk",
+        "redownload": "Ladda ner igen",
+        "download_complete": "Nedladdningen är klar"
+    },
+    "settings": {
+        "title": "Inställningar",
+        "default_quality": "Standardkvalitet",
+        "save_path": "Spara mapp",
+        "browse": "Bläddra",
+        "cookies": "Cookie Status",
+        "cookies_not_loaded": "Inte laddad",
+        "theme": "Tema färg",
+        "language": "Språk",
+        "language_search_placeholder": "Sök språk...",
+        "advanced_btn": "Avancerade inställningar",
+        "open_advanced": "Öppna Avancerade inställningar",
+        "save": "Spara inställningar",
+        "close": "Nära"
+    },
+    "advanced": {
+        "title": "Avancerade inställningar",
+        "groups": {
+            "download": "Ladda ner",
+            "format": "Format/ljud",
+            "content": "Innehåll / Metadata",
+            "network": "Nätverk",
+            "filesystem": "Filsystem",
+            "cookies": "Småkakor"
+        },
+        "download": {
+            "concurrent": "Samtidiga fragment",
+            "concurrent_hint": "Snabbare nedladdningar genom att dela filer (1-16)",
+            "ratelimit": "Hastighetsgräns (MB/s)",
+            "ratelimit_hint": "0 = Obegränsat",
+            "retries": "Försöker igen",
+            "retries_hint": "Antal återförsök vid fel",
+            "chunksize": "HTTP-bitstorlek (MB)",
+            "chunksize_hint": "0 = Standard"
+        },
+        "format": {
+            "audio_format": "Ljudformat",
+            "audio_quality": "Ljudkvalitet (kbps)",
+            "container": "Utgångsbehållare"
+        },
+        "content": {
+            "subtitles": "Ladda ner undertexter",
+            "sub_langs": "Undertextspråk",
+            "sub_langs_hint": "t.ex. en,he,es",
+            "embed_thumb": "Bädda in miniatyrbild",
+            "embed_metadata": "Bädda in metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Handling",
+            "sb_mark": "Markera (som kapitel)",
+            "sb_remove": "Ta bort (från fil)"
+        },
+        "network": {
+            "proxy": "Proxy-URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Imitation av klient",
+            "impersonate_hint": "Imitera webbläsare (förbikopplar blockeringar)",
+            "sleep": "Sömnintervall",
+            "sleep_hint": "Fördröjning mellan nedladdningar (förhindrar blockering)",
+            "no_check_cert": "Inga kontrollcertifikat",
+            "no_check_cert_hint": "Förbigå SSL-problem"
+        },
+        "filesystem": {
+            "archive": "Ladda ner arkiv",
+            "archive_hint": "Hoppa över redan nedladdade videor",
+            "restrict_fn": "Begränsa filnamn (endast ASCII)",
+            "restrict_fn_hint": "Endast ASCII, inga mellanslag",
+            "no_overwrites": "Förhindra överskrivningar",
+            "no_overwrites_hint": "Skriv inte över befintliga filer",
+            "no_playlist": "Ladda ner endast enstaka video (ingen spellista)",
+            "no_playlist_hint": "Ladda ner en video, inte spellista",
+            "outtmpl": "Anpassad filnamnsmall",
+            "outtmpl_hint": "Anpassad utdatamall"
+        },
+        "cookies": {
+            "browser": "Importera från webbläsaren",
+            "browser_hint": "Extrahera cookies från webbläsarens databas",
+            "browser_select_none": "Ingen (använd fil)"
+        },
+        "save": "Spara avancerade inställningar",
+        "reset": "Återställ till standardvärden"
+    },
+    "about": {
+        "title": "Om",
+        "description": "Atomic Downloader är en kraftfull, öppen källkodsvideonedladdare byggd med Python och yt-dlp.",
+        "version": "Version",
+        "developer": "Utvecklare: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Kontroll...",
+        "available": "yt-dlp-uppdatering tillgänglig ({version})",
+        "available_badge": "Uppdatering tillgänglig!",
+        "uptodate": "Allt är uppdaterat!",
+        "updating": "Uppdaterar yt-dlp...",
+        "success": "yt-dlp updated successfully!",
+        "error": "Uppdateringen misslyckades",
+        "error_check": "Fel vid sökning efter uppdateringar",
+        "error_update_detail": "Uppdateringsfel: {msg}"
+    },
+    "toasts": {
+        "saved": "Inställningarna har sparats!",
+        "reset": "Inställningarna återställs till standardinställningarna",
+        "download_started": "Nedladdningen har börjat!",
+        "download_complete": "Nedladdningen är klar!",
+        "error": "Fel: {msg}",
+        "url_copied": "URL kopierad till urklipp",
+        "clipboard_error": "Kan inte komma åt urklipp",
+        "copy_logs": "Loggar kopierade till urklipp!",
+        "copy_error": "Fel vid kopiering",
+        "login_success": "Inloggningen lyckades! Cookies sparade.",
+        "play_error": "Det gick inte att öppna filen",
+        "play_error_generic": "Det gick inte att spela upp",
+        "advanced_saved": "Avancerade inställningar sparade!",
+        "advanced_reset": "Inställningarna återställs till standardinställningarna"
+    }
+}

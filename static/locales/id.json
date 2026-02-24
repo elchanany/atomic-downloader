@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Bahasa Indonesia",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Unduhan Baru",
+        "history": "Sejarah",
+        "settings": "Pengaturan",
+        "donate": "Menyumbangkan",
+        "check_updates": "Periksa Pembaruan",
+        "about": "Tentang"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Tempel URL video di sini...",
+        "paste_title": "Tempel dari papan klip",
+        "quality_label": "Kualitas:",
+        "quality_best": "Kualitas Terbaik",
+        "quality_audio": "Audio Saja (MP3)",
+        "download_btn": "Mulai Unduh",
+        "downloading": "Mengunduh...",
+        "downloading_pct": "Mengunduh... {pct}%",
+        "download_complete_btn": "Unduh Selesai!",
+        "finished": "Unduh Selesai!",
+        "add_queue_title": "Tambahkan ke Antrean",
+        "queue_title": "Unduh Antrian",
+        "login_required": "Situs ini memerlukan login",
+        "login_btn": "Login",
+        "login_connecting": "Menghubungkan...",
+        "stats": {
+            "speed": "Kecepatan",
+            "eta": "Waktu tersisa",
+            "size": "Ukuran Berkas"
+        },
+        "logs_title": "Log Terminal",
+        "copy_logs_title": "Salin Log",
+        "no_internet": "Tidak ada koneksi internet"
+    },
+    "history": {
+        "title": "Unduhan Terbaru",
+        "open_file": "Putar Berkas",
+        "open_folder": "Buka Folder",
+        "copy_link": "Salin Tautan",
+        "redownload": "Unduh ulang",
+        "download_complete": "Unduh Selesai"
+    },
+    "settings": {
+        "title": "Pengaturan",
+        "default_quality": "Kualitas Standar",
+        "save_path": "Simpan Folder",
+        "browse": "Jelajahi",
+        "cookies": "Status Kue",
+        "cookies_not_loaded": "Tidak Dimuat",
+        "theme": "Warna Tema",
+        "language": "Bahasa",
+        "language_search_placeholder": "Bahasa pencarian...",
+        "advanced_btn": "Pengaturan Lanjutan",
+        "open_advanced": "Buka Pengaturan Lanjutan",
+        "save": "Simpan Pengaturan",
+        "close": "Menutup"
+    },
+    "advanced": {
+        "title": "Pengaturan Lanjutan",
+        "groups": {
+            "download": "Unduh",
+            "format": "Format / Audio",
+            "content": "Konten / Metadata",
+            "network": "Jaringan",
+            "filesystem": "Sistem file",
+            "cookies": "kue"
+        },
+        "download": {
+            "concurrent": "Fragmen Bersamaan",
+            "concurrent_hint": "Mempercepat pengunduhan dengan memisahkan file (1-16)",
+            "ratelimit": "Batas Kecepatan (MB/dtk)",
+            "ratelimit_hint": "0 = Tidak terbatas",
+            "retries": "Percobaan ulang",
+            "retries_hint": "Jumlah percobaan ulang karena kesalahan",
+            "chunksize": "Ukuran Potongan HTTP (MB)",
+            "chunksize_hint": "0 = Bawaan"
+        },
+        "format": {
+            "audio_format": "Format Audio",
+            "audio_quality": "Kualitas Audio (kbps)",
+            "container": "Wadah Keluaran"
+        },
+        "content": {
+            "subtitles": "Unduh Subtitle",
+            "sub_langs": "Bahasa Subjudul",
+            "sub_langs_hint": "misalnya, en,he,es",
+            "embed_thumb": "Sematkan Gambar Kecil",
+            "embed_metadata": "Sematkan Metadata",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Tindakan",
+            "sb_mark": "Tandai (sebagai bab)",
+            "sb_remove": "Hapus (dari file)"
+        },
+        "network": {
+            "proxy": "URL proksi",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Peniruan Identitas Klien",
+            "impersonate_hint": "Meniru identitas browser (melewati blok)",
+            "sleep": "Interval Tidur",
+            "sleep_hint": "Penundaan antar unduhan (mencegah pemblokiran)",
+            "no_check_cert": "Tidak Ada Sertifikat Cek",
+            "no_check_cert_hint": "Lewati masalah SSL"
+        },
+        "filesystem": {
+            "archive": "Unduh Arsip",
+            "archive_hint": "Lewati video yang sudah diunduh",
+            "restrict_fn": "Batasi Nama File (hanya ASCII)",
+            "restrict_fn_hint": "Hanya ASCII, tanpa spasi",
+            "no_overwrites": "Mencegah Penimpaan",
+            "no_overwrites_hint": "Jangan menimpa file yang sudah ada",
+            "no_playlist": "Unduh Video Tunggal saja (Tanpa Daftar Putar)",
+            "no_playlist_hint": "Unduh satu video, bukan daftar putar",
+            "outtmpl": "Templat Nama File Khusus",
+            "outtmpl_hint": "Templat keluaran khusus"
+        },
+        "cookies": {
+            "browser": "Impor dari Peramban",
+            "browser_hint": "Ekstrak cookie dari database browser",
+            "browser_select_none": "Tidak ada (gunakan file)"
+        },
+        "save": "Simpan Pengaturan Lanjutan",
+        "reset": "Atur Ulang ke Default"
+    },
+    "about": {
+        "title": "Tentang",
+        "description": "Atomic Downloader adalah pengunduh video sumber terbuka dan kuat yang dibuat dengan Python dan yt-dlp.",
+        "version": "Versi",
+        "developer": "Pengembang: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Memeriksa...",
+        "available": "pembaruan yt-dlp tersedia ({version})",
+        "available_badge": "Pembaruan Tersedia!",
+        "uptodate": "Semuanya mutakhir!",
+        "updating": "Memperbarui yt-dlp...",
+        "success": "yt-dlp berhasil diperbarui!",
+        "error": "Pembaruan Gagal",
+        "error_check": "Kesalahan saat memeriksa pembaruan",
+        "error_update_detail": "Kesalahan pembaruan: {msg}"
+    },
+    "toasts": {
+        "saved": "Pengaturan berhasil disimpan!",
+        "reset": "Pengaturan diatur ulang ke default",
+        "download_started": "Pengunduhan dimulai!",
+        "download_complete": "Pengunduhan selesai dengan sukses!",
+        "error": "Kesalahan: {msg}",
+        "url_copied": "URL disalin ke papan klip",
+        "clipboard_error": "Tidak dapat mengakses papan klip",
+        "copy_logs": "Log disalin ke clipboard!",
+        "copy_error": "Kesalahan menyalin",
+        "login_success": "Masuk berhasil! Cookie disimpan.",
+        "play_error": "Terjadi kesalahan saat membuka berkas",
+        "play_error_generic": "Kesalahan saat memutar",
+        "advanced_saved": "Pengaturan lanjutan disimpan!",
+        "advanced_reset": "Pengaturan diatur ulang ke default"
+    }
+}

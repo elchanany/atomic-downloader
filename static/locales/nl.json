@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Nederlands",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Nieuwe download",
+        "history": "Geschiedenis",
+        "settings": "Instellingen",
+        "donate": "Doneer",
+        "check_updates": "Controleer Updates",
+        "about": "Over"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Plak de video-URL hier...",
+        "paste_title": "Plakken vanaf klembord",
+        "quality_label": "Kwaliteit:",
+        "quality_best": "Beste kwaliteit",
+        "quality_audio": "Alleen audio (MP3)",
+        "download_btn": "Begin met downloaden",
+        "downloading": "Downloaden...",
+        "downloading_pct": "Bezig met downloaden... {pct}%",
+        "download_complete_btn": "Downloaden voltooid!",
+        "finished": "Downloaden voltooid!",
+        "add_queue_title": "Toevoegen aan wachtrij",
+        "queue_title": "Downloadwachtrij",
+        "login_required": "Voor deze site is inloggen vereist",
+        "login_btn": "Login",
+        "login_connecting": "Verbinden...",
+        "stats": {
+            "speed": "Snelheid",
+            "eta": "Resterende tijd",
+            "size": "Bestandsgrootte"
+        },
+        "logs_title": "Terminallogboeken",
+        "copy_logs_title": "Kopieer logboeken",
+        "no_internet": "Geen internetverbinding"
+    },
+    "history": {
+        "title": "Recente downloads",
+        "open_file": "Bestand afspelen",
+        "open_folder": "Map openen",
+        "copy_link": "Kopieer link",
+        "redownload": "Opnieuw downloaden",
+        "download_complete": "Downloaden voltooid"
+    },
+    "settings": {
+        "title": "Instellingen",
+        "default_quality": "Standaardkwaliteit",
+        "save_path": "Map opslaan",
+        "browse": "Blader",
+        "cookies": "Cookiestatus",
+        "cookies_not_loaded": "Niet geladen",
+        "theme": "Thema Kleur",
+        "language": "Taal",
+        "language_search_placeholder": "Zoektaal...",
+        "advanced_btn": "Geavanceerde instellingen",
+        "open_advanced": "Open Geavanceerde instellingen",
+        "save": "Instellingen opslaan",
+        "close": "Dichtbij"
+    },
+    "advanced": {
+        "title": "Geavanceerde instellingen",
+        "groups": {
+            "download": "Downloaden",
+            "format": "Formaat / Audio",
+            "content": "Inhoud / Metagegevens",
+            "network": "Netwerk",
+            "filesystem": "Bestandssysteem",
+            "cookies": "Koekjes"
+        },
+        "download": {
+            "concurrent": "Gelijktijdige fragmenten",
+            "concurrent_hint": "Versnel downloads door bestanden te splitsen (1-16)",
+            "ratelimit": "Snelheidslimiet (MB/s)",
+            "ratelimit_hint": "0 = Onbeperkt",
+            "retries": "Nieuwe pogingen",
+            "retries_hint": "Aantal nieuwe pogingen bij fout",
+            "chunksize": "HTTP-chunkgrootte (MB)",
+            "chunksize_hint": "0 = Standaard"
+        },
+        "format": {
+            "audio_format": "Audioformaat",
+            "audio_quality": "Audiokwaliteit (kbps)",
+            "container": "Uitvoercontainer"
+        },
+        "content": {
+            "subtitles": "Ondertitels downloaden",
+            "sub_langs": "Ondertiteltalen",
+            "sub_langs_hint": "bijvoorbeeld en,hij,es",
+            "embed_thumb": "Miniatuur insluiten",
+            "embed_metadata": "Metagegevens insluiten",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Actie",
+            "sb_mark": "Markeer (als hoofdstukken)",
+            "sb_remove": "Verwijderen (uit bestand)"
+        },
+        "network": {
+            "proxy": "Proxy-URL",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Nabootsing van klant",
+            "impersonate_hint": "Imiteren van browser (omzeilt blokken)",
+            "sleep": "Slaapinterval",
+            "sleep_hint": "Vertraging tussen downloads (voorkomt blokkering)",
+            "no_check_cert": "Geen chequecertificaten",
+            "no_check_cert_hint": "Omzeil SSL-problemen"
+        },
+        "filesystem": {
+            "archive": "Archief downloaden",
+            "archive_hint": "Sla reeds gedownloade video's over",
+            "restrict_fn": "Bestandsnamen beperken (alleen ASCII)",
+            "restrict_fn_hint": "Alleen ASCII, geen spaties",
+            "no_overwrites": "Voorkom overschrijvingen",
+            "no_overwrites_hint": "Overschrijf geen bestaande bestanden",
+            "no_playlist": "Alleen één video downloaden (geen afspeellijst)",
+            "no_playlist_hint": "Download een enkele video, geen afspeellijst",
+            "outtmpl": "Aangepaste bestandsnaamsjabloon",
+            "outtmpl_hint": "Aangepaste uitvoersjabloon"
+        },
+        "cookies": {
+            "browser": "Importeren vanuit browser",
+            "browser_hint": "Haal cookies uit de browserdatabase",
+            "browser_select_none": "Geen (gebruik bestand)"
+        },
+        "save": "Sla geavanceerde instellingen op",
+        "reset": "Terugzetten naar standaardwaarden"
+    },
+    "about": {
+        "title": "Over",
+        "description": "Atomic Downloader is een krachtige, open-source video-downloader gebouwd met Python en yt-dlp.",
+        "version": "Versie",
+        "developer": "Ontwikkelaar: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Controleren...",
+        "available": "yt-dlp-update beschikbaar ({versie})",
+        "available_badge": "Update beschikbaar!",
+        "uptodate": "Alles is actueel!",
+        "updating": "Yt-dlp bijwerken...",
+        "success": "yt-dlp succesvol bijgewerkt!",
+        "error": "Update mislukt",
+        "error_check": "Fout bij het zoeken naar updates",
+        "error_update_detail": "Updatefout: {msg}"
+    },
+    "toasts": {
+        "saved": "Instellingen succesvol opgeslagen!",
+        "reset": "Instellingen worden teruggezet naar de standaardwaarden",
+        "download_started": "Downloaden gestart!",
+        "download_complete": "Downloaden is succesvol afgerond!",
+        "error": "Fout: {msg}",
+        "url_copied": "URL gekopieerd naar klembord",
+        "clipboard_error": "Kan geen toegang krijgen tot het klembord",
+        "copy_logs": "Logboeken gekopieerd naar klembord!",
+        "copy_error": "Fout bij kopiëren",
+        "login_success": "Inloggen succesvol! Cookies opgeslagen.",
+        "play_error": "Fout bij openen van bestand",
+        "play_error_generic": "Fout bij afspelen",
+        "advanced_saved": "Geavanceerde instellingen opgeslagen!",
+        "advanced_reset": "Instellingen worden teruggezet naar de standaardwaarden"
+    }
+}

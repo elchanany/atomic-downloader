@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Français",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Nouveau téléchargement",
+        "history": "Histoire",
+        "settings": "Paramètres",
+        "donate": "Faire un don",
+        "check_updates": "Vérifier les mises à jour",
+        "about": "À propos"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Collez l'URL de la vidéo ici...",
+        "paste_title": "Coller depuis le presse-papiers",
+        "quality_label": "Qualité:",
+        "quality_best": "Meilleure qualité",
+        "quality_audio": "Audio uniquement (MP3)",
+        "download_btn": "Démarrer le téléchargement",
+        "downloading": "Téléchargement...",
+        "downloading_pct": "Téléchargement... {pct} %",
+        "download_complete_btn": "Téléchargement terminé !",
+        "finished": "Téléchargement terminé !",
+        "add_queue_title": "Ajouter à la file d'attente",
+        "queue_title": "File d'attente de téléchargement",
+        "login_required": "Ce site nécessite une connexion",
+        "login_btn": "Se connecter",
+        "login_connecting": "De liaison...",
+        "stats": {
+            "speed": "Vitesse",
+            "eta": "Temps restant",
+            "size": "Taille du fichier"
+        },
+        "logs_title": "Journaux des terminaux",
+        "copy_logs_title": "Copier les journaux",
+        "no_internet": "Pas de connexion Internet"
+    },
+    "history": {
+        "title": "Téléchargements récents",
+        "open_file": "Lire le fichier",
+        "open_folder": "Ouvrir le dossier",
+        "copy_link": "Copier le lien",
+        "redownload": "Retélécharger",
+        "download_complete": "Téléchargement terminé"
+    },
+    "settings": {
+        "title": "Paramètres",
+        "default_quality": "Qualité par défaut",
+        "save_path": "Enregistrer le dossier",
+        "browse": "Parcourir",
+        "cookies": "Statut des cookies",
+        "cookies_not_loaded": "Non chargé",
+        "theme": "Couleur du thème",
+        "language": "Langue",
+        "language_search_placeholder": "Langue de recherche...",
+        "advanced_btn": "Paramètres avancés",
+        "open_advanced": "Ouvrir les paramètres avancés",
+        "save": "Enregistrer les paramètres",
+        "close": "Fermer"
+    },
+    "advanced": {
+        "title": "Paramètres avancés",
+        "groups": {
+            "download": "Télécharger",
+            "format": "Format/Audio",
+            "content": "Contenu / Métadonnées",
+            "network": "Réseau",
+            "filesystem": "Système de fichiers",
+            "cookies": "Cookies"
+        },
+        "download": {
+            "concurrent": "Fragments simultanés",
+            "concurrent_hint": "Accélérez les téléchargements en divisant les fichiers (1-16)",
+            "ratelimit": "Limite de débit (Mo/s)",
+            "ratelimit_hint": "0 = Illimité",
+            "retries": "Nouvelles tentatives",
+            "retries_hint": "Nombre de tentatives sur erreur",
+            "chunksize": "Taille du segment HTTP (Mo)",
+            "chunksize_hint": "0 = Par défaut"
+        },
+        "format": {
+            "audio_format": "Format audio",
+            "audio_quality": "Qualité audio (kbps)",
+            "container": "Conteneur de sortie"
+        },
+        "content": {
+            "subtitles": "Télécharger les sous-titres",
+            "sub_langs": "Langues des sous-titres",
+            "sub_langs_hint": "par exemple, fr, il, es",
+            "embed_thumb": "Intégrer la vignette",
+            "embed_metadata": "Intégrer des métadonnées",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Action",
+            "sb_mark": "Marquer (en chapitres)",
+            "sb_remove": "Supprimer (du fichier)"
+        },
+        "network": {
+            "proxy": "URL du proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Usurpation d'identité du client",
+            "impersonate_hint": "Usurer l'identité du navigateur (contourne les blocages)",
+            "sleep": "Intervalle de sommeil",
+            "sleep_hint": "Délai entre les téléchargements (empêche le blocage)",
+            "no_check_cert": "Aucun certificat de chèque",
+            "no_check_cert_hint": "Contourner les problèmes SSL"
+        },
+        "filesystem": {
+            "archive": "Télécharger les archives",
+            "archive_hint": "Ignorer les vidéos déjà téléchargées",
+            "restrict_fn": "Restreindre les noms de fichiers (ASCII uniquement)",
+            "restrict_fn_hint": "ASCII uniquement, sans espaces",
+            "no_overwrites": "Empêcher les écrasements",
+            "no_overwrites_hint": "N'écrasez pas les fichiers existants",
+            "no_playlist": "Télécharger une seule vidéo uniquement (pas de playlist)",
+            "no_playlist_hint": "Téléchargez une seule vidéo, pas une playlist",
+            "outtmpl": "Modèle de nom de fichier personnalisé",
+            "outtmpl_hint": "Modèle de sortie personnalisé"
+        },
+        "cookies": {
+            "browser": "Importer depuis le navigateur",
+            "browser_hint": "Extraire les cookies de la base de données du navigateur",
+            "browser_select_none": "Aucun (utiliser le fichier)"
+        },
+        "save": "Enregistrer les paramètres avancés",
+        "reset": "Réinitialiser aux valeurs par défaut"
+    },
+    "about": {
+        "title": "À propos",
+        "description": "Atomic Downloader est un puissant téléchargeur vidéo open source construit avec Python et yt-dlp.",
+        "version": "Version",
+        "developer": "Développeur: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Vérification...",
+        "available": "Mise à jour yt-dlp disponible ({version})",
+        "available_badge": "Mise à jour disponible !",
+        "uptodate": "Tout est à jour !",
+        "updating": "Mise à jour de yt-dlp...",
+        "success": "yt-dlp a été mis à jour avec succès !",
+        "error": "Échec de la mise à jour",
+        "error_check": "Erreur lors de la vérification des mises à jour",
+        "error_update_detail": "Erreur de mise à jour : {msg}"
+    },
+    "toasts": {
+        "saved": "Paramètres enregistrés avec succès !",
+        "reset": "Paramètres réinitialisés aux valeurs par défaut",
+        "download_started": "Le téléchargement a commencé !",
+        "download_complete": "Téléchargement terminé avec succès !",
+        "error": "Erreur : {msg}",
+        "url_copied": "URL copiée dans le presse-papiers",
+        "clipboard_error": "Impossible d'accéder au presse-papiers",
+        "copy_logs": "Journaux copiés dans le presse-papier !",
+        "copy_error": "Erreur de copie",
+        "login_success": "Connexion réussie ! Cookies enregistrés.",
+        "play_error": "Erreur lors de l'ouverture du fichier",
+        "play_error_generic": "Erreur de lecture",
+        "advanced_saved": "Paramètres avancés enregistrés !",
+        "advanced_reset": "Paramètres réinitialisés aux valeurs par défaut"
+    }
+}

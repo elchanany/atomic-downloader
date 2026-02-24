@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Ελληνικά",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Νέα λήψη",
+        "history": "Ιστορία",
+        "settings": "Ρυθμίσεις",
+        "donate": "Προσφέρω",
+        "check_updates": "Ελέγξτε τις ενημερώσεις",
+        "about": "Για"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Επικολλήστε εδώ τη διεύθυνση URL του βίντεο...",
+        "paste_title": "Επικόλληση από το πρόχειρο",
+        "quality_label": "Ποιότητα:",
+        "quality_best": "Καλύτερη Ποιότητα",
+        "quality_audio": "Μόνο ήχος (MP3)",
+        "download_btn": "Ξεκινήστε τη λήψη",
+        "downloading": "Λήψη...",
+        "downloading_pct": "Λήψη... {pct}%",
+        "download_complete_btn": "Η λήψη ολοκληρώθηκε!",
+        "finished": "Η λήψη ολοκληρώθηκε!",
+        "add_queue_title": "Προσθήκη στην ουρά",
+        "queue_title": "Ουρά λήψης",
+        "login_required": "Αυτός ο ιστότοπος απαιτεί σύνδεση",
+        "login_btn": "Σύνδεση",
+        "login_connecting": "Συνδετικός...",
+        "stats": {
+            "speed": "Ταχύτητα",
+            "eta": "Υπολειπόμενος χρόνος",
+            "size": "Μέγεθος αρχείου"
+        },
+        "logs_title": "Μητρώα τερματικού",
+        "copy_logs_title": "Αντιγραφή αρχείων καταγραφής",
+        "no_internet": "Δεν υπάρχει σύνδεση στο διαδίκτυο"
+    },
+    "history": {
+        "title": "Πρόσφατες λήψεις",
+        "open_file": "Αναπαραγωγή αρχείου",
+        "open_folder": "Άνοιγμα φακέλου",
+        "copy_link": "Αντιγραφή συνδέσμου",
+        "redownload": "Επανάληψη λήψης",
+        "download_complete": "Η λήψη ολοκληρώθηκε"
+    },
+    "settings": {
+        "title": "Ρυθμίσεις",
+        "default_quality": "Προεπιλεγμένη ποιότητα",
+        "save_path": "Αποθήκευση φακέλου",
+        "browse": "Ξεφυλλίζω",
+        "cookies": "Κατάσταση cookie",
+        "cookies_not_loaded": "Δεν έχει φορτωθεί",
+        "theme": "Χρώμα θέματος",
+        "language": "Γλώσσα",
+        "language_search_placeholder": "Αναζήτηση γλώσσας...",
+        "advanced_btn": "Προηγμένες ρυθμίσεις",
+        "open_advanced": "Ανοίξτε τις Ρυθμίσεις για προχωρημένους",
+        "save": "Αποθήκευση ρυθμίσεων",
+        "close": "Κοντά"
+    },
+    "advanced": {
+        "title": "Προηγμένες ρυθμίσεις",
+        "groups": {
+            "download": "Λήψη",
+            "format": "Μορφή / Ήχος",
+            "content": "Περιεχόμενο / Μεταδεδομένα",
+            "network": "Δίκτυο",
+            "filesystem": "Σύστημα αρχείων",
+            "cookies": "Μπισκότα"
+        },
+        "download": {
+            "concurrent": "Ταυτόχρονα θραύσματα",
+            "concurrent_hint": "Επιταχύνετε τις λήψεις χωρίζοντας αρχεία (1-16)",
+            "ratelimit": "Όριο ρυθμού (MB/s)",
+            "ratelimit_hint": "0 = Απεριόριστο",
+            "retries": "Επανάληψη",
+            "retries_hint": "Αριθμός επαναλήψεων σε σφάλμα",
+            "chunksize": "Μέγεθος κομματιού HTTP (MB)",
+            "chunksize_hint": "0 = Προεπιλογή"
+        },
+        "format": {
+            "audio_format": "Μορφή ήχου",
+            "audio_quality": "Ποιότητα ήχου (kbps)",
+            "container": "Δοχείο εξόδου"
+        },
+        "content": {
+            "subtitles": "Κατεβάστε υπότιτλους",
+            "sub_langs": "Γλώσσες υπότιτλων",
+            "sub_langs_hint": "π.χ., en,he,es",
+            "embed_thumb": "Ενσωμάτωση μικρογραφίας",
+            "embed_metadata": "Ενσωμάτωση μεταδεδομένων",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Δράση",
+            "sb_mark": "Σημείωση (ως κεφάλαια)",
+            "sb_remove": "Αφαίρεση (από αρχείο)"
+        },
+        "network": {
+            "proxy": "URL διακομιστή μεσολάβησης",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Μιμητοποίηση πελάτη",
+            "impersonate_hint": "Μίμηση του προγράμματος περιήγησης (παρακάμπτει μπλοκ)",
+            "sleep": "Διάστημα ύπνου",
+            "sleep_hint": "Καθυστέρηση μεταξύ των λήψεων (αποτρέπει τον αποκλεισμό)",
+            "no_check_cert": "Δεν υπάρχουν πιστοποιητικά ελέγχου",
+            "no_check_cert_hint": "Παράκαμψη ζητημάτων SSL"
+        },
+        "filesystem": {
+            "archive": "Λήψη αρχείου",
+            "archive_hint": "Παράβλεψη βίντεο που έχετε ήδη κατεβάσει",
+            "restrict_fn": "Περιορισμός ονομάτων αρχείων (μόνο ASCII)",
+            "restrict_fn_hint": "Μόνο ASCII, χωρίς κενά",
+            "no_overwrites": "Αποτροπή αντικαταστάσεων",
+            "no_overwrites_hint": "Μην αντικαθιστάτε τα υπάρχοντα αρχεία",
+            "no_playlist": "Λήψη μόνο μεμονωμένου βίντεο (Χωρίς λίστα αναπαραγωγής)",
+            "no_playlist_hint": "Λήψη μεμονωμένου βίντεο, όχι λίστας αναπαραγωγής",
+            "outtmpl": "Προσαρμοσμένο πρότυπο ονόματος αρχείου",
+            "outtmpl_hint": "Προσαρμοσμένο πρότυπο εξόδου"
+        },
+        "cookies": {
+            "browser": "Εισαγωγή από το πρόγραμμα περιήγησης",
+            "browser_hint": "Εξαγωγή cookies από τη βάση δεδομένων του προγράμματος περιήγησης",
+            "browser_select_none": "Κανένα (χρήση αρχείου)"
+        },
+        "save": "Αποθήκευση σύνθετων ρυθμίσεων",
+        "reset": "Επαναφορά στις προεπιλογές"
+    },
+    "about": {
+        "title": "Για",
+        "description": "Το Atomic Downloader είναι ένα ισχυρό πρόγραμμα λήψης βίντεο ανοιχτού κώδικα που δημιουργήθηκε με Python και yt-dlp.",
+        "version": "Εκδοχή",
+        "developer": "Κατασκευαστής: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Ελεγχος...",
+        "available": "Διαθέσιμη ενημέρωση yt-dlp ({version})",
+        "available_badge": "Διαθέσιμη ενημέρωση!",
+        "uptodate": "Όλα είναι επίκαιρα!",
+        "updating": "Ενημέρωση yt-dlp...",
+        "success": "Το yt-dlp ενημερώθηκε με επιτυχία!",
+        "error": "Η ενημέρωση απέτυχε",
+        "error_check": "Σφάλμα κατά τον έλεγχο για ενημερώσεις",
+        "error_update_detail": "Σφάλμα ενημέρωσης: {msg}"
+    },
+    "toasts": {
+        "saved": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!",
+        "reset": "Οι ρυθμίσεις επαναφέρονται στις προεπιλογές",
+        "download_started": "Η λήψη ξεκίνησε!",
+        "download_complete": "Η λήψη ολοκληρώθηκε με επιτυχία!",
+        "error": "Σφάλμα: {msg}",
+        "url_copied": "Η διεύθυνση URL αντιγράφηκε στο πρόχειρο",
+        "clipboard_error": "Δεν είναι δυνατή η πρόσβαση στο πρόχειρο",
+        "copy_logs": "Τα αρχεία καταγραφής αντιγράφηκαν στο πρόχειρο!",
+        "copy_error": "Σφάλμα αντιγραφής",
+        "login_success": "Επιτυχής σύνδεση! Τα cookie αποθηκεύτηκαν.",
+        "play_error": "Σφάλμα κατά το άνοιγμα του αρχείου",
+        "play_error_generic": "Σφάλμα κατά την αναπαραγωγή",
+        "advanced_saved": "Οι σύνθετες ρυθμίσεις αποθηκεύτηκαν!",
+        "advanced_reset": "Οι ρυθμίσεις επαναφέρονται στις προεπιλογές"
+    }
+}

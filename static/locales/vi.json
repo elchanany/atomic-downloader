@@ -1,0 +1,165 @@
+{
+    "_meta": {
+        "displayName": "Tiếng Việt",
+        "dir": "ltr"
+    },
+    "sidebar": {
+        "title": "Atomic Downloader",
+        "new_download": "Tải xuống mới",
+        "history": "Lịch sử",
+        "settings": "Cài đặt",
+        "donate": "Quyên tặng",
+        "check_updates": "Kiểm tra cập nhật",
+        "about": "Về"
+    },
+    "dashboard": {
+        "title": "Atomic Downloader // IL",
+        "subtitle": "DOWNLOADER",
+        "url_placeholder": "Dán URL video vào đây...",
+        "paste_title": "Dán từ clipboard",
+        "quality_label": "Chất lượng:",
+        "quality_best": "Chất lượng tốt nhất",
+        "quality_audio": "Chỉ âm thanh (MP3)",
+        "download_btn": "Bắt đầu tải xuống",
+        "downloading": "Đang tải xuống...",
+        "downloading_pct": "Đang tải xuống... {pct}%",
+        "download_complete_btn": "Tải xuống hoàn tất!",
+        "finished": "Tải xuống hoàn tất!",
+        "add_queue_title": "Thêm vào hàng đợi",
+        "queue_title": "Hàng đợi tải xuống",
+        "login_required": "Trang web này yêu cầu đăng nhập",
+        "login_btn": "Đăng nhập",
+        "login_connecting": "Đang kết nối...",
+        "stats": {
+            "speed": "Tốc độ",
+            "eta": "Thời gian còn lại",
+            "size": "Kích thước tệp"
+        },
+        "logs_title": "Nhật ký thiết bị đầu cuối",
+        "copy_logs_title": "Sao chép nhật ký",
+        "no_internet": "Không có kết nối Internet"
+    },
+    "history": {
+        "title": "Tải xuống gần đây",
+        "open_file": "Phát tệp",
+        "open_folder": "Mở thư mục",
+        "copy_link": "Sao chép liên kết",
+        "redownload": "Tải xuống lại",
+        "download_complete": "Tải xuống hoàn tất"
+    },
+    "settings": {
+        "title": "Cài đặt",
+        "default_quality": "Chất lượng mặc định",
+        "save_path": "Lưu thư mục",
+        "browse": "Duyệt qua",
+        "cookies": "Trạng thái cookie",
+        "cookies_not_loaded": "Chưa tải",
+        "theme": "Màu chủ đề",
+        "language": "Ngôn ngữ",
+        "language_search_placeholder": "Tìm kiếm ngôn ngữ...",
+        "advanced_btn": "Cài đặt nâng cao",
+        "open_advanced": "Mở Cài đặt nâng cao",
+        "save": "Lưu cài đặt",
+        "close": "Đóng"
+    },
+    "advanced": {
+        "title": "Cài đặt nâng cao",
+        "groups": {
+            "download": "Tải xuống",
+            "format": "Định dạng / Âm thanh",
+            "content": "Nội dung / Siêu dữ liệu",
+            "network": "Mạng",
+            "filesystem": "Hệ thống tập tin",
+            "cookies": "Cookie"
+        },
+        "download": {
+            "concurrent": "Các mảnh đồng thời",
+            "concurrent_hint": "Tăng tốc độ tải xuống bằng cách chia nhỏ file (1-16)",
+            "ratelimit": "Giới hạn tốc độ (MB/s)",
+            "ratelimit_hint": "0 = Không giới hạn",
+            "retries": "Thử lại",
+            "retries_hint": "Số lần thử lại có lỗi",
+            "chunksize": "Kích thước đoạn HTTP (MB)",
+            "chunksize_hint": "0 = Mặc định"
+        },
+        "format": {
+            "audio_format": "Định dạng âm thanh",
+            "audio_quality": "Chất lượng âm thanh (kbps)",
+            "container": "Vùng chứa đầu ra"
+        },
+        "content": {
+            "subtitles": "Tải xuống phụ đề",
+            "sub_langs": "Ngôn ngữ phụ đề",
+            "sub_langs_hint": "ví dụ: en,he,es",
+            "embed_thumb": "Nhúng hình thu nhỏ",
+            "embed_metadata": "Nhúng siêu dữ liệu",
+            "sponsorblock": "SponsorBlock",
+            "sb_action": "Hoạt động",
+            "sb_mark": "Đánh dấu (theo chương)",
+            "sb_remove": "Xóa (khỏi tập tin)"
+        },
+        "network": {
+            "proxy": "URL proxy",
+            "proxy_hint": "HTTP/SOCKS5 proxy URL",
+            "impersonate": "Mạo danh khách hàng",
+            "impersonate_hint": "Trình duyệt mạo danh (bỏ qua các khối)",
+            "sleep": "Khoảng thời gian ngủ",
+            "sleep_hint": "Độ trễ giữa các lần tải xuống (ngăn chặn việc chặn)",
+            "no_check_cert": "Không có chứng chỉ kiểm tra",
+            "no_check_cert_hint": "Bỏ qua các vấn đề SSL"
+        },
+        "filesystem": {
+            "archive": "Tải xuống kho lưu trữ",
+            "archive_hint": "Bỏ qua các video đã tải xuống",
+            "restrict_fn": "Hạn chế tên tệp (chỉ ASCII)",
+            "restrict_fn_hint": "Chỉ ASCII, không có dấu cách",
+            "no_overwrites": "Ngăn chặn ghi đè",
+            "no_overwrites_hint": "Không ghi đè lên các tập tin hiện có",
+            "no_playlist": "Chỉ tải xuống một video (Không có danh sách phát)",
+            "no_playlist_hint": "Tải xuống một video chứ không phải danh sách phát",
+            "outtmpl": "Mẫu tên tệp tùy chỉnh",
+            "outtmpl_hint": "Mẫu đầu ra tùy chỉnh"
+        },
+        "cookies": {
+            "browser": "Nhập từ trình duyệt",
+            "browser_hint": "Trích xuất cookie từ cơ sở dữ liệu trình duyệt",
+            "browser_select_none": "Không có (sử dụng tệp)"
+        },
+        "save": "Lưu cài đặt nâng cao",
+        "reset": "Đặt lại về mặc định"
+    },
+    "about": {
+        "title": "Về",
+        "description": "Atomic Downloader là trình tải xuống video mã nguồn mở mạnh mẽ được xây dựng bằng Python và yt-dlp.",
+        "version": "Phiên bản",
+        "developer": "Nhà phát triển: Elchanan Yehuda",
+        "github": "GitHub Repository"
+    },
+    "updates": {
+        "checking": "Đang kiểm tra...",
+        "available": "có bản cập nhật yt-dlp ({version})",
+        "available_badge": "Cập nhật có sẵn!",
+        "uptodate": "Mọi thứ đều được cập nhật!",
+        "updating": "Đang cập nhật yt-dlp...",
+        "success": "yt-dlp đã cập nhật thành công!",
+        "error": "Cập nhật không thành công",
+        "error_check": "Lỗi kiểm tra cập nhật",
+        "error_update_detail": "Lỗi cập nhật: {msg}"
+    },
+    "toasts": {
+        "saved": "Đã lưu cài đặt thành công!",
+        "reset": "Cài đặt lại về mặc định",
+        "download_started": "Đã bắt đầu tải xuống!",
+        "download_complete": "Tải xuống đã hoàn tất thành công!",
+        "error": "Lỗi: {msg}",
+        "url_copied": "Đã sao chép URL vào bảng nhớ tạm",
+        "clipboard_error": "Không thể truy cập clipboard",
+        "copy_logs": "Nhật ký được sao chép vào clipboard!",
+        "copy_error": "Lỗi sao chép",
+        "login_success": "Đăng nhập thành công! Đã lưu cookie.",
+        "play_error": "Lỗi mở tập tin",
+        "play_error_generic": "Lỗi khi chơi",
+        "advanced_saved": "Đã lưu cài đặt nâng cao!",
+        "advanced_reset": "Cài đặt lại về mặc định"
+    }
+}
